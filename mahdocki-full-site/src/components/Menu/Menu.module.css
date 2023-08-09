@@ -1,10 +1,13 @@
 .navigation {
-  height: 112px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  height: 26.1px;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 3rem;
-  background-color: #000000;
+  padding: 2rem;
+  column-gap: 32px;
+  background-color: #7d3caf;
   --cor-fonte-principal: #ffffff;
 }
 
