@@ -1,0 +1,15 @@
+.navigation {
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  background-color: #000000;
+  --cor-fonte-principal: #ffffff;
+}
+
+@media (max-width: 744px) {
+  .navigation {
+    height: 72px;
+  }
+}
