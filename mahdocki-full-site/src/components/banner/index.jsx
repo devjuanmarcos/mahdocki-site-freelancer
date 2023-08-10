@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Banner.module.css";
 import AnimatedImage from "components/Car/AnimatedImage";
-import Button from "components/Button";
+import Card from "components/Card";
 
 export default function Banner() {
   return (
@@ -13,7 +13,7 @@ export default function Banner() {
         preocupações. Personalize as coberturas e assistências do seu plano e
         pague somente pelo que selecionar.
       </p>
-      <Button children={"Cotar agora!"} />
+      <Card />
     </div>
   );
 }
