@@ -1,36 +1,66 @@
 @import "../../index.css";
+
 .banner {
   display: flex;
   justify-content: center;
   background-color: var(--roxo-medio);
   position: relative;
   margin: 0px auto;
-  padding-inline: 400px;
   align-content: center;
   flex-wrap: wrap;
+}
+
+.bannerPadding {
+  padding-inline: 400px;
   padding-bottom: 10px;
 }
 
 .title {
-  padding-top: 10px;
+  padding-top: 25px;
   color: var(--branco);
   text-align: center;
   padding-bottom: 0;
   font-size: 40px;
   font-weight: 1000;
+  line-height: 48px;
+  text-decoration: none solid rgb(255, 255, 255);
 }
 .paragraph {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 60px;
+  padding-inline: 80px;
   font-size: 24px;
   line-height: 32px;
   display: block;
   font-family: FelbridgePro-Light, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: 100;
   text-align: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+.card {
+  padding-bottom: 8px;
+}
+p {
+  padding-top: 8px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.backCurve {
+  background-color: var(--roxo-medio);
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 70% 70%;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: -75px;
+  text-align: center;
 }

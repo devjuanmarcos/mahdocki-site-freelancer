@@ -7,4 +7,17 @@
   text-decoration: underline;
 }
 .displayBlock {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border: none;
+  z-index: 1;
+  border-radius: 10px;
 }

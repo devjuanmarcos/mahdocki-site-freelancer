@@ -1,5 +1,7 @@
 import Footer from "components/Footer";
 import Menu from "components/Menu";
+import MenuClose from "components/MenuClose";
+import StickyMenu from "components/StickyMenu/StickyMenu";
 import Home from "pages/Home";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -8,8 +10,8 @@ export default function AppRoutes() {
   return (
     <>
       <BrowserRouter>
-        <Menu />
-
+        <MenuClose />
+        <StickyMenu />
         <Routes>
           <Route
             path='/'

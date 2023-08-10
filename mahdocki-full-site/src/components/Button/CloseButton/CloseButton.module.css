@@ -1,0 +1,23 @@
+:root {
+  --defaultDuration: 0.3s;
+  --primaryColour: #ececec;
+  --secondaryColour: #666;
+  --shadowColour: rgba(0, 0, 0, 0.6);
+}
+
+.buttonClose {
+  height: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  transition-duration: var(--defaultDuration);
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+  &:hover {
+    transform: scale(0.6);
+  }
+}
