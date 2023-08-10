@@ -4,15 +4,21 @@ import MenuLink from "../MenuLink";
 
 export default function Menu() {
   return (
-    <header>
-      {/* prettier-ignore */}
-      <nav className={stylesMenu.navigation}>
-        <MenuLink to={"/"}>MAHDOCKI</MenuLink>
-        <MenuLink to={"/planos"} >PLANOS</MenuLink>
-        <MenuLink to={"/sobre"} >SOBRE A MAHDOCKI</MenuLink>
-        <MenuLink to={"/ajuda"} >AJUDA</MenuLink>
-
-      </nav>
+    <header className={stylesMenu.principalContainer}>
+      <div className={stylesMenu.containerFull}>
+        <div className={stylesMenu.navigation}>
+          <div className={stylesMenu.completeNavigation}>
+            <div className={stylesMenu.mainRoutes}>
+              <MenuLink to={"/"}>MAHDOCKI</MenuLink>
+              <MenuLink to={"/planos"}>PLANOS</MenuLink>
+              <MenuLink to={"/sobre"}>SOBRE A MAHDOCKI</MenuLink>
+            </div>
+            <div>
+              <MenuLink to={"/ajuda"}>AJUDA</MenuLink>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   );
 }

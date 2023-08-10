@@ -5,10 +5,7 @@ import React from "react";
 export default function MenuLink({ children, to }) {
   return (
     <NavLink
-      className={({ isActive }) => `
-        ${stylesMenuLink.link}
-        ${isActive ? stylesMenuLink.linkHighlighted : ""}
-    `}
+      className={stylesMenuLink.displayBlock}
       to={to}
       end
     >

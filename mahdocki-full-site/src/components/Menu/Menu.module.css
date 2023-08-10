@@ -1,18 +1,93 @@
-.navigation {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  height: 26.1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  column-gap: 32px;
-  background-color: #7d3caf;
-  --cor-fonte-principal: #ffffff;
+/* Menu.module.css */
+.principalContainer {
+  font: bold 12px/1 Roboto, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-@media (max-width: 744px) {
-  .navigation {
-    height: 72px;
-  }
+.containerFull {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: rgb(125, 60, 175);
+  height: 63px;
+  justify-content: center;
+  box-sizing: inherit;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 8px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.completeNavigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  column-gap: 20px;
+}
+
+.mainRoutes {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border: none;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #7129a8;
+  box-shadow: inset 0px 10px 10px -10px rgb(125, 60, 175);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #f3eded;
+}
+
+a:hover::after {
+  top: 0;
+  height: 100%;
+}
+
+a:active {
+  transform: scale(1.2);
+  border-radius: 10px;
+  box-shadow: inset 2px -2px 2px 0px rgba(255, 255, 255, 0.5) -7px -7px 20px 0px
+      rgba(0, 0, 0, 0.1),
+    -4px -4px 5px 0px rgba(0, 0, 0, 0.1);
+  top: auto;
+  bottom: 0;
+  height: 0;
 }
