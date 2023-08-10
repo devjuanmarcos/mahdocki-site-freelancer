@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Home.module.css";
+import Banner from "components/Banner";
 
 export default function Home() {
-  return <div>index</div>;
+  return <Banner />;
 }

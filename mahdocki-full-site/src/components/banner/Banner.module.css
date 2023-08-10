@@ -1,0 +1,29 @@
+@import "../../index.css";
+.banner {
+  background-color: var(--roxo-medio);
+  position: relative;
+  margin: 0px auto;
+  padding-inline: 450px;
+}
+.title {
+  padding-top: 10px;
+  color: var(--branco);
+  text-align: center;
+  padding-bottom: 0;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.paragraph {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  display: block;
+  font-family: FelbridgePro-Light, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

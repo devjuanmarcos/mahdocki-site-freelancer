@@ -4,11 +4,11 @@
 }
 
 :root {
-  --azul-escuro: #041833;
-  --azul-medio: #1875e8;
-  --cor-fonte-post: #444444;
+  --cor-principal: #7d3caf;
+  --roxo-medio: #945fbd;
+  --roxo-escuro: #4b0e8d;
   --branco: #fff;
-  --fonte-principal: "Raleway", sans-serif;
+  --fonte-principal: "Roboto", sans-serif;
   --fonte-secundaria: "Playfair Display", sans-serif;
   /* background-image: linear-gradient(
     64deg,
@@ -30,8 +30,8 @@ a,
 button,
 input,
 textarea {
-  font: inherit;
-  color: inherit;
+  font: var(--fonte-principal);
+  color: var(--branco);
 }
 
 button {

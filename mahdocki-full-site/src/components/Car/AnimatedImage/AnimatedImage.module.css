@@ -1,0 +1,27 @@
+/* AnimatedImage.module.css */
+.container {
+  display: inline-block;
+  animation: pulse 2s ease-in-out infinite; /* Efeito de pulsação por 2 segundos em loop */
+  height: 200px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  padding-inline: 20%;
+  margin: auto;
+  justify-content: center;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1); /* Tamanho normal */
+  }
+  50% {
+    transform: scale(1.1); /* Tamanho aumentado durante a metade da animação */
+  }
+}
+
+/* Estilo para a imagem (pode ajustar conforme necessário) */
+.image {
+  height: 200px;
+}
