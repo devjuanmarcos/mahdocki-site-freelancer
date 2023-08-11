@@ -14,7 +14,42 @@
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  padding: 30px;
   color: var(--cor-principal);
   font-size: 20px;
   font-weight: 550;
+}
+
+.link::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.link::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(288, 100%, 80%);
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.link {
+  position: relative;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
 }

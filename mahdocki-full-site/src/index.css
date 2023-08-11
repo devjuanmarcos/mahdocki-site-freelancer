@@ -10,12 +10,6 @@
   --branco: #fff;
   --fonte-principal: "Roboto", sans-serif;
   --fonte-secundaria: "Playfair Display", sans-serif;
-  /* background-image: linear-gradient(
-    64deg,
-    #00041c 0%,
-    #4c0041 54%,
-    #00897b 100%
-  ); */
   font-family: var(--fonte-principal);
 }
 

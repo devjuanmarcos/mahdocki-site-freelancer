@@ -5,7 +5,7 @@ import React from "react";
 export default function MenuLink({ children, to }) {
   return (
     <NavLink
-      className={stylesMenuLink.displayBlock}
+      className={`${stylesMenuLink.displayBlock} ${stylesMenuLink.menuLink}`}
       to={to}
       end
     >

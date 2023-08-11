@@ -44,9 +44,10 @@
   }
 }
 button {
-  margin: 20px;
 }
 .custom-btn {
+  margin: 20px;
+
   min-width: auto;
   color: #fff;
   border-radius: 5px;
