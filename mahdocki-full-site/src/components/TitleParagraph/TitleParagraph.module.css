@@ -1,0 +1,25 @@
+@import "../../index.css";
+
+.container {
+  padding: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--roxo-medio);
+  word-spacing: 0;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: FelbridgePro-ExtraBold, sans-serif;
+}
+
+.paragraph {
+  font-family: FelbridgePro-Light, sans-serif;
+  color: #000;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}

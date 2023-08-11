@@ -1,5 +1,4 @@
 import Footer from "components/Footer";
-import Menu from "components/Menu";
 import MenuClose from "components/MenuClose";
 import StickyMenu from "components/StickyMenu/StickyMenu";
 import Home from "pages/Home";
