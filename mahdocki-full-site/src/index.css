@@ -26,14 +26,6 @@
   min-height: 100vh;
 }
 
-a,
-button,
-input,
-textarea {
-  font: var(--fonte-principal);
-  color: var(--branco);
-}
-
 button {
   background-color: transparent;
 }

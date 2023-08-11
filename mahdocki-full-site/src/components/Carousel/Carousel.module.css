@@ -1,0 +1,7 @@
+.carouselWrapper {
+  width: 100%; /* Largura total da tela */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura */
+}
+
+.card {
+}

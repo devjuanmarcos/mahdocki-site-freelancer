@@ -72,7 +72,6 @@ a::after {
 }
 
 a:hover {
-  color: #f3eded;
 }
 
 a:hover::after {

@@ -1,0 +1,20 @@
+@import "../../index.css";
+
+.cardBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-gap: 10px; /* Espaçamento entre os quadrados */
+  max-width: 300px; /* Largura máxima do contêiner */
+  margin: 0 auto;
+}
+
+.linkCarousel {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: var(--cor-principal);
+  font-size: 20px;
+  font-weight: 550;
+}
