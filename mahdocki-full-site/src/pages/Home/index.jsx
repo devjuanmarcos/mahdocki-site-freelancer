@@ -6,6 +6,7 @@ import Carrossel from "components/Carousel";
 import InfoSpacing from "components/InfoSpacing";
 import WeCover from "components/WeCover";
 import MainToppings from "components/MainToppings";
+import Carousel from "components/RattingCarousel";
 //prettier-ignore
 
 export default function Home() {
@@ -30,9 +31,15 @@ export default function Home() {
         <WeCover  />
       </div>
       <div>
-        <MainToppings h2="Principais coberturas da Mahdocki" p="Os serviços mais procurados pelos nossos clientes nos últimos meses" img1="https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186" imgt1="Equipe pronta resposta" imgp1="Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação."
+        <MainToppings h2="Principais coberturas da Mahdocki" p="Os serviços mais procurados pelos nossos clientes nos últimos meses" 
+        img1="https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186" imgt1="Equipe pronta resposta" imgp1="Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação."
         img2="https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186" imgt2="Equipe pronta resposta" imgp2="Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação." 
         img3="https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186" imgt3="Equipe pronta resposta" imgp3="Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação."  />
+        </div>
+        <div className={styles.size} >
+          <div className={styles.global} >  
+        <Carousel />
+        </div>
         </div>
     </main>
   );
