@@ -10,19 +10,41 @@
   --card-size: 305px;
 }
 .size {
-  height: 450px;
-  background-color: var(--roxo-medio);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  height: 650px;
+  background-color: #ebedee;
 }
 .global {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+
+  .title {
+    padding-top: 50px;
+    max-width: 700px;
+    text-align: center;
+    color: var(--preto);
+    font-size: 32px;
+    line-height: 40px;
+    font-family: var(--fonte-alternativa);
+    padding-bottom: 40px;
+  }
+
+  .card {
+    padding-top: 40px;
+  }
+
+  .paragraph {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    max-width: 550px;
+    padding-bottom: 36px;
+    color: #555b63;
+  }
 }
 
 html {

@@ -1,20 +1,42 @@
 import React, { useState } from "react";
 import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
 import "./style.css"; // Importe seus estilos aqui
+import clientsList from "./clients.json";
 
-const CARDS = 10;
 const MAX_VISIBILITY = 3;
 
-const Card = ({ title, content }) => (
-  <div className='card'>
-    <h2>{title}</h2>
-    <p>{content}</p>
-  </div>
-);
+export const Card = ({ image, title, rating, review }) => {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <div
+      className={`cardContainer ${hovered ? "" : "hover-out"}`}
+      onMouseEnter={() => {
+        setHovered(true);
+      }}
+      onMouseLeave={() => {
+        setHovered(false);
+      }}
+    >
+      <div className='card'>
+        <img
+          src={image}
+          alt={`foto ${title}`}
+        ></img>
+      </div>
+      <div className='card2'>
+        <h2>{title}</h2>
+        <p>{rating}</p>
+        <p>{review}</p>
+      </div>
+    </div>
+  );
+};
+
+const data = clientsList;
 
 const Carousel = () => {
-  const [active, setActive] = useState(2);
-  const count = CARDS;
+  const [active, setActive] = useState(0);
+  const count = data.length;
 
   return (
     <div className='carousel'>
@@ -26,7 +48,7 @@ const Carousel = () => {
           <TiChevronLeftOutline />
         </button>
       )}
-      {[...Array(count)].map((_, i) => (
+      {clientsList.map((item, i) => (
         <div
           className='card-container'
           key={i}
@@ -41,8 +63,10 @@ const Carousel = () => {
           }}
         >
           <Card
-            title={`Card ${i + 1}`}
-            content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            image={item.foto}
+            title={item.nome}
+            rating={item.avaliacao}
+            review={item.opiniao}
           />
         </div>
       ))}
