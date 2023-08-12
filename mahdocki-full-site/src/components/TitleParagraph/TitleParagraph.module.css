@@ -14,13 +14,13 @@
   word-spacing: 0;
   font-weight: 700;
   font-size: 40px;
-  font-family: FelbridgePro-ExtraBold, sans-serif;
+  font-family: var(--fonte-alternativa);
 }
 
 .paragraph {
   padding-top: 16px;
-  font-family: FelbridgePro-Light, sans-serif;
-  color: #535f68;
+  font-family: var(--fonte-alternativa);
+  color: var(--cinza);
   font-size: 32px;
   font-weight: 300;
   line-height: 40px;
@@ -32,7 +32,7 @@
   word-spacing: 0;
   font-weight: 700;
   font-size: 35px;
-  font-family: FelbridgePro-ExtraBold, sans-serif;
+  font-family: var(--fonte-alternativa);
 }
 
 .container2 {

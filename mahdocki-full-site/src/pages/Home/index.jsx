@@ -8,6 +8,7 @@ import WeCover from "components/WeCover";
 import MainToppings from "components/MainToppings";
 import Carousel from "components/RattingCarousel";
 import Card from "components/Card";
+import review from "assets/images/review.png";
 
 export default function Home() {
   return (
@@ -64,7 +65,13 @@ export default function Home() {
             uma olhada aqui embaixo e conferir a opinião dos nossos clientes
             sobre a Mahdocki
           </p> */}
-          <Carousel />
+          <div className={styles.imgCaro}>
+            <img
+              className={styles.imgs}
+              src={review}
+            />
+            <Carousel />
+          </div>
           <div className={styles.card}>
             <Card />
           </div>

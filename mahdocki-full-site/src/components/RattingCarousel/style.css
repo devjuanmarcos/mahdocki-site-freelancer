@@ -87,7 +87,6 @@
 
 .nav {
   color: var(--cor-principal);
-  opacity: 50%;
   font-size: 3rem;
   position: absolute;
   display: flex;

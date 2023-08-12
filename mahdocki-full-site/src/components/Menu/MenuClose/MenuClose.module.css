@@ -22,7 +22,7 @@
 }
 
 .text {
-  font-family: Roboto, sans-serif;
+  font-family: var(--fonte-principal);
   color: #fff;
   font-size: 20px;
   line-height: 24px;
@@ -30,7 +30,7 @@
   padding-inline: 20px;
 }
 .link {
-  font-family: Roboto, sans-serif;
+  font-family: var(--fonte-principal);
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;

@@ -44,7 +44,7 @@
 }
 p {
   padding-top: 8px;
-  font-family: Roboto, sans-serif;
+  font-family: var(--fonte-principal);
   font-size: 12px;
   line-height: 20px;
   text-decoration: none solid rgb(255, 255, 255);
