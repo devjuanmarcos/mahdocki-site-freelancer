@@ -1,0 +1,82 @@
+@import "../../index.css";
+
+.background {
+  background-color: var(--branco-medio);
+}
+
+.container {
+  padding-top: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  box-sizing: border-box;
+  margin: 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--preto);
+  font: var(--fonte-alternativa);
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  line-height: 35px;
+}
+
+.paragraph {
+  box-sizing: border-box;
+  font-family: var(--fonte-primaria);
+  color: var(--cinza);
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 72px;
+}
+
+.boxImage {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.imgP,
+.imgTitle,
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgTitle {
+  font: var(--fonte-alternativa);
+  color: var(--preto);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  width: 300px;
+  line-height: 32px;
+}
+
+.imgP img {
+  padding-bottom: 8px;
+  width: 186px;
+  height: 139px;
+  aspect-ratio: auto 186 / 139;
+}
+
+.imgParagraph {
+  font-family: var(--fonte-principal);
+  color: var(--cinza);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  height: 72px;
+  width: 310px;
+  padding-bottom: 136px;
+}

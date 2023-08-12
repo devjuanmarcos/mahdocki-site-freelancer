@@ -1,5 +1,15 @@
 @import "../../index.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
+.anchorOffset {
+  margin-top: -20px; /* Desloca a seção 10px acima */
+  padding-top: 20px; /* Adiciona um espaçamento de 10px para compensar o deslocamento */
+  visibility: hidden; /* Esconde o espaço vazio */
+}
+
 .cardBlock {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

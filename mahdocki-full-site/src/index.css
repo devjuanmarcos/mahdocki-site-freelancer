@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-
+@import url("https://db.onlinewebfonts.com/c/5de3a15cd8742e9fc9923f614df0e707?family=Felbridge+W04+ExtraBold");
+@font-face {
+  font-family: "Felbridge W04 ExtraBold";
+  src: url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.eot");
+  src: url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.svg#Felbridge W04 ExtraBold")
+      format("svg");
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +24,14 @@
   --roxo-medio: #945fbd;
   --roxo-escuro: #4b0e8d;
   --branco: #fff;
+  --branco-medio: #fafafa;
+  --preto: #2f3941;
+  --cinza: #535f68;
   --fonte-principal: "Roboto", sans-serif;
+  --fonte-alternativa: "Felbridge W04 ExtraBold";
   --fonte-secundaria: "Playfair Display", sans-serif;
   font-family: var(--fonte-principal);
+  font-family: var(--fonte-alternativa);
 }
 
 #root {
