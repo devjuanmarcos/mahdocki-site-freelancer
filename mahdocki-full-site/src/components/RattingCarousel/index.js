@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
+import { TbArrowBigLeftFilled, TbArrowBigRightFilled } from "react-icons/tb";
 import "./style.css"; // Importe seus estilos aqui
 import clientsList from "./clients.json";
 
@@ -45,7 +45,7 @@ const Carousel = () => {
           className={`nav left`}
           onClick={() => setActive((i) => i - 1)}
         >
-          <TiChevronLeftOutline />
+          <TbArrowBigLeftFilled />
         </button>
       )}
       {clientsList.map((item, i) => (
@@ -75,7 +75,7 @@ const Carousel = () => {
           className={`nav right`}
           onClick={() => setActive((i) => i + 1)}
         >
-          <TiChevronRightOutline />
+          <TbArrowBigRightFilled />
         </button>
       )}
     </div>

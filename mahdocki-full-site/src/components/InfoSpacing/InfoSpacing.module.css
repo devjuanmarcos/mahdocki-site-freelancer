@@ -28,7 +28,7 @@
     display: contents;
     margin-inline: 0;
     margin-block: 0;
-    color: black;
+    color: var(--preto);
     word-spacing: 0;
     font-weight: 700;
     font-size: 35px;
@@ -36,7 +36,7 @@
     padding-bottom: 24px;
   }
   .parapgraph {
-    color: #535f68;
+    color: var(--cinza);
     font-family: "roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;

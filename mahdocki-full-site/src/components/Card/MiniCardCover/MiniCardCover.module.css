@@ -23,7 +23,7 @@
 }
 
 .textCard {
-  color: #000;
+  color: var(--preto);
   align-self: center;
   font: var(--fonte-primaria);
   font-weight: 700;
@@ -41,10 +41,10 @@
 
 .more {
   align-self: center;
-  color: #666666;
+  color: var(--cinza);
   font-size: 10px;
 }
 .more:hover {
-  color: #000;
+  color: var(--preto);
   transform: scale(1.1);
 }
