@@ -1,0 +1,50 @@
+@import "../../../index.css";
+
+.miniCard {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.76);
+  border-radius: 10px;
+  width: 250px;
+  height: 68px;
+  box-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+.container {
+  display: flex;
+  position: start;
+  justify-content: space-around;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.textCard {
+  color: #000;
+  align-self: center;
+  font: var(--fonte-primaria);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.imageCard {
+  margin-left: -10px;
+  padding-right: 20px;
+  margin-top: -15px;
+  border-radius: 10px 0px 0px 10px;
+  width: 92px;
+  border: none;
+}
+
+.more {
+  align-self: center;
+  color: #666666;
+  font-size: 10px;
+}
+.more:hover {
+  color: #000;
+  transform: scale(1.1);
+}

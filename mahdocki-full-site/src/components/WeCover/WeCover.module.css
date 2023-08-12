@@ -1,0 +1,51 @@
+@import "../../index.css";
+
+.cover {
+  background-color: #9b67c4;
+}
+
+.container {
+  padding-top: 50px;
+  margin-inline: 415px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  position: static;
+  display: flex;
+  justify-content: center;
+  color: var(--branco);
+  font: var(--fonte-primaria);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.paragraph {
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--fonte-principal);
+  font-weight: 100;
+  text-decoration: none;
+  padding-bottom: 30px;
+  margin-inline: 50px;
+}
+
+.containerCards {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 28px 5px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: -20px;
+  padding-bottom: 50px;
+}

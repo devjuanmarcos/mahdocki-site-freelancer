@@ -1,6 +1,6 @@
 import Footer from "components/Footer";
-import MenuClose from "components/MenuClose";
-import StickyMenu from "components/StickyMenu/StickyMenu";
+import MenuClose from "components/Menu/MenuClose";
+import StickyMenu from "components/Menu/StickyMenu/StickyMenu";
 import Home from "pages/Home";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

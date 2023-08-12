@@ -48,6 +48,9 @@
   position: relative;
 }
 
+.cover {
+}
+
 @media (orientation: landscape) {
   body {
     grid-auto-flow: column;

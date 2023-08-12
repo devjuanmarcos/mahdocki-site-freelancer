@@ -1,6 +1,6 @@
 import React from "react";
 import stylesMenu from "./Menu.module.css";
-import MenuLink from "../MenuLink";
+import MenuLink from "./MenuLink";
 
 export default function Menu() {
   return (

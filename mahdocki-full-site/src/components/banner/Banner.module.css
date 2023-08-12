@@ -32,7 +32,7 @@
   font-size: 24px;
   line-height: 32px;
   display: block;
-  font-family: FelbridgePro-Light, sans-serif;
+  font-family: var(--fonte-principal);
   font-weight: 100;
   text-align: center;
   text-decoration: none;

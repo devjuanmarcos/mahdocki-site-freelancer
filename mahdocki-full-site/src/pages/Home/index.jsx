@@ -4,6 +4,7 @@ import TitleParagraph from "components/TitleParagraph";
 import styles from "./Home.module.css";
 import Carrossel from "components/Carousel";
 import InfoSpacing from "components/InfoSpacing";
+import WeCover from "components/WeCover";
 //prettier-ignore
 
 export default function Home() {
@@ -22,7 +23,9 @@ export default function Home() {
         p1="Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto."
         p2="Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!"
          />
-
+      </div>
+      <div className={styles.cover}>
+        <WeCover/>
       </div>
     </main>
   );
