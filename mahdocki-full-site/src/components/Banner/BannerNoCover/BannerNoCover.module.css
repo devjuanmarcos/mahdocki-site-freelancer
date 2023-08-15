@@ -19,7 +19,29 @@
   padding: 15px;
   padding-left: 10px;
 }
+.expanded {
+  height: auto;
+}
+.expandButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+.expandedIcon {
+  transform: rotate(180deg);
+}
 
+.cardDescription {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.expanded .cardDescription {
+  max-height: 1000px; /* Ou outro valor grande o suficiente */
+}
 .icon {
   background-color: var(--preto);
   width: 30px;
