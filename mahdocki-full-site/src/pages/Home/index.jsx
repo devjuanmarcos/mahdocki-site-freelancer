@@ -10,6 +10,7 @@ import Carousel from "components/RattingCarousel";
 import Card from "components/Card";
 import review from "assets/images/review.png";
 import NotCover from "components/NotCover";
+import CardData from "../../components/NotCover/cardsData.json";
 
 export default function Home() {
   return (
@@ -79,7 +80,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.notCover}>{/* <NotCover /> */}</div>
+      <div className={styles.notCover}>
+        <NotCover cards={CardData} />
+      </div>
     </main>
   );
 }

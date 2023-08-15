@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Seguro Completo",
+    "description": "Proteção total para o seu veículo."
+  },
+  {
+    "title": "Cobertura Colisão",
+    "description": "Proteção em casos de acidentes."
+  },
+  {
+    "title": "Assistência 24h",
+    "description": "Ajuda a qualquer hora do dia."
+  },
+  {
+    "title": "Roubo e Furto",
+    "description": "Cobertura contra roubos e furtos."
+  },
+  {
+    "title": "Danos a Terceiros",
+    "description": "Cobertura para danos causados a outros veículos."
+  },
+  {
+    "title": "Proteção Vidros",
+    "description": "Cobertura para vidros quebrados."
+  },
+  {
+    "title": "Seguro Residência",
+    "description": "Proteção para sua casa."
+  },
+  {
+    "title": "Cobertura Incêndio",
+    "description": "Proteção contra incêndios."
+  },
+  {
+    "title": "Proteção Passageiros",
+    "description": "Cobertura para passageiros do veículo."
+  }
+]

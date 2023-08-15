@@ -1,6 +1,6 @@
 @import "./BannerNoCover.module.css";
 
-.container {
+.card {
   display: flex;
   justify-content: flex-start;
   width: 796px;
@@ -11,7 +11,11 @@
   margin-top: 20px;
   border-radius: 10px;
 }
-
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .iconCenter {
   display: flex;
   align-items: center;

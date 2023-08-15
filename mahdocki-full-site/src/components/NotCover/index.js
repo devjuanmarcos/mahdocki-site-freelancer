@@ -2,7 +2,7 @@ import BannerNoCover from "components/Banner/BannerNoCover";
 import styles from "./NotCover.module.css";
 import React from "react";
 
-const NotCover = ({ cards }) => {
+export default function NotCover({ cards }) {
   return (
     <div className={styles.cardList}>
       {cards.map((card, index) => (
@@ -14,5 +14,4 @@ const NotCover = ({ cards }) => {
       ))}
     </div>
   );
-};
-export default NotCover;
+}

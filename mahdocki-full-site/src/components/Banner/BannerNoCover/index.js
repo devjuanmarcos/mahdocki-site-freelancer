@@ -12,23 +12,21 @@ const BannerNoCover = ({ title, description }) => {
 
   return (
     <div className={`${styles.container} ${expanded ? styles.expanded : ""} `}>
-      <div>
+      <div className={styles.cardHeader}>
         <div className={styles.iconCenter}>
-          <BiBlock
-            className={styles.icon}
-            name='ban-outline'
-          ></BiBlock>
+          <BiBlock className={styles.icon}></BiBlock>
         </div>
         <div className={styles.text}>
           <h2 className={styles.h2}>{title}</h2>
-          <h4>teste2</h4>
         </div>
         <HiOutlineArrowCircleDown
           className={`${styles.expandedButton} ${
             expanded ? styles.expandedIcon : ""
           } `}
           onClick={toggleExpand}
-        />
+        >
+          ▲
+        </HiOutlineArrowCircleDown>
       </div>
       {expanded && <p className={styles.cardDescription}> {description} </p>}
     </div>
