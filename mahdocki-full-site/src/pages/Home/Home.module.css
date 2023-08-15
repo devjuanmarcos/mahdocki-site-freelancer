@@ -118,6 +118,10 @@ html {
 .cover {
 }
 
+.notCover {
+  background-color: var(--roxo-medio);
+  width: 100%;
+}
 @media (orientation: landscape) {
   body {
     grid-auto-flow: column;

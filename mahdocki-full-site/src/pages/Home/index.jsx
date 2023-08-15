@@ -9,6 +9,7 @@ import MainToppings from "components/MainToppings";
 import Carousel from "components/RattingCarousel";
 import Card from "components/Card";
 import review from "assets/images/review.png";
+import NotCover from "components/NotCover";
 
 export default function Home() {
   return (
@@ -69,6 +70,7 @@ export default function Home() {
             <img
               className={styles.imgs}
               src={review}
+              alt='carousel imagge teste'
             />
             <Carousel />
           </div>
@@ -76,6 +78,9 @@ export default function Home() {
             <Card />
           </div>
         </div>
+      </div>
+      <div className={styles.notCover}>
+        <NotCover />
       </div>
     </main>
   );

@@ -1,0 +1,43 @@
+@import "./BannerNoCover.module.css";
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  width: 796px;
+  height: auto;
+  background-color: var(--roxo-escuro);
+  opacity: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.iconCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  padding-left: 10px;
+}
+
+.icon {
+  background-color: var(--preto);
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 20%;
+  color: white;
+}
+
+.text {
+  width: 796px;
+  color: var(--branco);
+}
+
+.h2 {
+  font-size: 34px;
+}
+
+.icon2 {
+  padding: 2px;
+}
