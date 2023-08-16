@@ -1,5 +1,10 @@
 @import "/src/index.css";
 
+.center {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .container {
   background-color: var(--roxo-medio);
   display: flex;
@@ -10,6 +15,6 @@
 
 .title {
   text-align: center;
-  margin-top: 50px;
   color: var(--branco);
+  margin-bottom: 20px;
 }

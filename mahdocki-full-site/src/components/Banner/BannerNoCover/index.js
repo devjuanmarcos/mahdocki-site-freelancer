@@ -1,6 +1,6 @@
-import styles from "./BannerNoCover.module.css";
+import BlockIcon from "components/Icons/Block";
 import React, { useState } from "react";
-import { BiBlock } from "react-icons/bi";
+import styles from "./BannerNoCover.module.css";
 import { HiOutlineArrowCircleDown } from "react-icons/hi";
 
 const BannerNoCover = ({ title, description }) => {
@@ -11,25 +11,28 @@ const BannerNoCover = ({ title, description }) => {
   };
 
   return (
-    <div className={`${styles.container} ${expanded ? styles.expanded : ""} `}>
+    <div
+      className={`${styles.card} ${expanded ? styles.expanded : ""}`}
+      onClick={toggleExpand}
+    >
       <div className={styles.cardHeader}>
         <div className={styles.iconCenter}>
-          <BiBlock className={styles.icon}></BiBlock>
+          <BlockIcon />
         </div>
-        <div className={styles.text}>
-          <h2 className={styles.h2}>{title}</h2>
-        </div>
-        <HiOutlineArrowCircleDown
-          className={`${styles.expandedButton} ${
+        <h3 className={styles.cardTitle}>{title}</h3>
+        <button
+          className={`${styles.expandButton} ${
             expanded ? styles.expandedIcon : ""
-          } `}
-          onClick={toggleExpand}
+          }`}
         >
-          ▲
-        </HiOutlineArrowCircleDown>
+          <HiOutlineArrowCircleDown className={styles.iconCenter} />
+        </button>
       </div>
-      {expanded && <p className={styles.cardDescription}> {description} </p>}
+      <p className={`${styles.cardDescription} ${expanded ? styles.show : ""}`}>
+        {description}
+      </p>
     </div>
   );
 };
+
 export default BannerNoCover;

@@ -121,6 +121,9 @@ html {
 .notCover {
   background-color: var(--roxo-medio);
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (orientation: landscape) {
   body {
