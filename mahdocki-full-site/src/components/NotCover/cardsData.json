@@ -1,26 +1,26 @@
 [
   {
-    "title": "Seguro Completo",
-    "description": "Proteção total para o seu veículo."
+    "title": "Roubo e Furto",
+    "description": "Em caso de roubo e furto o veículo não seja recuperado, não cobrimos indenização. Você só paga a franquia de 9% da tabela Fipe caso o veículo seja recuperado. Caso o veículo seja recuperado em má condições (ex: somente a carroceria) o reparo não é coberto pela assistência"
   },
   {
-    "title": "Cobertura Colisão",
+    "title": "Preencher depois",
     "description": "Proteção em casos de acidentes."
   },
   {
-    "title": "Assistência 24h",
+    "title": "Preencher depois",
     "description": "Ajuda a qualquer hora do dia."
   },
   {
-    "title": "Roubo e Furto",
+    "title": "Preencher depois",
     "description": "Cobertura contra roubos e furtos."
   },
   {
-    "title": "Danos a Terceiros",
+    "title": "Preencher depois",
     "description": "Cobertura para danos causados a outros veículos."
   },
   {
-    "title": "Proteção Vidros",
+    "title": "Preencher depois",
     "description": "Cobertura para vidros quebrados."
   }
 ]

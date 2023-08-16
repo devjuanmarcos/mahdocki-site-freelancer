@@ -1,0 +1,24 @@
+@import "/src/index.css";
+
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.title {
+  width: 350px;
+  margin-top: 50px;
+}
+
+.image {
+  width: 400px;
+}

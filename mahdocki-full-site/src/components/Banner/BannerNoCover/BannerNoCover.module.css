@@ -48,15 +48,22 @@
   text-align: center;
   padding-top: 0;
   overflow: hidden;
-  transition: max-height 1000ms ease-in-out;
+  transition: max-height 0.3s ease;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
 }
 
 .expanded .cardDescription {
   max-height: 1000px; /* Ou outro valor grande o suficiente */
   transition: max-height 3000ms ease-in-out;
+  margin-block-end: 10px;
 }
 
 .show {
   max-height: 1000px; /* Ou outro valor grande o suficiente */
   transition: max-height 3000ms ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(44, 0, 86);
 }

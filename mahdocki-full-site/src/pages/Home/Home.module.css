@@ -125,6 +125,15 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.trackerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--branco-medio);
+  width: 100%;
+}
+
 @media (orientation: landscape) {
   body {
     grid-auto-flow: column;

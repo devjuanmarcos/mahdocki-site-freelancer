@@ -11,10 +11,11 @@ import Card from "components/Card";
 import review from "assets/images/review.png";
 import NotCover from "components/NotCover";
 import CardData from "../../components/NotCover/cardsData.json";
+import TrackerPage from "components/TrackerPage";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <div>
         <Banner />
         <TitleParagraph />
@@ -83,6 +84,9 @@ export default function Home() {
       <div className={styles.notCover}>
         <NotCover cards={CardData} />
       </div>
-    </main>
+      <div className={styles.trackerPage}>
+        <TrackerPage />
+      </div>
+    </>
   );
 }
