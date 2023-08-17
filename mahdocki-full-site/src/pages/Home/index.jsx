@@ -87,6 +87,21 @@ export default function Home() {
       <div className={styles.trackerPage}>
         <TrackerPage />
       </div>
+      <div className={styles.whyHire}>
+        <MainToppings
+          h2='Por que contratar nossos serviços Mahdocki?'
+          p='Aqui trabalhamos de forma direta!'
+          img1='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+          imgt1='Melhores preços!'
+          imgp1='Menos de uma pizza por mês pra você ter segurança e amparo com o seu veículo.'
+          img2='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+          imgt2='Altere quando quiser'
+          imgp2='Vc pode mudar as coberturas e assistências entrando em contato com a nossa equipe.'
+          img3='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+          imgt3='Atendimento pessoal'
+          imgp3='Vamos entrar em contato para negociar todo o processo.'
+        />
+      </div>
     </>
   );
 }

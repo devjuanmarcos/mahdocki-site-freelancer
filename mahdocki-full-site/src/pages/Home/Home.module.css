@@ -134,6 +134,11 @@ html {
   width: 100%;
 }
 
+.whyHire {
+  background-color: var(--cinza-fundo);
+  margin-bottom: -50px;
+}
+
 @media (orientation: landscape) {
   body {
     grid-auto-flow: column;

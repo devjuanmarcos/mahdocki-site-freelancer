@@ -1,5 +1,10 @@
 @import "/src/index.css";
 
+.tr {
+  display: flex;
+  justify-content: center;
+}
+
 .main {
   display: flex;
   flex-direction: row;
