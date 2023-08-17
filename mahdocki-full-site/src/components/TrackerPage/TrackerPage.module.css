@@ -1,11 +1,10 @@
 @import "/src/index.css";
 
 .main {
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .info {
@@ -15,8 +14,27 @@
 }
 
 .title {
-  width: 350px;
-  margin-top: 50px;
+  width: 544px;
+  margin-bottom: 1px;
+  font-size: 40px;
+  color: var(--preto);
+}
+
+.paragraph {
+  color: var(--preto);
+  text-align: start;
+  font-size: 15px;
+  font-family: var(--fonte-principal);
+  line-height: 24px;
+  width: 500px;
+}
+
+.storeImg {
+  margin-top: 25px;
+}
+
+.logoStore {
+  padding-right: 20px;
 }
 
 .image {
