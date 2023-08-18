@@ -1,8 +1,9 @@
 @import "/src/index.css";
 
 .container {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  background-color: var(--roxo-medio);
+  height: 500px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,27 +19,48 @@
 .image {
   width: 200px;
   height: 200px;
-  margin-bottom: 20px;
 }
 
 .title {
-  font-size: 32px;
-  color: var(--preto);
+  font-size: 42px;
+  color: var(--branco);
   font-weight: 500;
   text-align: center;
   font-family: var(--fonte-alternativa);
 }
 
 .paragraph {
-  color: var(--preto);
+  color: var(--branco-medio);
   font-size: 16px;
   font-family: var(--fonte-principal);
+  font-weight: 350;
   width: 500px;
   margin-bottom: 20px;
 }
 
 .button {
-  height: 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: auto;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--branco);
+  box-shadow: 0px 0px 12px -4px rgba(0, 102, 128, 1);
+  cursor: pointer;
+  background-color: var(--roxo-escuro);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  transition: all 300ms ease-in-out;
+  background-color: var(--roxo-escuro);
+}
+
+.button.hoverOut {
+  transform: scale(0.9);
   background-color: blue;
-  width: 40px;
+  transition: transform 1s ease;
+  transition: background-color 1s ease;
 }

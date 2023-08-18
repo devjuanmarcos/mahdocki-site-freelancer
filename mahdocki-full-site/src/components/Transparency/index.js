@@ -1,8 +1,9 @@
 import styles from "./Transparency.module.css";
-import React from "react";
+import React, { useState } from "react";
 import contract from "assets/images/contract.png";
 
 export default function Transparency() {
+  const [hovered, setHovered] = useState(false);
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -18,7 +19,17 @@ export default function Transparency() {
           serviços prestados. Fique a vontade para ler todo o conteúdo e debater
           suas dúvidas com o nosso suporte.{" "}
         </p>
-        <button className={styles.button} />
+        <button
+          className={`${styles.button} ${hovered ? "" : styles.hoverOut}  `}
+          onMouseEnter={() => {
+            setHovered(true);
+          }}
+          onMouseLeave={() => {
+            setHovered(false);
+          }}
+        >
+          Termos de acordo
+        </button>
       </div>
     </div>
   );
