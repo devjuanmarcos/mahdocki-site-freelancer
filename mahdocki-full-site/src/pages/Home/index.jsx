@@ -12,6 +12,7 @@ import review from "assets/images/review.png";
 import NotCover from "components/NotCover";
 import CardData from "../../components/NotCover/cardsData.json";
 import TrackerPage from "components/TrackerPage";
+import Transparency from "components/Transparency";
 
 export default function Home() {
   return (
@@ -101,6 +102,9 @@ export default function Home() {
           imgt3='Atendimento pessoal'
           imgp3='Vamos entrar em contato para negociar todo o processo.'
         />
+      </div>
+      <div>
+        <Transparency />
       </div>
     </>
   );
