@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Reboque",
+    "description": "O serviço de reboque é acionado quando seu veículo não pode ser consertado no local e precisa ser transportado para uma oficina ou local seguro. Isso pode ocorrer devido a uma pane grave ou a um acidente."
+  },
+  {
+    "id": 2,
+    "title": "Pane Seca",
+    "description": "Uma pane seca refere-se a ficar sem combustível no meio do caminho. Nesse caso, a assistência pode fornecer combustível suficiente para permitir que você alcance um posto de gasolina próximo."
+  },
+  {
+    "id": 3,
+    "title": "Colisão",
+    "description": "Em caso de acidente, a assistência oferece suporte para garantir que você e seu veículo sejam atendidos. Isso pode incluir a chamada de serviços de resgate, organizar a remoção do veículo acidentado e fornecer assistência no local."
+  },
+  {
+    "id": 4,
+    "title": "Pane Mecânica",
+    "description": "Problemas mecânicos podem ocorrer a qualquer momento. A assistência nesse caso pode envolver diagnóstico no local, reparos temporários ou providenciar o reboque do veículo para uma oficina."
+  },
+  {
+    "id": 5,
+    "title": "Pane Elétrica",
+    "description": "Quando há problemas elétricos, como bateria descarregada ou sistemas elétricos defeituosos, a assistência pode oferecer auxílio na recarga da bateria, reparo temporário ou reboque para reparo."
+  },
+  {
+    "id": 6,
+    "title": "Chaveiro",
+    "description": "Trancar as chaves dentro do veículo ou perdê-las pode ser um contratempo frustrante. A assistência de chaveiro pode ajudar a abrir o veículo ou até mesmo fornecer uma chave reserva, se necessário."
+  }
+]

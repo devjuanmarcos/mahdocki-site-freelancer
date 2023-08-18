@@ -11,7 +11,7 @@ export default function Menu() {
             <div className={stylesMenu.mainRoutes}>
               <MenuLink to={"/"}>MAHDOCKI</MenuLink>
               <MenuLink to={"/planos"}>PLANOS</MenuLink>
-              <MenuLink to={"/sobre"}>SOBRE A MAHDOCKI</MenuLink>
+              <MenuLink to={"/assist"}>ASSISTÊNCIA 24 HORAS</MenuLink>
               <MenuLink to={"/sobre"}>SOBRE A MAHDOCKI</MenuLink>
               <MenuLink to={"/sobre"}>SOBRE A MAHDOCKI</MenuLink>
             </div>

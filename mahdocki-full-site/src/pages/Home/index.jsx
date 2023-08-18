@@ -18,8 +18,20 @@ export default function Home() {
   return (
     <>
       <div>
-        <Banner />
-        <TitleParagraph />
+        <Banner
+          title={"Assistência 24 horas!"}
+          paragraph={
+            "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
+          }
+        />
+        <TitleParagraph
+          title='Tenha o seu Serviço Auto online na palma da mão'
+          paragraph='Aqui, dá pra fazer tudo 100% online sempre que precisar. Você
+          personaliza, contrata e aciona o seu plano direto pelo telefone. É
+          rápido e fácil.'
+          subtitle='Coberturas da Mahdocki'
+          paragraph2='Olha só os serviços disponíveis pra você escolher:'
+        />
         <Carrossel />
         <div className={styles.linkCarousel}>
           <a
@@ -41,7 +53,10 @@ export default function Home() {
         className={styles.anchorOffset}
       ></div>
       <div className={styles.cover}>
-        <WeCover />
+        <WeCover
+          cover='#945fbd'
+          title='white'
+        />
       </div>
       <div>
         <MainToppings

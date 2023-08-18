@@ -3,15 +3,23 @@ import React from "react";
 import MiniCardCover from "components/Card/MiniCardCover";
 import Button from "components/Button";
 
-export default function WeCover() {
+export default function WeCover({ cover, title, paragraph }) {
   return (
-    <div className={styles.cover}>
+    <div style={{ backgroundColor: cover }}>
       <div className={styles.container}>
-        <h1 className={styles.title}> O que cobrimos? </h1>
-        <p className={styles.paragraph}>
+        <h1
+          className={styles.title}
+          style={{ color: title }}
+        >
           {" "}
+          O que cobrimos?{" "}
+        </h1>
+        <p
+          className={styles.paragraph}
+          style={{ color: paragraph }}
+        >
           Todos os nossos serviços de assistência 24h, pronta resposta e
-          rastreamento de veículos{" "}
+          rastreamento de veículos
         </p>
         <div className={styles.containerCards}>
           <MiniCardCover

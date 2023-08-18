@@ -1,9 +1,10 @@
 import Footer from "components/Footer";
 import MenuClose from "components/Menu/MenuClose";
 import StickyMenu from "components/Menu/StickyMenu/StickyMenu";
-import Home from "pages/Home";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "pages/Home";
+import Assist24H from "pages/Planos/Assist24H";
 
 export default function AppRoutes() {
   return (
@@ -25,6 +26,10 @@ export default function AppRoutes() {
               element={<Home />}
             />
           </Route>
+          <Route
+            path='assist'
+            element={<Assist24H />}
+          />
           <Route
             path='posts/:id/*'
             element={<Home />}
