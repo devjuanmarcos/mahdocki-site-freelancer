@@ -7,7 +7,7 @@ import PresentationCard from "components/Card/PresentationCard";
 
 export default function Assist24H() {
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.banner}>
         <BannerModel
           title={"Tenha assistência 24 horas e fique totalmente respaldado"}

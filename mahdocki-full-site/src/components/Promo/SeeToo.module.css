@@ -2,6 +2,7 @@
 
 .container {
   height: 500px;
+  width: 100%;
   background-color: var(--cor-principal);
   display: flex;
   flex-direction: column;

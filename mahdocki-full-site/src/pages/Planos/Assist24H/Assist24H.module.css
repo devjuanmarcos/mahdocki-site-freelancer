@@ -1,5 +1,13 @@
 @import "/src/index.css";
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
 .banner {
   margin-bottom: 140px;
 }

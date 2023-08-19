@@ -11,7 +11,7 @@ export const CardModelList = ({
 }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.container}>
+      <div className={`${styles.container} ${styles.above}`}>
         <div className={styles.info}>
           <h1 className={styles.titleP}>{name}</h1>
         </div>
@@ -23,7 +23,7 @@ export const CardModelList = ({
         className={styles.content}
         style={{ flexDirection: flexDirection }}
       >
-        <div className={styles.image}>
+        <div className={styles.images}>
           <img
             src={image}
             alt={image}
@@ -42,25 +42,27 @@ export const CardModelList = ({
 
 export default function PresentationCard({ databaseInfo }) {
   return (
-    <div>
+    <>
       <div className={styles.cardBase}>
         <h1 className={styles.title}>
           Projetado diversos serviços para oferecer suporte em várias situações
           de emergência:
         </h1>
       </div>
-      {databaseInfo.map((item, id) => (
-        <div>
-          <CardModelList
-            key={id}
-            image={item.imagem}
-            name={item.nome}
-            desc={item.descricaoBanner}
-            flexDirection={item.id % 2 === 1 ? "row" : "row-reverse"}
-            paragraph={item.textoResolucao}
-          />
-        </div>
-      ))}
-    </div>
+      <div className={styles.main}>
+        {databaseInfo.map((item, id) => (
+          <div>
+            <CardModelList
+              key={id}
+              image={item.imagem}
+              name={item.nome}
+              desc={item.descricaoBanner}
+              flexDirection={item.id % 2 === 1 ? "row" : "row-reverse"}
+              paragraph={item.textoResolucao}
+            />
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
