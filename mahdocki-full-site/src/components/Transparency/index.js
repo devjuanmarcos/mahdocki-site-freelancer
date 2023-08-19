@@ -4,6 +4,9 @@ import contract from "assets/images/contract.png";
 
 export default function Transparency() {
   const [hovered, setHovered] = useState(false);
+  const handleClick = () => {
+    window.location.href = "/assist";
+  };
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -27,6 +30,7 @@ export default function Transparency() {
           onMouseLeave={() => {
             setHovered(false);
           }}
+          onClick={handleClick}
         >
           Termos de acordo
         </button>
