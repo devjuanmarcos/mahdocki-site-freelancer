@@ -10,6 +10,7 @@
 .container {
   flex-direction: column;
   align-items: center;
+  margin: 30px;
 }
 .content {
   background-color: var(--roxo-escuro);
@@ -19,7 +20,6 @@
   align-items: center;
   width: 800px;
   height: 260px;
-  margin: 30px;
 }
 .image {
   width: 400px;
@@ -44,7 +44,6 @@
     color: var(--branco-medio);
     font-size: 20px;
     padding-top: 0;
-
     font-weight: 500;
   }
 }
@@ -57,4 +56,43 @@
   height: 160px;
   width: 350px;
   border-radius: 20px;
+}
+
+.cardBase {
+  display: flex;
+  justify-content: center;
+  .title {
+    color: var(--roxo-medio);
+    margin-bottom: -30px;
+    text-align: center;
+    max-width: 1000px;
+    word-spacing: 0;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: var(--fonte-alternativa);
+    border-top: 2px solid #ced1d4;
+    border-bottom: 2px solid #ced1d4;
+    border-left: 0px solid #ced1d4;
+    border-right: 0px solid #ced1d4;
+  }
+}
+
+.titleP {
+  color: var(--cor-principal);
+  text-align: center;
+  max-width: 1000px;
+  word-spacing: 0;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: var(--fonte-alternativa);
+}
+.paragraphP {
+  padding-top: 0px;
+  margin-bottom: -20px;
+  font-family: var(--fonte-alternativa);
+  color: var(--roxo-escuro);
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 800px;
+  border-bottom: 2px solid #ced1d4;
 }

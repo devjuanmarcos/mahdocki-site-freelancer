@@ -2,7 +2,7 @@
 
 .container {
   height: 500px;
-  background-color: var(--roxo-medio);
+  background-color: var(--cor-principal);
   display: flex;
   flex-direction: column;
   justify-content: center;

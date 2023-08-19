@@ -15,7 +15,7 @@
     "nome": "Pane Seca",
     "descricaoBanner": "Ficou sem combustível? Não se preocupe! Nossa assistência de pane seca está aqui para te entregar o combustível necessário e colocar você de volta na estrada.",
     "descriçãoMiniBanner": "Assistência em casos de falta de combustível para manter sua viagem sem interrupções.",
-    "imagem": "assets/images/reboqueImage.svg",
+    "imagem": "assets/images/paneSecaImage.svg",
     "topicos": "Entrega de combustível no local em que seu veículo parou; abastecemos com a quantidade suficiente para você chegar ao posto mais próximo; serviço disponível 24 horas por dia, 7 dias por semana.",
     "textoResolucao": "Uma pane seca refere-se a ficar sem combustível no meio do caminho. Nesse caso, a assistência pode fornecer combustível suficiente para permitir que você alcance um posto de gasolina próximo."
   },
@@ -25,7 +25,7 @@
     "nome": "Colisão",
     "descricaoBanner": "Em caso de acidente e perda total do veículo, esta cobertura garante o valor total do veículo para você, permitindo sua substituição sem preocupações financeiras.",
     "descriçãoMiniBanner": "Proteção financeira em acidentes de trânsito, resguardando seu veículo contra danos.",
-    "imagem": "assets/images/reboqueImage.svg",
+    "imagem": "assets/images/colisaoImage.svg",
     "topicos": "Você recebe a indenização integral do seguro se o custo do conserto ultrapassar 75% do valor do carro, de acordo com a Tabela Fipe; quando os custos forem maiores que 75%, significa que deu PT; a cobertura leva em conta acidentes como batidas, capotagens e queda do veículo; objetos que caírem em cima dele e causarem PT também, contanto que não esteja sendo carregado pelo carro, tá? Se estiver tudo certo com seu seguro, o pagamento da indenização é feito em até 30 dias depois que você enviar toda a documentação pra gente.",
     "textoResolucao": "Em caso de acidente, a assistência oferece suporte para garantir que você e seu veículo sejam atendidos. Isso pode incluir a chamada de serviços de resgate, organizar a remoção do veículo acidentado e fornecer assistência no local."
   },
@@ -35,7 +35,7 @@
     "nome": "Pane Mecânica",
     "descricaoBanner": "Problemas mecânicos no seu veículo? Nossa assistência de pane mecânica está pronta para ajudar. Enviamos um profissional qualificado para reparos no local e garantir sua mobilidade.",
     "descriçãoMiniBanner": "Assistência em casos de falhas mecânicas para manter sua jornada sem contratempos.",
-    "imagem": "assets/images/reboqueImage.svg",
+    "imagem": "assets/images/paneMecanicaImage.svg",
     "topicos": "Enviamos um mecânico qualificado para realizar os reparos no local; cobertura 24 horas por dia, 7 dias por semana; garantimos a assistência em problemas mecânicos que impeçam a locomoção do veículo.",
     "textoResolucao": "Problemas mecânicos podem ocorrer a qualquer momento. A assistência nesse caso pode envolver diagnóstico no local, reparos temporários ou providenciar o reboque do veículo para uma oficina."
   },
@@ -45,7 +45,7 @@
     "nome": "Pane Elétrica",
     "descricaoBanner": "Problemas elétricos no seu veículo? Conte com nossa assistência de pane elétrica para resolver essas questões. Um técnico qualificado estará à sua disposição.",
     "descriçãoMiniBanner": "Assistência em casos de falhas elétricas para manter sua jornada sem complicações.",
-    "imagem": "assets/images/reboqueImage.svg",
+    "imagem": "assets/images/paneEletricaImage.svg",
     "topicos": "Enviamos um técnico especializado para solucionar problemas elétricos; atendimento 24 horas por dia, 7 dias por semana; cobertura em situações que envolvem sistemas elétricos do veículo.",
     "textoResolucao": "Quando há problemas elétricos, como bateria descarregada ou sistemas elétricos defeituosos, a assistência pode oferecer auxílio na recarga da bateria, reparo temporário ou reboque para reparo."
   },
@@ -55,7 +55,7 @@
     "nome": "Chaveiro",
     "descricaoBanner": "Perdeu suas chaves ou ficou trancado fora do seu veículo? Nossa assistência de chaveiro está pronta para te ajudar a acessar seu carro novamente.",
     "descriçãoMiniBanner": "Assistência em situações de perda de chaves ou travamento fora do veículo.",
-    "imagem": "assets/images/reboqueImage.svg",
+    "imagem": "assets/images/chaveiroImage.svg",
     "topicos": "Enviamos um chaveiro profissional para auxiliar em casos de perda ou quebra das chaves; serviço 24 horas por dia, 7 dias por semana; garantimos o acesso ao seu veículo em situações de travamento fora do carro.",
     "textoResolucao": "Trancar as chaves dentro do veículo ou perdê-las pode ser um contratempo frustrante. A assistência de chaveiro pode ajudar a abrir o veículo ou até mesmo fornecer uma chave reserva, se necessário."
   }

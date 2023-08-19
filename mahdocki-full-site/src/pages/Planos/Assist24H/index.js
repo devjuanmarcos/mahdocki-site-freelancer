@@ -1,9 +1,5 @@
-// import Banner from "components/Banner";
 import styles from "./Assist24H.module.css";
 import React from "react";
-// import WeCover from "components/WeCover";
-import ListText from "components/ListText";
-import assist from "assets/Json/assist.json";
 import geral from "assets/Json/geral.json";
 import SeeToo from "components/Promo";
 import BannerModel from "components/BannerModel";
@@ -20,12 +16,8 @@ export default function Assist24H() {
           }
         />
       </div>
-      <PresentationCard databaseInfo={geral} />
 
-      <ListText
-        title='Projetado diversos serviços para oferecer suporte em várias situações de emergência:'
-        itens={assist}
-      />
+      <PresentationCard databaseInfo={geral} />
       <SeeToo />
     </div>
   );
