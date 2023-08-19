@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.container {
+  margin-bottom: 70px;
+}
+
 .title {
   color: var(--roxo-medio);
   text-align: center;

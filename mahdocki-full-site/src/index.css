@@ -14,6 +14,14 @@
     url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.svg#Felbridge W04 ExtraBold")
       format("svg");
 }
+@font-face {
+  font-family: "testeFonte";
+  src: url("/src/assets/Fonts/Helvetica-Bold.ttf") format("svg");
+
+  font-family: "cursivaFonte";
+  src: url("/src/assets/Fonts/BillionDreams_PERSONAL.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +39,8 @@
   --fonte-principal: "Roboto", sans-serif;
   --fonte-alternativa: "Felbridge W04 ExtraBold";
   --fonte-secundaria: "Playfair Display", sans-serif;
+  --fonte-teste: "testeFonte";
+  --fonte-cursiva: "cursivaFonte";
   font-family: var(--fonte-principal);
   font-family: var(--fonte-alternativa);
 }

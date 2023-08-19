@@ -1,9 +1,10 @@
 import Banner from "components/Banner";
 import styles from "./Assist24H.module.css";
 import React from "react";
-import WeCover from "components/WeCover";
+// import WeCover from "components/WeCover";
 import ListText from "components/ListText";
 import assist from "assets/Json/assist.json";
+import SeeToo from "components/Promo";
 
 export default function Assist24H() {
   return (
@@ -20,11 +21,12 @@ export default function Assist24H() {
         title='Projetado diversos serviços para oferecer suporte em várias situações de emergência:'
         itens={assist}
       />
-      <WeCover
+      {/* <WeCover
         cover='var(--branco-medio)'
         title='var(--preto)'
         paragraph='var(--cinza)'
-      />
+      /> */}
+      <SeeToo />
     </div>
   );
 }
