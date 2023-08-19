@@ -28,9 +28,10 @@
 }
 
 :root {
-  --cor-principal: #7d3caf;
-  --roxo-medio: #945fbd;
+  --cor-principal: #652f9e;
+  --roxo-medio: #7100eb;
   --roxo-escuro: #4b0e8d;
+  --roxo-escuro-full: #270052;
   --branco: #fff;
   --branco-medio: #fafafa;
   --preto: #2f3941;

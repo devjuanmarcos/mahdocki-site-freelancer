@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  background-color: rgb(125, 60, 175);
+  background-color: var(--roxo-escuro-full);
   height: 63px;
   justify-content: center;
   box-sizing: inherit;

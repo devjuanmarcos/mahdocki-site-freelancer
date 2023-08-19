@@ -3,7 +3,7 @@
 .banner {
   display: flex;
   justify-content: center;
-  background-color: var(--roxo-medio);
+  background-color: var(--cor-principal);
   position: relative;
   margin: 0px auto;
   align-content: center;
@@ -54,7 +54,7 @@ p {
 }
 
 .backCurve {
-  background-color: var(--roxo-medio);
+  background-color: var(--cor-principal);
   z-index: -1;
   overflow: hidden;
   border-radius: 70% 70%;

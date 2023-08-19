@@ -1,0 +1,88 @@
+@import "/src/index.css";
+
+.container {
+  padding: 100px;
+  background-color: var(--cor-principal);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--branco);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--fonte-alternativa);
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.image {
+  width: 600px;
+  margin-right: 100px;
+}
+
+.backCurve {
+  background-color: var(--cor-principal);
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 70% 70%;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: -75px;
+  text-align: center;
+}
+.cardCard {
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 27px -6px rgba(0, 0, 0, 0.71);
+  height: 50px;
+  width: 472px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.textCard {
+  max-width: 300px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  text-decoration: none solid rgb(47, 57, 65);
+  text-align: left;
+  word-spacing: 0px;
+  white-space: nowrap;
+}

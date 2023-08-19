@@ -54,7 +54,7 @@ export default function Home() {
       ></div>
       <div className={styles.cover}>
         <WeCover
-          cover='#945fbd'
+          cover='#652f9e'
           title='white'
         />
       </div>

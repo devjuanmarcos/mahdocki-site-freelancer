@@ -45,9 +45,8 @@
   top: 100%;
   left: 0;
   z-index: -1;
-  border-radius: 5px;
-  background-color: #7129a8;
-  box-shadow: inset 0px 10px 10px -10px rgb(125, 60, 175);
+  background-color: var(--roxo-escuro);
+  box-shadow: inset 0px 10px 10px -10px rgb(75, 14, 141);
   transition: all 0.3s ease;
 }
 
@@ -60,7 +59,7 @@
 }
 
 .menuLink:active {
-  transform: scale(1.2);
+  transform: scale(1.05);
   border-radius: 10px;
   box-shadow: inset 2px -2px 2px 0px rgba(255, 255, 255, 0.5) -7px -7px 20px 0px
       rgba(0, 0, 0, 0.1),
