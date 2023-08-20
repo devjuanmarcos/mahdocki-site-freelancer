@@ -1,0 +1,42 @@
+[
+  {
+    "plano": "tracker",
+    "id": 1,
+    "nome": "Instalação do Rastreador",
+    "descricaoBanner": "Serviço de instalação do rastreador em oficina ou residência, com acesso ao aplicativo fornecido ao cliente.",
+    "descrição mini banner": "Oferecemos a conveniência da instalação do rastreador em sua escolha de local (oficina ou residência) e concedemos acesso imediato ao nosso aplicativo para controle total.",
+    "imagem": "assets/images/InstalacaoRastreador.svg",
+    "topicos": [],
+    "textoResolucao": "Com a instalação do rastreador e o acesso ao nosso aplicativo, você tem total controle sobre a segurança e localização do seu veículo, proporcionando tranquilidade e conveniência."
+  },
+  {
+    "plano": "tracker",
+    "id": 2,
+    "nome": "Rastreie o dia todo",
+    "descricaoBanner": "Tenha acesso ao serviço de rastreamento 24 horas com controle total através do nosso aplicativo.",
+    "descrição mini banner": "Acompanhe seu veículo em tempo real, 24 horas por dia, diretamente no nosso aplicativo.",
+    "imagem": "assets/images/RastreieDiaTodoImage.svg",
+    "topicos": [],
+    "textoResolucao": "Com o serviço de rastreamento 24 horas, você pode acompanhar seu veículo a qualquer momento, garantindo segurança e controle total, facilitando sua vida diária."
+  },
+  {
+    "plano": "tracker",
+    "id": 3,
+    "nome": "Bloqueio Remoto",
+    "descricaoBanner": "Além do rastreamento em tempo real, oferecemos a funcionalidade de bloqueio remoto do seu veículo.",
+    "descrição mini banner": "Com nosso serviço de bloqueio remoto, você pode garantir a segurança do seu veículo com um simples toque no aplicativo.",
+    "imagem": "assets/images/BloqueioRemoteoImage.svg",
+    "topicos": [],
+    "textoResolucao": "O bloqueio remoto adiciona uma camada extra de segurança ao seu veículo. Com apenas um toque no aplicativo, você pode garantir a proteção do seu veículo, trazendo paz de espírito."
+  },
+  {
+    "plano": "tracker",
+    "id": 4,
+    "nome": "Histórico Avançado",
+    "descricaoBanner": "Tenha acesso a recursos avançados de rastreamento, incluindo informações detalhadas do veículo e histórico de percursos.",
+    "descrição mini banner": "Com nosso plano de rastreamento avançado, você pode monitorar cada aspecto do seu veículo e visualizar seu histórico de movimentação.",
+    "imagem": "assets/images/HistoricoAvancadoImage.svg",
+    "topicos": [],
+    "textoResolucao": "Com recursos avançados de rastreamento e histórico detalhado, você pode tomar decisões informadas sobre o uso do seu veículo, tornando sua vida mais conveniente e eficiente."
+  }
+]

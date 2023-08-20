@@ -1,0 +1,60 @@
+/* Footer Custom Shape */
+.shape {
+  margin-top: -45px;
+  padding-top: -1px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 45px;
+}
+
+.shape .shapeFill {
+  fill: var(--roxo-escuro-full);
+}
+
+/* Footer Content */
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--roxo-escuro-full);
+  height: 300px;
+  width: 100%;
+}
+
+.logo {
+  width: 70px;
+}
+
+.logoName {
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  margin-top: 10px;
+}
+
+.paragraph {
+  color: var(--cinza);
+  max-width: 450px;
+  font-size: 20px;
+  font-family: var(--fonte-principal);
+  line-height: 20px;
+  font-weight: 400;
+  text-align: start;
+  padding: 0px;
+}
+
+.title {
+  margin-top: 10px;
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+}

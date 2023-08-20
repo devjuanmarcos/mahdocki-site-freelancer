@@ -1,6 +1,6 @@
+import Card from "..";
 import styles from "./PresentationCard.module.css";
 import React from "react";
-// import reboqueImage from "assets/images/reboqueImage.svg";
 
 export const CardModelList = ({
   image,
@@ -62,6 +62,9 @@ export default function PresentationCard({ databaseInfo }) {
             />
           </div>
         ))}
+      </div>
+      <div style={{ marginBottom: "50px" }}>
+        <Card />
       </div>
     </>
   );

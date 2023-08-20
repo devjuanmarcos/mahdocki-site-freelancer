@@ -40,3 +40,9 @@
   height: 100%;
   margin: 0;
 }
+
+.image {
+  max-width: 60px;
+  margin-bottom: 8px;
+  margin-left: -80px;
+}

@@ -1,9 +1,8 @@
 import styles from "./Banner.module.css";
 import React from "react";
-import bannerImage from "assets/images/Car rental-amico (1).svg";
 import Button from "components/Button";
 
-export default function BannerModel({ title, paragraph }) {
+export default function BannerModel({ title, paragraph, image }) {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -25,7 +24,7 @@ export default function BannerModel({ title, paragraph }) {
         <div className={styles.images}>
           <img
             className={styles.image}
-            src={bannerImage}
+            src={image}
             alt='none'
           />
         </div>

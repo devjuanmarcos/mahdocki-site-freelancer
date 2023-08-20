@@ -1,18 +1,18 @@
 import React from "react";
 import Banner from "components/Banner";
-import TitleParagraph from "components/TitleParagraph";
+import TitleParagraph from "components/InfoSpacing/TitleParagraph";
 import styles from "./Home.module.css";
 import Carrossel from "components/Carousel";
 import InfoSpacing from "components/InfoSpacing";
-import WeCover from "components/WeCover";
-import MainToppings from "components/MainToppings";
-import Carousel from "components/RattingCarousel";
+import WeCover from "components/InfoSpacing/WeCover";
+import MainToppings from "components/InfoSpacing/MainToppings";
+import Carousel from "components/InfoSpacing/RattingCarousel";
 import Card from "components/Card";
 import review from "assets/images/review.png";
-import NotCover from "components/NotCover";
-import CardData from "../../components/NotCover/cardsData.json";
-import TrackerPage from "components/TrackerPage";
-import Transparency from "components/Transparency";
+import NotCover from "components/InfoSpacing/NotCover";
+import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
+import TrackerPage from "components/InfoSpacing/TrackerPage";
+import Transparency from "components/InfoSpacing/Transparency";
 
 export default function Home() {
   return (

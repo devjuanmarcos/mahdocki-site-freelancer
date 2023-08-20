@@ -5,6 +5,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "pages/Home";
 import Assist24H from "pages/Planos/Assist24H";
+import Tracker from "pages/Planos/Tracker";
 
 export default function AppRoutes() {
   return (
@@ -29,6 +30,10 @@ export default function AppRoutes() {
           <Route
             path='assist'
             element={<Assist24H />}
+          />
+          <Route
+            path='tracker'
+            element={<Tracker />}
           />
           <Route
             path='posts/:id/*'
