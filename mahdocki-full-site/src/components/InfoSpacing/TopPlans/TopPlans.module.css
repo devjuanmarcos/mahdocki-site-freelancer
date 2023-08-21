@@ -39,32 +39,30 @@
 .content {
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 .card1,
 .card2,
-.card3,
-.card1Tip,
-.card2Tip,
-.card3Tip {
+.card3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .card1,
 .card3 {
   height: 250px;
-  width: 180px;
+  width: 300px;
   background-color: var(--branco);
   margin: 20px;
   border-radius: 8px;
 
   .card1Tip,
   .card3Tip {
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     border-radius: 8px;
     background-color: var(--cor-principal);
   }
@@ -72,15 +70,15 @@
 
 .card2 {
   height: 250px;
-  width: 180px;
+  width: 300px;
   background-color: var(--branco);
   margin: 20px;
   border-radius: 8px;
   margin-top: -5px;
 
   .card2Tip {
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     border-radius: 8px;
     background-color: var(--cor-card);
   }
@@ -94,11 +92,12 @@
 }
 
 .title {
-  font-family: var(--fonte-principal);
+  font-family: var(--fonte-card);
   font-size: 24px;
   font-weight: 500;
   color: var(--branco);
   text-align: center;
+  margin-top: 8px;
 }
 
 .card3:hover {

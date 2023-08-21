@@ -31,6 +31,9 @@ export default function TopPlans() {
             <div className={styles.card3Tip}></div>
           </div>
         </div>
+        <h1 className={styles.title}>
+          Clique sobre o card para mais informações
+        </h1>
       </div>
     </div>
   );
