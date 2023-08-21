@@ -19,7 +19,7 @@ export default function Menu() {
               <MenuLink to={"/planos"}>PLANOS</MenuLink>
               <MenuLink to={"/assist"}>ASSISTÊNCIA 24 HORAS</MenuLink>
               <MenuLink to={"/tracker"}>RASTREADOR</MenuLink>
-              <MenuLink to={"/sobre"}>PRONTA RESPOSTA</MenuLink>
+              <MenuLink to={"/readyanswer"}>PRONTA RESPOSTA</MenuLink>
             </div>
             <div>
               <MenuLink to={"/ajuda"}>AJUDA</MenuLink>

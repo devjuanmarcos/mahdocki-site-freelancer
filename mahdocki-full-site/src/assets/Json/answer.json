@@ -1,0 +1,42 @@
+[
+  {
+    "plano": "readyanswer",
+    "id": 1,
+    "nome": "Rápida Resposta",
+    "descricaoBanner": "Estamos sempre de prontidão, dia e noite, para proteger o que é seu.",
+    "descrição mini banner": "Nossa equipe está disponível 24/7 para garantir a sua segurança.",
+    "imagem": "assets/images/fastImage.svg",
+    "topicos": [],
+    "textoResolucao": "Com nossa rápida resposta, você pode contar conosco a qualquer hora para proteger o seu veículo, trazendo tranquilidade."
+  },
+  {
+    "plano": "answer",
+    "id": 2,
+    "nome": "Recuperação Eficiente",
+    "descricaoBanner": "Com protocolos de ação bem definidos, aumentamos suas chances de recuperar seu veículo roubado.",
+    "descrição mini banner": "Nossos protocolos de ação eficientes aumentam suas chances de recuperação.",
+    "imagem": "assets/images/protocolImage.svg",
+    "topicos": [],
+    "textoResolucao": "Nossa recuperação eficiente utiliza protocolos bem definidos para maximizar suas chances de recuperar seu veículo roubado com sucesso."
+  },
+  {
+    "plano": "answer",
+    "id": 3,
+    "nome": "Profissionais Especializados",
+    "descricaoBanner": "Nossa equipe é altamente treinada e qualificada, garantindo a segurança do seu patrimônio.",
+    "descrição mini banner": "Conte com nossos profissionais altamente treinados para proteger o que é seu.",
+    "imagem": "assets/images/treinImage.svg",
+    "topicos": [],
+    "textoResolucao": "Nossa equipe de profissionais altamente treinados está dedicada a garantir a segurança do seu patrimônio, oferecendo o melhor serviço possível."
+  },
+  {
+    "plano": "answer",
+    "id": 4,
+    "nome": "Ampla Gama de Serviços",
+    "descricaoBanner": "Além da recuperação de veículos roubados, você terá excelentes descontos na oficina oficial da Mahdocki.",
+    "descrição mini banner": "Além da recuperação, aproveite descontos exclusivos em nossa oficina oficial.",
+    "imagem": "assets/images/amplaImage.svg",
+    "topicos": [],
+    "textoResolucao": "Além de nossos serviços de recuperação, oferecemos descontos exclusivos na nossa oficina oficial da Mahdocki, proporcionando maior conveniência e economia para você."
+  }
+]
