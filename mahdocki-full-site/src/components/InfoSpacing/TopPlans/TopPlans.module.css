@@ -1,0 +1,116 @@
+@import "/src/index.css";
+
+.footer {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/* Footer Custom Shape */
+.shape {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape svg {
+  display: block;
+  width: calc(100%);
+  height: 45px;
+}
+
+.shape .shapeFill {
+  fill: var(--roxo-escuro-full);
+}
+
+/* Footer Content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--roxo-escuro-full);
+  height: auto;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.card1,
+.card2,
+.card3,
+.card1Tip,
+.card2Tip,
+.card3Tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1,
+.card3 {
+  height: 250px;
+  width: 180px;
+  background-color: var(--branco);
+  margin: 20px;
+  border-radius: 8px;
+
+  .card1Tip,
+  .card3Tip {
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+    background-color: var(--cor-principal);
+  }
+}
+
+.card2 {
+  height: 250px;
+  width: 180px;
+  background-color: var(--branco);
+  margin: 20px;
+  border-radius: 8px;
+  margin-top: -5px;
+
+  .card2Tip {
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+    background-color: var(--cor-card);
+  }
+}
+
+.card1 {
+  transform: rotate(-5deg);
+}
+.card3 {
+  transform: rotate(5deg);
+}
+
+.title {
+  font-family: var(--fonte-principal);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--branco);
+  text-align: center;
+}
+
+.card3:hover {
+  transform: scale(1.1) rotate(3deg);
+  transition: all 100ms ease-in-out;
+}
+.card1:hover {
+  transform: scale(1.1) rotate(-3deg);
+  transition: all 100ms ease-in-out;
+}
+.card2:hover {
+  transform: scale(1.1);
+  transition: all 100ms ease-in-out;
+  margin-top: 0;
+}
