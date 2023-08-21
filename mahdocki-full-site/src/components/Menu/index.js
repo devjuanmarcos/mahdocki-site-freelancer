@@ -16,7 +16,7 @@ export default function Menu() {
                 alt='none'
               ></img>
               <MenuLink to={"/"}>MAHDOCKI</MenuLink>
-              <MenuLink to={"/planos"}>PLANOS</MenuLink>
+              <MenuLink to={"/plans"}>PLANOS</MenuLink>
               <MenuLink to={"/assist"}>ASSISTÊNCIA 24 HORAS</MenuLink>
               <MenuLink to={"/tracker"}>RASTREADOR</MenuLink>
               <MenuLink to={"/readyanswer"}>PRONTA RESPOSTA</MenuLink>

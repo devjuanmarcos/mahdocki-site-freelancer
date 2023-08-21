@@ -7,6 +7,7 @@ import Home from "pages/Home";
 import Assist24H from "pages/Planos/Assist24H";
 import Tracker from "pages/Planos/Tracker";
 import ReadyAnswer from "pages/Planos/ReadyAnswer";
+import MainPlans from "pages/Planos/MainPlans";
 
 export default function AppRoutes() {
   return (
@@ -28,6 +29,10 @@ export default function AppRoutes() {
               element={<Home />}
             />
           </Route>
+          <Route
+            path='plans'
+            element={<MainPlans />}
+          />
           <Route
             path='assist'
             element={<Assist24H />}
