@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 @import url("https://db.onlinewebfonts.com/c/5de3a15cd8742e9fc9923f614df0e707?family=Felbridge+W04+ExtraBold");
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
 @font-face {
   font-family: "Felbridge W04 ExtraBold";
   src: url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.eot");
@@ -43,6 +44,7 @@
   --fonte-secundaria: "Playfair Display", sans-serif;
   --fonte-teste: "testeFonte";
   --fonte-cursiva: "cursivaFonte";
+  --fonte-card: "Spicy Rice", cursive;
   font-family: var(--fonte-principal);
   font-family: var(--fonte-alternativa);
 }
