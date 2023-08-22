@@ -1,8 +1,9 @@
 import styles from "./MainPlans.module.css";
 import React from "react";
 import BannerModel from "components/Banner/BannerModel";
-import bannerImage from "assets/images/Car rental-amico (2).svg";
+import bannerImage from "assets/images/plansBannerImage (2).svg";
 import TopPlans from "components/InfoSpacing/TopPlans";
+import SeeToo from "components/InfoSpacing/Promo";
 
 export default function MainPlans() {
   return (
@@ -17,6 +18,7 @@ export default function MainPlans() {
         />
       </div>
       <TopPlans />
+      <SeeToo />
     </div>
   );
 }

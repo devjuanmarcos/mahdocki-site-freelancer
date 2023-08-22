@@ -6,7 +6,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "pages/Home";
 import Assist24H from "pages/Planos/Assist24H";
 import Tracker from "pages/Planos/Tracker";
+import ReadyAnswer from "pages/Planos/ReadyAnswer";
 import MainPlans from "pages/Planos/MainPlans";
+import Error404 from "pages/Error404";
 
 export default function AppRoutes() {
   return (
@@ -29,6 +31,10 @@ export default function AppRoutes() {
             />
           </Route>
           <Route
+            path='plans'
+            element={<MainPlans />}
+          />
+          <Route
             path='assist'
             element={<Assist24H />}
           />
@@ -37,8 +43,8 @@ export default function AppRoutes() {
             element={<Tracker />}
           />
           <Route
-            path='plans'
-            element={<MainPlans />}
+            path='readyanswer'
+            element={<ReadyAnswer />}
           />
           <Route
             path='posts/:id/*'
@@ -46,7 +52,7 @@ export default function AppRoutes() {
           />
           <Route
             path='*'
-            element={<Home />}
+            element={<Error404 />}
           />
         </Routes>
 

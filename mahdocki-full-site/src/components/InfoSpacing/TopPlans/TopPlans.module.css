@@ -32,7 +32,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--roxo-escuro-full);
-  height: auto;
+  height: 500px;
   width: 100%;
 }
 
@@ -54,13 +54,17 @@
 .card1,
 .card3 {
   height: 250px;
-  width: 300px;
-  background-color: var(--branco);
+  width: 250px;
+  background-color: var(--preto);
   margin: 20px;
   border-radius: 8px;
 
   .card1Tip,
   .card3Tip {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     height: 95%;
     width: 95%;
     border-radius: 8px;
@@ -69,14 +73,18 @@
 }
 
 .card2 {
-  height: 250px;
-  width: 300px;
-  background-color: var(--branco);
+  height: 300px;
+  width: 250px;
+  background-color: var(--preto);
   margin: 20px;
   border-radius: 8px;
   margin-top: -5px;
 
   .card2Tip {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     height: 95%;
     width: 95%;
     border-radius: 8px;
@@ -97,7 +105,30 @@
   font-weight: 500;
   color: var(--branco);
   text-align: center;
-  margin-top: 8px;
+  margin-top: 16px;
+}
+
+.textFooter {
+  font-family: var(--fonte-card);
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--branco);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-family: var(--fonte-card);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--branco);
+  text-align: center;
+  margin-top: 16px;
+}
+
+.cardImage {
+  width: 200px;
 }
 
 .card3:hover {
