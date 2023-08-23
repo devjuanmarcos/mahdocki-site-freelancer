@@ -1,7 +1,14 @@
 .carouselWrapper {
   width: 100%; /* Largura total da tela */
-  overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura */
+  height: 200px;
 }
-
+.carousel {
+  height: 90px;
+  .slick-list {
+    overflow: visible !important; /* Substitua 'visible' pelo valor desejado */
+  }
+}
 .card {
+  width: 200px;
+  height: 900px;
 }

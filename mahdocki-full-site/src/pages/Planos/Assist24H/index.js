@@ -1,6 +1,6 @@
 import styles from "./Assist24H.module.css";
 import React from "react";
-import geral from "assets/Json/geral.json";
+import geral from "assets/Json/assist.json";
 import SeeToo from "components/InfoSpacing/Promo";
 import BannerModel from "components/Banner/BannerModel";
 import PresentationCard from "components/Card/PresentationCard";

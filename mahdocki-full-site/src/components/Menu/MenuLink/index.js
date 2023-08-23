@@ -9,7 +9,7 @@ export default function MenuLink({ children, to }) {
       to={to}
       end
     >
-      {children}
+      <span className={stylesMenuLink.span}> {children}</span>
     </NavLink>
   );
 }

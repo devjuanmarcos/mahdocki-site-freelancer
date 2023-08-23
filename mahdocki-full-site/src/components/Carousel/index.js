@@ -4,13 +4,14 @@ import "slick-carousel/slick/slick.css"; // Importe os estilos do carrossel
 import "slick-carousel/slick/slick-theme.css"; // Importe o tema do carrossel (opcional)
 import styles from "./Carousel.module.css"; // Importe seus estilos
 import MiniCard from "components/Card/MiniCard";
+import cards from "assets/Json/geral.json";
 
 const Carrossel = () => {
   const settings = {
     infinite: true, // Loop infinito
     autoplay: true, // Reprodução automática
     autoplaySpeed: 0, // Intervalo de troca em milissegundos
-    speed: 8000, // Velocidade da transição
+    speed: 20000, // Velocidade da transição
     slidesToShow: 4, // Quantidade de slides exibidos por vez
     slidesToScroll: 1, // Quantidade de slides para rolar
     cssEase: "linear", // Efeito de transição linear
@@ -32,30 +33,24 @@ const Carrossel = () => {
   return (
     <div className={styles.carouselWrapper}>
       <Slider {...settings}>
-        {/* Renderize aqui os seus cards */}
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        {/* ... e assim por diante */}
+        {cards.map((card, id) => (
+          <MiniCard
+            key={id}
+            children={card.nome}
+            image={card.imagem}
+            alt={card.nome}
+          />
+        ))}
       </Slider>
       <Slider {...settings2}>
-        {/* Renderize aqui os seus cards */}
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        {/* ... e assim por diante */}
+        {cards.map((card, id) => (
+          <MiniCard
+            key={id}
+            children={card.nome}
+            image={card.imagem}
+            alt={card.nome}
+          />
+        ))}
       </Slider>
     </div>
   );
