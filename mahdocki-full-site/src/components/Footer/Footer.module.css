@@ -25,36 +25,79 @@
 .container {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--roxo-escuro-full);
-  height: 300px;
+  height: 500px;
   width: 100%;
 }
 
-.logo {
-  width: 70px;
+.contentTop {
+  width: 1400px;
+  height: 276px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
 }
 
-.logoName {
+.inputCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.input {
+  width: 80%;
+}
+.labelprops {
+  margin-left: 15px;
   color: var(--branco);
-  font-family: var(--fonte-principal);
-  margin-top: 10px;
+}
+.image {
+  width: 40%;
+  height: 100%;
+  background-color: brown;
 }
 
-.paragraph {
-  color: var(--cinza);
-  max-width: 450px;
-  font-size: 20px;
-  font-family: var(--fonte-principal);
-  line-height: 20px;
-  font-weight: 400;
-  text-align: start;
-  padding: 0px;
+.contentBot {
+  margin-inline: 20px;
+  margin-top: 20px;
+  width: 1400px;
+  height: 184px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(9, 88, 156);
 }
 
-.title {
-  margin-top: 10px;
-  color: var(--branco);
-  font-family: var(--fonte-principal);
+.slogan {
+  width: 40%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.about {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(251, 255, 0);
+}
+
+.terms {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(81, 0, 69);
+}
+
+.socialMedia {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(255, 42, 0);
 }

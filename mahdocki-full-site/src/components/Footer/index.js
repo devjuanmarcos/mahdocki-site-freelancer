@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
+import TextField from "@mui/material/TextField";
+import { IconButton } from "@mui/material";
 // import logoMahdocki from "assets/images/logoMain.png";
 
 export default function Rodape() {
@@ -19,7 +22,35 @@ export default function Rodape() {
         </svg>
       </div>
       <footer className={styles.container}>
-        <div className={styles.subscribe}></div>
+        <div className={styles.contentTop}>
+          <div className={styles.inputCard}>
+            <h3>Novidades em primeira mão</h3>
+            <h1>Cadastre-se para receber as novidades</h1>
+            <TextField
+              id='standard-basic'
+              label='Insira seu email'
+              variant='standard'
+              className={styles.input}
+              InputLabelProps={{
+                className: styles.labelprops,
+              }}
+              InputProps={{
+                endAdornment: (
+                  <IconButton>
+                    <SendOutlinedIcon />
+                  </IconButton>
+                ),
+              }}
+            />
+          </div>
+          <div className={styles.image}></div>
+        </div>
+        <div className={styles.contentBot}>
+          <div className={styles.slogan}></div>
+          <div className={styles.about}></div>
+          <div className={styles.terms}></div>
+          <div className={styles.socialMedia}></div>
+        </div>
       </footer>
     </>
   );
