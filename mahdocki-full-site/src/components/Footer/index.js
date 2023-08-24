@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
 import TextField from "@mui/material/TextField";
 import { IconButton } from "@mui/material";
+import imageInput from "assets/images/Carpool-amico.svg";
 // import logoMahdocki from "assets/images/logoMain.png";
 
 export default function Rodape() {
@@ -24,8 +25,10 @@ export default function Rodape() {
       <footer className={styles.container}>
         <div className={styles.contentTop}>
           <div className={styles.inputCard}>
-            <h3>Novidades em primeira mão</h3>
-            <h1>Cadastre-se para receber as novidades</h1>
+            <h3 className={styles.title3}>Novidades em primeira mão</h3>
+            <h1 className={styles.title1}>
+              Cadastre-se para receber as novidades
+            </h1>
             <TextField
               id='standard-basic'
               label='Insira seu email'
@@ -43,12 +46,37 @@ export default function Rodape() {
               }}
             />
           </div>
-          <div className={styles.image}></div>
+          <div className={styles.imageCard}>
+            <img
+              src={imageInput}
+              alt='none'
+              className={styles.image}
+            />
+          </div>
         </div>
         <div className={styles.contentBot}>
-          <div className={styles.slogan}></div>
-          <div className={styles.about}></div>
-          <div className={styles.terms}></div>
+          <div className={styles.slogan}>
+            <h1 className={styles.title1}>MAHDOCKI</h1>
+            <h3 className={styles.title3}>
+              Oferecemos apoio confiável em momentos desafiadores e críticos,
+              assegurando que você tenha a tranquilidade necessária em sua
+              rotina diária.
+            </h3>
+          </div>
+          <div className={styles.about}>
+            <ul className={styles.ulList}>
+              <li>Sobre</li>
+              <li>Trabalhos</li>
+              <li>Documentação</li>
+            </ul>
+          </div>
+          <div className={styles.terms}>
+            <ul className={styles.ulList}>
+              <li>Termos e condições</li>
+              <li>Política de privacidade</li>
+              <li>Cookie Privacy</li>
+            </ul>
+          </div>
           <div className={styles.socialMedia}></div>
         </div>
       </footer>

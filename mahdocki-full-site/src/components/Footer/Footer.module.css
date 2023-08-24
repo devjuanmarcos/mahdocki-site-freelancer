@@ -40,7 +40,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 .inputCard {
@@ -50,7 +50,20 @@
   justify-content: center;
   width: 60%;
   height: 100%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
+}
+
+.title3 {
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+}
+
+.title1 {
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 34px;
+  margin-bottom: 20px;
 }
 
 .input {
@@ -60,10 +73,14 @@
   margin-left: 15px;
   color: var(--branco);
 }
-.image {
+.imageCard {
   width: 40%;
   height: 100%;
-  background-color: brown;
+  /* background-color: brown; */
+}
+
+.image {
+  width: 300px;
 }
 
 .contentBot {
@@ -75,25 +92,34 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: rgb(9, 88, 156);
 }
 
 .slogan {
   width: 40%;
   height: 100%;
-  background-color: aqua;
 }
 
 .about {
   width: 20%;
   height: 100%;
-  background-color: rgb(251, 255, 0);
+}
+
+.ulList {
+  margin-left: 10%;
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  color: var(--branco);
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .terms {
   width: 20%;
   height: 100%;
-  background-color: rgb(81, 0, 69);
 }
 
 .socialMedia {
