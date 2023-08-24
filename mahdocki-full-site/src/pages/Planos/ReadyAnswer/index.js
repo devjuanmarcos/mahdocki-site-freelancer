@@ -4,6 +4,7 @@ import readyBannerImage from "assets/images/prontaResposta.svg";
 import BannerModel from "components/Banner/BannerModel";
 import PresentationCard from "components/Card/PresentationCard";
 import answer from "assets/Json/answer.json";
+import SeeToo from "components/InfoSpacing/Promo";
 
 export default function ReadyAnswer() {
   return (
@@ -16,6 +17,7 @@ export default function ReadyAnswer() {
         />
       </div>
       <PresentationCard databaseInfo={answer} />
+      <SeeToo />
     </div>
   );
 }

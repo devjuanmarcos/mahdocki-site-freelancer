@@ -73,14 +73,18 @@
   margin-left: 15px;
   color: var(--branco);
 }
+
+.sendIcon {
+  color: var(--branco);
+}
+
 .imageCard {
   width: 40%;
-  height: 100%;
-  /* background-color: brown; */
+  max-height: 100%;
 }
 
 .image {
-  width: 300px;
+  width: 70%;
 }
 
 .contentBot {
@@ -125,5 +129,15 @@
 .socialMedia {
   width: 20%;
   height: 100%;
-  background-color: rgb(255, 42, 0);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  color: var(--branco);
+  gap: 10px;
+}
+
+.colorGray {
+  color: #8c8c8c;
 }
