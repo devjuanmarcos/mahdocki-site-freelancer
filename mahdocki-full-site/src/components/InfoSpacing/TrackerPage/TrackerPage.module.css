@@ -46,12 +46,20 @@
   width: 400px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 375px) {
   /* Estilos para telas menores, como smartphones */
   .main {
     margin: 45px 0;
   }
+  .title {
+    width: 350px;
+    text-align: center;
+  }
   .images {
     display: none;
+  }
+  .info {
+    justify-content: center;
+    align-items: center;
   }
 }

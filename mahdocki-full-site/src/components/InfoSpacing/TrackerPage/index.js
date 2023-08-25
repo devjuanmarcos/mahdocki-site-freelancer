@@ -1,4 +1,5 @@
 import styles from "./TrackerPage.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 
 export default function TrackerPage() {
@@ -8,13 +9,13 @@ export default function TrackerPage() {
         <h1 className={styles.title}>
           Rastreie e controle seu veículo direto do seu celular
         </h1>
-        <p className={styles.paragraph}>
+        <p className={globalStyles.globalPBig}>
           O rastreamento de veículos via celular permite monitorar carros em
           tempo real. Localização, alertas de movimentação não autorizada e até
           bloqueio remoto aumentam a segurança. Ideal para proprietários e
           gestores de frotas, oferece controle e tranquilidade.
         </p>
-        <p className={styles.paragraph}>
+        <p className={globalStyles.globalPBig}>
           O rastreamento via celular monitora veículos em tempo real, abrangendo
           localização e status (como combustível e ignição). Isso amplia
           segurança e gestão, ideal para donos e frotas, proporcionando total

@@ -36,6 +36,7 @@
   font-weight: 350;
   width: 500px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .button {
@@ -63,4 +64,10 @@
   background-color: blue;
   transition: transform 1s ease;
   transition: background-color 1s ease;
+}
+
+@media (max-width: 375px) {
+  .paragraph {
+    max-width: 300px;
+  }
 }

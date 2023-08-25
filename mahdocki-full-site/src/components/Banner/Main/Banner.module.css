@@ -34,11 +34,14 @@
   bottom: -75px;
   text-align: center;
 }
-
-@media (max-width: 767px) {
+@media (max-width: 375px) {
   /* Estilos para telas menores, como smartphones */
   .text {
     width: auto;
+  }
+  .backCurve {
+    height: 82px;
+    bottom: -40px;
   }
 }
 
