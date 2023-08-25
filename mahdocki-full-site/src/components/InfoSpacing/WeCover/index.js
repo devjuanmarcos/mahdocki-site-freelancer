@@ -1,4 +1,5 @@
 import styles from "./WeCover.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 import MiniCardCover from "components/Card/MiniCardCover";
 import Button from "components/Button";
@@ -8,15 +9,15 @@ export default function WeCover({ cover, title, paragraph }) {
     <div style={{ backgroundColor: cover }}>
       <div className={styles.container}>
         <h1
-          className={styles.title}
+          className={globalStyles.globalH3}
           style={{ color: title }}
         >
           {" "}
           O que cobrimos?{" "}
         </h1>
         <p
-          className={styles.paragraph}
-          style={{ color: paragraph }}
+          className={globalStyles.globalP}
+          style={{ color: "#fff" }}
         >
           Todos os nossos serviços de assistência 24h, pronta resposta e
           rastreamento de veículos

@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "components/Banner";
+import Banner from "components/Banner/Main";
 import TitleParagraph from "components/InfoSpacing/TitleParagraph";
 import styles from "./Home.module.css";
 import Carrossel from "components/Carousel";
@@ -16,7 +16,7 @@ import Transparency from "components/InfoSpacing/Transparency";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <div>
         <Banner
           title={"Assistência 24 horas!"}
@@ -52,12 +52,12 @@ export default function Home() {
         id='cover'
         className={styles.anchorOffset}
       ></div>
-      <div className={styles.cover}>
+      {/* <div className={styles.cover}>
         <WeCover
           cover='#652f9e'
           title='white'
         />
-      </div>
+      </div> */}
       <div>
         <MainToppings
           h2='Principais coberturas da Mahdocki'
@@ -121,6 +121,6 @@ export default function Home() {
       <div>
         <Transparency />
       </div>
-    </>
+    </div>
   );
 }

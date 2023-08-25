@@ -1,4 +1,5 @@
 import styles from "./Banner.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 import Button from "components/Button";
 
@@ -7,8 +8,8 @@ export default function BannerModel({ title, paragraph, image }) {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.text}>
-          <h1 className={styles.title}>{title}</h1>
-          <p className={styles.paragraph}>{paragraph}</p>
+          <h1 className={globalStyles.globalH1}>{title}</h1>
+          <p className={globalStyles.globalPBanner}>{paragraph}</p>
           <div className={styles.cardCard}>
             <div className={styles.contentCard}>
               <b className={styles.textCard}>A partir de R$60,00 p/ mês</b>

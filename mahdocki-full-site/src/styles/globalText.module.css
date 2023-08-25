@@ -1,0 +1,95 @@
+.globalH1 {
+  color: var(--branco);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 1000;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+.globalH2 {
+  padding-top: 16px;
+  font-family: var(--fonte-alternativa);
+  color: var(--cinza);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  max-width: 900px;
+}
+
+.globalH3 {
+  text-align: center;
+  margin-inline: 0;
+  margin-block: 0;
+  color: var(--preto);
+  word-spacing: 0;
+  font-weight: 700;
+  font-size: 35px;
+  font-family: var(--fonte-principal);
+  padding-bottom: 24px;
+}
+
+.globalH4 {
+  font: var(--fonte-alternativa);
+  color: var(--preto);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  width: 300px;
+  line-height: 32px;
+}
+
+/* para subtítulos  */
+.globalP {
+  box-sizing: border-box;
+  font-family: var(--fonte-primaria);
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.globalPBanner {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--fonte-alternativa);
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.obs {
+  font-family: var(--fonte-principal);
+  color: var(--branco);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+  .globalH2 {
+    max-width: 200px;
+  }
+  .globalP {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets em orientação retrato */
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  /* Estilos para desktops menores */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para desktops maiores */
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Estilos para telas de alta resolução, como Retina displays */
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./AnimatedImage.module.css";
-import Car from "assets/images/Car rental-amico (1).svg";
+import bannerImageMain from "assets/images/bannerMain.svg";
 export default function AnimatedImage() {
   return (
     <div className={styles.container}>
       <img
         className={styles.image}
-        src={Car}
+        src={bannerImageMain}
         alt='Imagem animada'
       />
     </div>

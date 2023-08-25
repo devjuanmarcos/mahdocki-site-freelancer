@@ -81,3 +81,17 @@
 
   margin-bottom: 50px;
 }
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+  .boxImage {
+    flex-direction: column;
+  }
+  .imgP img {
+    width: 200px;
+    height: auto;
+  }
+  .imgParagraph {
+    text-align: center;
+  }
+}

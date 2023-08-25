@@ -34,6 +34,7 @@
   font-weight: 300;
   line-height: 40px;
   max-width: 900px;
+  text-align: center;
 }
 
 .subtitle {
@@ -50,4 +51,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+  .container {
+    margin-inline: 48px;
+  }
 }

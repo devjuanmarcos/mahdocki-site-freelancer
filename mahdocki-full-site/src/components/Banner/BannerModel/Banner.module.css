@@ -24,25 +24,6 @@
   align-items: center;
 }
 
-.title {
-  color: var(--branco);
-  text-align: center;
-  font-size: 50px;
-  font-weight: 1000;
-  line-height: 48px;
-  margin-bottom: 20px;
-}
-
-.paragraph {
-  font-size: 24px;
-  line-height: 32px;
-  font-family: var(--fonte-alternativa);
-  font-weight: 100;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
 .image {
   width: 600px;
   margin-right: 100px;

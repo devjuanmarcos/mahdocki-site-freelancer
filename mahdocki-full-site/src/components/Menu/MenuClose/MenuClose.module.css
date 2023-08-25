@@ -39,3 +39,7 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+}

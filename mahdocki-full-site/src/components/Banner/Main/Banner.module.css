@@ -1,0 +1,59 @@
+.banner {
+  background-color: var(--cor-principal);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0px auto;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 900px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: var(--branco);
+}
+
+.backCurve {
+  background-color: var(--cor-principal);
+  z-index: -1;
+  overflow: hidden;
+  border-radius: 70% 70%;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  bottom: -75px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+  .text {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets em orientação retrato */
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  /* Estilos para desktops menores */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para desktops maiores */
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Estilos para telas de alta resolução, como Retina displays */
+}

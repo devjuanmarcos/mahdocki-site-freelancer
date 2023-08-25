@@ -6,10 +6,10 @@ export default function Card() {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <b className={styles.text}>
+        <h3 className={styles.text}>
           Assistência automotiva a partir de R$ 60,00 /mês. Confira sem sair de
           casa!
-        </b>
+        </h3>
         <Button
           children={"EU QUERO!"}
           link={

@@ -46,3 +46,29 @@
   margin-bottom: 8px;
   margin-left: -80px;
 }
+
+@media (max-width: 767px) {
+  /* Estilos para telas menores, como smartphones */
+  .image {
+    visibility: hidden;
+  }
+  .mainRoutes {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para tablets em orientação retrato */
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  /* Estilos para desktops menores */
+}
+
+@media (min-width: 1440px) {
+  /* Estilos para desktops maiores */
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Estilos para telas de alta resolução, como Retina displays */
+}

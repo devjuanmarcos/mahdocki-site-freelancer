@@ -24,6 +24,7 @@
 }
 
 * {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -48,12 +49,17 @@
   font-family: var(--fonte-principal);
   font-family: var(--fonte-alternativa);
 }
-
+head {
+  display: none;
+}
 #root {
   display: block;
+  box-sizing: inherit;
+
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
   min-height: 100vh;
+  max-width: 100%;
 }
 
 button {
@@ -66,4 +72,8 @@ a {
 
 li {
   list-style: none;
+}
+.slick-next {
+  right: 0px;
+  visibility: hidden;
 }
