@@ -1,10 +1,9 @@
 .container {
-  background-color: var(--roxo-medio);
-  height: 500px;
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .content {

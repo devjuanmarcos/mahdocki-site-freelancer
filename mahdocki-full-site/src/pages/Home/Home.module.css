@@ -60,32 +60,6 @@ html {
   visibility: hidden; /* Esconde o espaço vazio */
 }
 
-.cardBlock {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  -webkit-box-pack: center;
-  justify-content: center;
-  grid-gap: 10px; /* Espaçamento entre os quadrados */
-  max-width: 300px; /* Largura máxima do contêiner */
-  margin: 0 auto;
-}
-
-.notCover {
-  background-color: var(--roxo-medio);
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.trackerPage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--branco-medio);
-  width: 100%;
-}
-
 .whyHire {
   background-color: var(--cinza-fundo);
   margin-bottom: -50px;

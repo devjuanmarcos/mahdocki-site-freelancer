@@ -1,8 +1,9 @@
 import styles from "./WeCover.module.css";
 import globalStyles from "styles/globalText.module.css";
 import React from "react";
-import MiniCardCover from "components/Card/MiniCardCover";
 import Button from "components/Button";
+import cards from "assets/Json/geral.json";
+import MiniCard from "components/Card/MiniCard";
 
 export default function WeCover({ cover, title, paragraph }) {
   return (
@@ -17,60 +18,21 @@ export default function WeCover({ cover, title, paragraph }) {
         </h1>
         <p
           className={globalStyles.globalP}
-          style={{ color: "#fff" }}
+          style={{ color: "#fff", paddingBottom: "12px" }}
         >
           Todos os nossos serviços de assistência 24h, pronta resposta e
           rastreamento de veículos
         </p>
         <div className={styles.containerCards}>
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
-          <MiniCardCover
-            children='Pane seca'
-            image='https://www.datocms-assets.com/16903/1587741223-illus-assistances-auto-towage-1x1-light-2x.png?auto=compress&dpr=1.5&fm=webp&w=44'
-            alt='pane seca foto'
-          />
+          {cards.map((card, id) => (
+            <MiniCard
+              key={id}
+              children={card.nome}
+              image={card.imagem}
+              alt={card.nome}
+            />
+          ))}
         </div>
-      </div>
-      <div className={styles.btn}>
         <Button children='COTAR AGORA' />
       </div>
     </div>

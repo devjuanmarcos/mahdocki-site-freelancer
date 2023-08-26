@@ -1,30 +1,9 @@
 .container {
-  padding-top: 50px;
-  margin-inline: 415px;
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.title {
-  position: static;
-  display: flex;
-  justify-content: center;
-  font: var(--fonte-alternativa);
-  font-size: 48px;
-  font-weight: 700;
-  padding-bottom: 5px;
-}
-
-.paragraph {
-  position: relative;
-  text-decoration: none;
-  padding-bottom: 30px;
-  margin-inline: 50px;
-  font-family: var(--fonte-alternativa);
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 40px;
+  align-items: center;
 }
 
 .containerCards {
@@ -34,11 +13,4 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 28px 5px;
   padding-bottom: 30px;
-}
-
-.btn {
-  display: flex;
-  justify-content: center;
-  margin-top: -20px;
-  padding-bottom: 50px;
 }

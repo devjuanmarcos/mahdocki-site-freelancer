@@ -15,14 +15,20 @@ export default function MainToppings({
   imgp2,
   imgp3,
   color,
+  textColor,
 }) {
   return (
-    <div style={{ backgroundColor: `"${color}"` }}>
+    <div style={{ backgroundColor: color }}>
       <div className={styles.container}>
-        <h2 className={globalStyles.globalH3}>{h2}</h2>
+        <h2
+          className={globalStyles.globalH3}
+          style={{ color: textColor }}
+        >
+          {h2}
+        </h2>
         <p
           className={globalStyles.globalP}
-          style={{ marginBottom: "72px" }}
+          style={{ marginBottom: "72px", color: textColor }}
         >
           {p}
         </p>
@@ -32,10 +38,15 @@ export default function MainToppings({
               src={img1}
               alt={imgt1}
             />
-            <h4 className={globalStyles.globalH4}>{imgt1}</h4>
+            <h4
+              className={globalStyles.globalH4}
+              style={{ color: textColor }}
+            >
+              {imgt1}
+            </h4>
             <p
               className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center" }}
+              style={{ width: "310px", textAlign: "center", color: textColor }}
             >
               {imgp1}
             </p>
@@ -45,10 +56,15 @@ export default function MainToppings({
               src={img2}
               alt={imgt2}
             />
-            <h4 className={globalStyles.globalH4}>{imgt2}</h4>
+            <h4
+              className={globalStyles.globalH4}
+              style={{ color: textColor }}
+            >
+              {imgt2}
+            </h4>
             <p
               className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center" }}
+              style={{ width: "310px", textAlign: "center", color: textColor }}
             >
               {imgp2}
             </p>
@@ -58,10 +74,15 @@ export default function MainToppings({
               src={img3}
               alt={imgt3}
             />
-            <h4 className={globalStyles.globalH4}>{imgt3}</h4>
+            <h4
+              className={globalStyles.globalH4}
+              style={{ color: textColor }}
+            >
+              {imgt3}
+            </h4>
             <p
               className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center" }}
+              style={{ width: "310px", textAlign: "center", color: textColor }}
             >
               {imgp3}
             </p>

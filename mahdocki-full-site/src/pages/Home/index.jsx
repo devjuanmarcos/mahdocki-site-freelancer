@@ -7,12 +7,12 @@ import InfoSpacing from "components/InfoSpacing";
 import WeCover from "components/InfoSpacing/WeCover";
 import MainToppings from "components/InfoSpacing/MainToppings";
 import Carousel from "components/InfoSpacing/RattingCarousel";
-import Card from "components/Card";
-import review from "assets/images/review.png";
 import NotCover from "components/InfoSpacing/NotCover";
 import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
 import TrackerPage from "components/InfoSpacing/TrackerPage";
 import Transparency from "components/InfoSpacing/Transparency";
+import moto from "assets/images/motoImage.svg";
+import SeeToo from "components/InfoSpacing/Promo";
 
 export default function Home() {
   return (
@@ -34,69 +34,54 @@ export default function Home() {
         paragraph='Olha só os serviços disponíveis pra você escolher:'
         color='var(--branco-medio)'
       />
-
       <InfoSpacing
-        src='https://www.datocms-assets.com/16903/1594322322-car-gol-front-01-4x3-light.png'
-        h2='Traga seu amigo/familiar e ganhe um mega desconto!'
-        p1='Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto.'
-        p2='Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!'
+        direction='row-reverse'
+        src={moto}
+        h2='Contrate nossos serviços para a sua moto!'
+        p1='Oferecemos nossos planos para todos os tipos de motocicletas, perfeito para quem trabalha com moto todos os dias ou para quem usa apenas para viajar.'
+        p2='Para verificar todas as funcionalidades do serviço basta preencher o formulário e aguardar a avaliação da proposta.'
+        color='var(--cinza-fundo)'
+      />
+
+      <MainToppings
+        h2='Principais coberturas da Mahdocki'
+        p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
+        img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt1='Equipe pronta resposta'
+        imgp1='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
+        img2='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt2='Equipe pronta resposta'
+        imgp2='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
+        img3='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt3='Equipe pronta resposta'
+        imgp3='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
+        color='var(--cor-principal)'
+        textColor='var(--branco)'
+      />
+      <Carousel color='var(--branco-medio)' />
+      <MainToppings
+        h2='Rastreie sua frota de veículos'
+        p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
+        img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt1='rotas em tempo real'
+        imgp1='Saiba onde e por onde seus veículos passaram direto pelo seu celular.'
+        img2='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt2='Status de todos os veículos'
+        imgp2='Verifique quando quiser todos os status mecânicos e elétricos dos seus veículos.'
+        img3='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+        imgt3='Bloqueio instantâneo'
+        imgp3='Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.'
         color='var(--cinza-fundo)'
       />
       <div
         id='cover'
         className={styles.anchorOffset}
       />
-      <div className={styles.cover}>
-        <WeCover
-          cover='#652f9e'
-          title='white'
-        />
-      </div>
-      <div>
-        <MainToppings
-          h2='Principais coberturas da Mahdocki'
-          p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
-          img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
-          imgt1='Equipe pronta resposta'
-          imgp1='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
-          img2='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
-          imgt2='Equipe pronta resposta'
-          imgp2='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
-          img3='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
-          imgt3='Equipe pronta resposta'
-          imgp3='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
-        />
-      </div>
-      <div className={styles.size}>
-        <div className={styles.global}>
-          <h1 className={styles.title}>
-            As opiniões dos nossos clientes deixam bem claro a qualidade do
-            serviço que oferecemos!
-          </h1>
-          {/* <p className={styles.paragraph}>
-            Quer saber o que as pessoas acham da nossa empresa? Então é só dar
-            uma olhada aqui embaixo e conferir a opinião dos nossos clientes
-            sobre a Mahdocki
-          </p> */}
-          <div className={styles.imgCaro}>
-            <img
-              className={styles.imgs}
-              src={review}
-              alt='carousel imagge teste'
-            />
-            <Carousel />
-          </div>
-          <div className={styles.card}>
-            <Card />
-          </div>
-        </div>
-      </div>
-      <div className={styles.notCover}>
-        <NotCover cards={CardData} />
-      </div>
-      <div className={styles.trackerPage}>
-        <TrackerPage />
-      </div>
+      <WeCover
+        cover='#652f9e'
+        title='white'
+      />
+      <TrackerPage />
       <MainToppings
         h2='Por que contratar nossos serviços Mahdocki?'
         p='Aqui trabalhamos de forma direta!'
@@ -109,11 +94,17 @@ export default function Home() {
         img3='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
         imgt3='Atendimento pessoal'
         imgp3='Vamos entrar em contato para negociar todo o processo.'
-        color='#ebedee'
+        color='var(--cinza-fundo)'
       />
-      <div>
-        <Transparency />
-      </div>
+      <NotCover cards={CardData} />
+      <InfoSpacing
+        src='https://www.datocms-assets.com/16903/1594322322-car-gol-front-01-4x3-light.png'
+        h2='Indique um amigo e ganhe prêmios!'
+        p1='Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto.'
+        p2='Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!'
+        color='var(--cinza-fundo)'
+      />
+      <Transparency color='var(--cor-card)' />
     </div>
   );
 }

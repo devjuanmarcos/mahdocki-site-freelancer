@@ -1,18 +1,13 @@
-.center {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .container {
-  background-color: var(--roxo-medio);
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 50px 0px;
+  background-color: var(--roxo-medio);
 }
 
-.title {
+.texts {
   text-align: center;
   color: var(--branco);
-  margin-bottom: 20px;
 }

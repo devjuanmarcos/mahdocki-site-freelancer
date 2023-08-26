@@ -10,7 +10,12 @@ export default function Banner({ title, paragraph }) {
       <AnimatedImage />
       <div className={styles.text}>
         <h2 className={globalStyles.globalH1}>{title}</h2>
-        <p className={globalStyles.globalP}>{paragraph}</p>
+        <p
+          className={globalStyles.globalP}
+          style={{ color: "var(--branco)" }}
+        >
+          {paragraph}
+        </p>
       </div>
       <Card />
       <p className={globalStyles.obs}>

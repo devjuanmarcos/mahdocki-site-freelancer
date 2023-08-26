@@ -81,6 +81,15 @@
   text-align: left;
 }
 
+.globalP2 {
+  color: var(--branco-medio);
+  font-size: 16px;
+  font-family: var(--fonte-principal);
+  font-weight: 350;
+  width: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 @media (max-width: 375px) {
   /* Estilos para telas menores, como smartphones */
   .globalH2 {

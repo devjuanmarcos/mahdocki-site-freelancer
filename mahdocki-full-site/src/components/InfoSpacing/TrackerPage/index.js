@@ -6,7 +6,10 @@ export default function TrackerPage() {
   return (
     <div className={styles.main}>
       <div className={styles.info}>
-        <h1 className={styles.title}>
+        <h1
+          className={globalStyles.globalH3}
+          style={{ maxWidth: "600px" }}
+        >
           Rastreie e controle seu veículo direto do seu celular
         </h1>
         <p className={globalStyles.globalPBig}>

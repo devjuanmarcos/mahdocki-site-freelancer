@@ -3,13 +3,16 @@ import styles from "./InfoSpacing.module.css";
 import globalStyles from "styles/globalText.module.css";
 import React from "react";
 
-export default function InfoSpacing({ src, h2, p1, p2, color }) {
+export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
   return (
     <div
       className={styles.container}
       style={{ backgroundColor: color }}
     >
-      <div className={styles.info}>
+      <div
+        className={styles.info}
+        style={{ flexDirection: direction }}
+      >
         <img
           className={styles.img}
           src={src}
