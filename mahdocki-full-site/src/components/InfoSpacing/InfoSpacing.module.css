@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .container {
-  padding: 90px 0px;
+  padding: 50px 0px;
   display: flex;
   align-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #fafafa;
 }
 
 .info {
@@ -20,29 +19,14 @@
 }
 
 .texts {
-  width: 544px;
-  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
   padding-left: 40px;
   margin-left: 20px;
-  .subtitle {
-    display: contents;
-    margin-inline: 0;
-    margin-block: 0;
-    color: var(--preto);
-    word-spacing: 0;
-    font-weight: 700;
-    font-size: 35px;
-    font-family: "roboto", sans-serif;
-    padding-bottom: 24px;
-  }
-  .parapgraph {
-    color: var(--cinza);
-    font-family: "roboto", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none solid rgb(83, 95, 104);
-    text-align: left;
-  }
 }
 
 .button {

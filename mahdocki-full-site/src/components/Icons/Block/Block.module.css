@@ -1,5 +1,3 @@
-@import "/src/index.css";
-
 .color {
   background-color: var(--cinza);
   display: flex;

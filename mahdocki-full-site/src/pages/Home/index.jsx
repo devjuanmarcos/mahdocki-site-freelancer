@@ -17,47 +17,41 @@ import Transparency from "components/InfoSpacing/Transparency";
 export default function Home() {
   return (
     <div>
-      <div>
-        <Banner
-          title={"Assistência 24 horas!"}
-          paragraph={
-            "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
-          }
-        />
-        <TitleParagraph
-          title='Tenha o seu Serviço Auto online na palma da mão'
-          paragraph='Aqui, dá pra fazer tudo 100% online sempre que precisar. Você
+      <Banner
+        title={"Assistência 24 horas!"}
+        paragraph={
+          "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
+        }
+      />
+      <TitleParagraph
+        title='Tenha o seu Serviço Auto online na palma da mão'
+        paragraph='Aqui, dá pra fazer tudo 100% online sempre que precisar. Você
           personaliza, contrata e aciona o seu plano direto pelo telefone. É
           rápido e fácil.'
-          subtitle='Coberturas da Mahdocki'
-          paragraph2='Olha só os serviços disponíveis pra você escolher:'
-        />
-        <Carrossel />
-        <div className={styles.linkCarousel}>
-          <a
-            className={styles.link}
-            href='#cover'
-          >
-            Saiba mais sobre as coberturas
-          </a>
-        </div>
-        <InfoSpacing
-          src='https://www.datocms-assets.com/16903/1594322322-car-gol-front-01-4x3-light.png'
-          h2='Traga seu amigo/familiar e ganhe um mega desconto!'
-          p1='Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto.'
-          p2='Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!'
-        />
-      </div>
+      />
+      <Carrossel
+        title='Coberturas da Mahdocki'
+        paragraph='Olha só os serviços disponíveis pra você escolher:'
+        color='var(--branco-medio)'
+      />
+
+      <InfoSpacing
+        src='https://www.datocms-assets.com/16903/1594322322-car-gol-front-01-4x3-light.png'
+        h2='Traga seu amigo/familiar e ganhe um mega desconto!'
+        p1='Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto.'
+        p2='Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!'
+        color='var(--cinza-fundo)'
+      />
       <div
         id='cover'
         className={styles.anchorOffset}
-      ></div>
-      {/* <div className={styles.cover}>
+      />
+      <div className={styles.cover}>
         <WeCover
           cover='#652f9e'
           title='white'
         />
-      </div> */}
+      </div>
       <div>
         <MainToppings
           h2='Principais coberturas da Mahdocki'
@@ -103,21 +97,20 @@ export default function Home() {
       <div className={styles.trackerPage}>
         <TrackerPage />
       </div>
-      <div className={styles.whyHire}>
-        <MainToppings
-          h2='Por que contratar nossos serviços Mahdocki?'
-          p='Aqui trabalhamos de forma direta!'
-          img1='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt1='Melhores preços!'
-          imgp1='Menos de uma pizza por mês pra você ter segurança e amparo com o seu veículo.'
-          img2='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt2='Altere quando quiser'
-          imgp2='Vc pode mudar as coberturas e assistências entrando em contato com a nossa equipe.'
-          img3='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt3='Atendimento pessoal'
-          imgp3='Vamos entrar em contato para negociar todo o processo.'
-        />
-      </div>
+      <MainToppings
+        h2='Por que contratar nossos serviços Mahdocki?'
+        p='Aqui trabalhamos de forma direta!'
+        img1='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+        imgt1='Melhores preços!'
+        imgp1='Menos de uma pizza por mês pra você ter segurança e amparo com o seu veículo.'
+        img2='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+        imgt2='Altere quando quiser'
+        imgp2='Vc pode mudar as coberturas e assistências entrando em contato com a nossa equipe.'
+        img3='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
+        imgt3='Atendimento pessoal'
+        imgp3='Vamos entrar em contato para negociar todo o processo.'
+        color='#ebedee'
+      />
       <div>
         <Transparency />
       </div>

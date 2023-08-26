@@ -1,14 +1,13 @@
 .globalH1 {
   color: var(--branco);
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 1000;
   line-height: 48px;
   margin-bottom: 20px;
 }
 
 .globalH2 {
-  padding-top: 16px;
   font-family: var(--fonte-alternativa);
   color: var(--cinza);
   font-size: 32px;
@@ -18,32 +17,37 @@
 }
 
 .globalH3 {
-  text-align: center;
-  margin-inline: 0;
-  margin-block: 0;
+  margin: 0;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--preto);
-  word-spacing: 0;
+  font: var(--fonte-alternativa);
+  font-size: 36px;
   font-weight: 700;
-  font-size: 35px;
-  font-family: var(--fonte-principal);
-  padding-bottom: 24px;
+  line-height: 35px;
 }
 
 .globalH4 {
-  font: var(--fonte-alternativa);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--preto);
+  font: var(--fonte-alternativa);
   font-size: 24px;
   font-weight: 700;
-  text-align: center;
-  box-sizing: border-box;
-  width: 300px;
-  line-height: 32px;
+  line-height: 35px;
 }
 
 /* para subtítulos  */
 .globalP {
+  width: 700px;
   box-sizing: border-box;
-  font-family: var(--fonte-primaria);
+  font-family: var(--fonte-secundaria);
+  color: var(--cinza);
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
   line-height: 32px;
@@ -69,12 +73,12 @@
 }
 
 .globalPBig {
-  color: var(--preto);
-  text-align: start;
-  font-size: 15px;
+  color: var(--cinza);
+  font-size: 16px;
   font-family: var(--fonte-principal);
   line-height: 24px;
-  width: 300px;
+  width: 600px;
+  text-align: left;
 }
 
 @media (max-width: 375px) {

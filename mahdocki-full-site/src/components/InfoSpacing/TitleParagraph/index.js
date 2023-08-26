@@ -1,4 +1,5 @@
 import styles from "./TitleParagraph.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 
 export default function TitleParagraph({
@@ -10,12 +11,18 @@ export default function TitleParagraph({
   return (
     <section className={styles.container}>
       <div className={styles.info}>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.paragraph}>{paragraph}</p>
-      </div>
-      <div className={styles.container2}>
-        <h2 className={styles.subtitle}> {subtitle} </h2>
-        <p className={styles.paragraph}>{paragraph2}</p>
+        <h1
+          className={globalStyles.globalH1}
+          style={{ color: "var(--roxo-escuro)", maxWidth: "800px" }}
+        >
+          {title}
+        </h1>
+        <p
+          className={globalStyles.globalH2}
+          style={{ textAlign: "center" }}
+        >
+          {paragraph}
+        </p>
       </div>
     </section>
   );

@@ -44,6 +44,7 @@
 }
 
 .cardDescription {
+  color: var(--branco);
   max-height: 0;
   text-align: center;
   padding-top: 0;
