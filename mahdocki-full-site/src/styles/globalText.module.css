@@ -100,7 +100,7 @@
   .globalP2,
   .globalPBig,
   .obs {
-    max-width: 340px;
+    width: 90%;
     text-align: center;
   }
 }
