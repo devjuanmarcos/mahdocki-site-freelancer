@@ -54,6 +54,7 @@
 @media (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
   .container {
+    padding-top: 90px;
   }
   .subtitle {
     text-align: center;

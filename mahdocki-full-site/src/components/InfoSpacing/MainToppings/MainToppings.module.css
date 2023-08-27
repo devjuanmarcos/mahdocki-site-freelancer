@@ -33,6 +33,8 @@
   /* Estilos para telas menores, como smartphones */
   .boxImage {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .title {
     height: auto;
