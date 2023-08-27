@@ -29,7 +29,7 @@
   aspect-ratio: auto 186 / 139;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
   .boxImage {
     flex-direction: column;

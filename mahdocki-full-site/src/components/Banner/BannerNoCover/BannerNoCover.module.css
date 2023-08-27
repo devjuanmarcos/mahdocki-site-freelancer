@@ -69,7 +69,7 @@
   background-color: rgb(44, 0, 86);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .card {
     width: 300px;
   }

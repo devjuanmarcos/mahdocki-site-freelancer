@@ -75,5 +75,36 @@ li {
 }
 .slick-next {
   right: 0px;
-  visibility: hidden;
+  display: none;
+}
+.slick-next:before {
+  content: "→";
+  display: none;
+}
+.slick-next {
+  right: 14px;
+}
+.slick-arrow slick-next {
+  display: none;
+  right: 14px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: none;
+  width: -20px;
+  height: -20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+element.style {
+  display: none;
 }

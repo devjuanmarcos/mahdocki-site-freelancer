@@ -35,7 +35,7 @@
   margin: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
   .container {
     padding: 40px 0px;

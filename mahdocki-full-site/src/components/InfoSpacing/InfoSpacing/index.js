@@ -4,10 +4,11 @@ import globalStyles from "styles/globalText.module.css";
 import React, { useEffect, useState } from "react";
 
 export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
-  const [flexDirection, setFlexDirection] = useState(direction);
+  // eslint-disable-next-line
+  const [flexDirection, setFlexDirection] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth <= 3756) {
+    if (window.innerWidth <= 375) {
       setFlexDirection("column");
     } else {
       setFlexDirection(direction);
@@ -21,7 +22,7 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
     >
       <div
         className={styles.info}
-        style={{ flexDirection }}
+        style={{ flexDirection: InfoSpacing }}
       >
         <img
           className={styles.img}
