@@ -37,7 +37,7 @@ export const Card = ({ image, title, rating, review }) => {
 
 const data = clientsList;
 
-const Carousel = ({ color }) => {
+const RattingCarousel = ({ color }) => {
   const [active, setActive] = useState(0);
   const count = data.length;
 
@@ -108,4 +108,4 @@ const Carousel = ({ color }) => {
   );
 };
 
-export default Carousel;
+export default RattingCarousel;

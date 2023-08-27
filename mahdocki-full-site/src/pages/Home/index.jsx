@@ -6,7 +6,7 @@ import Carrossel from "components/Carousel";
 import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import WeCover from "components/InfoSpacing/WeCover";
 import MainToppings from "components/InfoSpacing/MainToppings";
-import Carousel from "components/InfoSpacing/RattingCarousel";
+import RattingCarousel from "components/InfoSpacing/RattingCarousel";
 import NotCover from "components/InfoSpacing/NotCover";
 import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
 import TrackerPage from "components/InfoSpacing/TrackerPage";
@@ -59,7 +59,7 @@ export default function Home() {
           color='var(--cor-principal)'
           textColor='var(--branco)'
         />
-        <Carousel color='var(--branco-medio)' />
+        {/* <RattingCarousel color='var(--branco-medio)' /> */}
         <MainToppings
           h2='Rastreie sua frota de veículos'
           p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
@@ -78,10 +78,10 @@ export default function Home() {
           id='cover'
           className={styles.anchorOffset}
         />
-        <WeCover
+        {/* <WeCover
           cover='#652f9e'
           title='white'
-        />
+        /> */}
         <TrackerPage />
         <MainToppings
           h2='Por que contratar nossos serviços Mahdocki?'
