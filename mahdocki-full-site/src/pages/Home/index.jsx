@@ -16,13 +16,14 @@ import moto from "assets/images/motoImage.svg";
 export default function Home() {
   return (
     <>
-      <Banner
-        title={"Assistência 24 horas!"}
-        paragraph={
-          "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
-        }
-      />
-      <div style={{ display: "none" }}>
+      <div>
+        <Banner
+          title={"Assistência 24 horas!"}
+          paragraph={
+            "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
+          }
+        />
+
         <TitleParagraph
           title='Tenha o seu Serviço Auto online na palma da mão'
           paragraph='Aqui, dá pra fazer tudo 100% online sempre que precisar. Você
