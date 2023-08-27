@@ -18,7 +18,7 @@
 .carousel {
   height: 90px;
   .slick-list {
-    overflow: visible !important; /* Substitua 'visible' pelo valor desejado */
+    overflow: hidden !important; /* Substitua 'visible' pelo valor desejado */
   }
 }
 .card {
