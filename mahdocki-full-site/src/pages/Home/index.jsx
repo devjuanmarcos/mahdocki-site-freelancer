@@ -78,10 +78,10 @@ export default function Home() {
           id='cover'
           className={styles.anchorOffset}
         />
-        {/* <WeCover
+        <WeCover
           cover='#652f9e'
           title='white'
-        /> */}
+        />
         <TrackerPage />
         <MainToppings
           h2='Por que contratar nossos serviços Mahdocki?'

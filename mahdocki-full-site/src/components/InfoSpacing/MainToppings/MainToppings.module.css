@@ -38,6 +38,9 @@
     height: auto;
     text-align: center;
   }
+  .boxImage {
+    gap: 48px;
+  }
   .imgP img {
     width: 200px;
     height: auto;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import globalStyles from "styles/globalText.module.css";
-import "slick-carousel/slick/slick.css"; // Importe os estilos do carrossel
+import "../Carousel/slick.css"; // Importe os estilos do carrossel
 // import "slick-carousel/slick/slick-theme.css"; // Importe o tema do carrossel (opcional)
 import styles from "./Carousel.module.css"; // Importe seus estilos
 import MiniCard from "components/Card/MiniCard";
