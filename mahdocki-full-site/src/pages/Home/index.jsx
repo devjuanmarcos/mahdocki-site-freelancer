@@ -59,7 +59,7 @@ export default function Home() {
           color='var(--cor-principal)'
           textColor='var(--branco)'
         />
-        {/* <RattingCarousel color='var(--branco-medio)' /> */}
+        <RattingCarousel color='var(--branco-medio)' />
         <MainToppings
           h2='Rastreie sua frota de veículos'
           p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
