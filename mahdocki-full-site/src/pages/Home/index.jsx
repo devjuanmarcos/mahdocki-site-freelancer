@@ -15,7 +15,7 @@ import moto from "assets/images/motoImage.svg";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ display: "none" }}>
       <Banner
         title={"Assistência 24 horas!"}
         paragraph={
