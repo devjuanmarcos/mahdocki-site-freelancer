@@ -35,7 +35,40 @@
   margin: 0;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 360px) {
+  .container {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 310px;
+    padding: 0;
+    margin: 0;
+    .subtitle {
+      display: block;
+      width: 360px;
+    }
+    .parapgraph {
+      width: 300px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 361px) and (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
   .container {
     padding: 40px 0px;
