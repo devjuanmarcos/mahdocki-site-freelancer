@@ -1,9 +1,19 @@
 import Button from "components/Button";
 import styles from "./InfoSpacing.module.css";
 import globalStyles from "styles/globalText.module.css";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
+  const [flexDirection, setFlexDirection] = useState(direction);
+
+  useEffect(() => {
+    if (window.innerWidth <= 3756) {
+      setFlexDirection("column");
+    } else {
+      setFlexDirection(direction);
+    }
+  }, [direction]);
+
   return (
     <div
       className={styles.container}
@@ -11,7 +21,7 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
     >
       <div
         className={styles.info}
-        style={{ flexDirection: direction }}
+        style={{ flexDirection }}
       >
         <img
           className={styles.img}

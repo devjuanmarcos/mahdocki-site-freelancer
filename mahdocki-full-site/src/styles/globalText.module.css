@@ -92,14 +92,15 @@
 }
 @media (max-width: 375px) {
   /* Estilos para telas menores, como smartphones */
-  .globalH2 {
-    max-width: 200px;
-  }
-  .globalP {
-    max-width: 600px;
-  }
-  .globalPBig {
-    max-width: 300px;
+  .globalH4,
+  .globalH3,
+  .globalH2,
+  .globalH1,
+  .globalP,
+  .globalP2,
+  .globalPBig,
+  .obs {
+    max-width: 340px;
     text-align: center;
   }
 }

@@ -12,7 +12,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 export default function Rodape() {
   return (
     <>
-      <div className={styles.shape}>
+      {/* <div className={styles.shape}>
         <svg
           data-name='Layer 1'
           xmlns='http://www.w3.org/2000/svg'
@@ -94,7 +94,7 @@ export default function Rodape() {
             </ul>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

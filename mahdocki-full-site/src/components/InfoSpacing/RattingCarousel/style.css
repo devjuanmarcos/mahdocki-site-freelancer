@@ -99,11 +99,12 @@
 }
 
 .nav.left {
+  left: 60px;
   transform: translateX(-100%) translateY(-50%);
 }
 
 .nav.right {
-  right: 0;
+  right: 60px;
   transform: translateX(100%) translateY(-50%);
 }
 

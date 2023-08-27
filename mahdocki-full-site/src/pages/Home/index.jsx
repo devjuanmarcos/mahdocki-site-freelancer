@@ -3,7 +3,7 @@ import Banner from "components/Banner/Main";
 import TitleParagraph from "components/InfoSpacing/TitleParagraph";
 import styles from "./Home.module.css";
 import Carrossel from "components/Carousel";
-import InfoSpacing from "components/InfoSpacing";
+import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import WeCover from "components/InfoSpacing/WeCover";
 import MainToppings from "components/InfoSpacing/MainToppings";
 import Carousel from "components/InfoSpacing/RattingCarousel";
@@ -12,7 +12,6 @@ import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
 import TrackerPage from "components/InfoSpacing/TrackerPage";
 import Transparency from "components/InfoSpacing/Transparency";
 import moto from "assets/images/motoImage.svg";
-import SeeToo from "components/InfoSpacing/Promo";
 
 export default function Home() {
   return (

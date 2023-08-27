@@ -5,7 +5,7 @@ import Button from "components/Button";
 import cards from "assets/Json/geral.json";
 import MiniCard from "components/Card/MiniCard";
 
-export default function WeCover({ cover, title, paragraph }) {
+export default function WeCover({ cover, title }) {
   return (
     <div style={{ backgroundColor: cover }}>
       <div className={styles.container}>

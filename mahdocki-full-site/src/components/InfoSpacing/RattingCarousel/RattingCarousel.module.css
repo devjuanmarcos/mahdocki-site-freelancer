@@ -20,3 +20,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media (max-width: 375px) {
+  .image {
+    display: none;
+  }
+}

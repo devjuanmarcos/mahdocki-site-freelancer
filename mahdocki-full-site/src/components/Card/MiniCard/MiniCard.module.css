@@ -32,3 +32,8 @@
   aspect-ratio: auto 92 / 69;
   height: 99px;
 }
+
+@media (max-width: 375px) {
+  .miniCard {
+  }
+}

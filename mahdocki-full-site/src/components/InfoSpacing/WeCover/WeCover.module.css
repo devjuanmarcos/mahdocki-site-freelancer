@@ -14,3 +14,10 @@
   grid-gap: 28px 5px;
   padding-bottom: 30px;
 }
+
+@media (max-width: 375px) {
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
