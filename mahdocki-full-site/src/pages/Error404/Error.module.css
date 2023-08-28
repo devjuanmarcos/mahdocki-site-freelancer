@@ -10,7 +10,7 @@
   max-width: 1400px;
 }
 .image {
-  width: 600px;
+  width: 400px;
   padding-block: 30px;
 }
 
@@ -21,15 +21,6 @@
   align-items: center;
 }
 
-.title {
-  color: var(--branco);
-  text-align: center;
-  font-size: 50px;
-  font-weight: 1000;
-  line-height: 48px;
-  margin-bottom: 20px;
-}
-
 .paragraph {
   font-size: 24px;
   line-height: 32px;
@@ -38,4 +29,15 @@
   text-align: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 414px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    width: 200px;
+    height: auto;
+  }
 }
