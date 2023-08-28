@@ -34,6 +34,7 @@ const Carrossel = ({ title, paragraph, color }) => {
     autoplay: true,
     autoplaySpeed: 0,
     speed: 8000, // Velocidade da transição
+    maxSpeed: 8000,
     slidesToShow: slidesToShow, // Usando o valor calculado aqui
     slidesToScroll: 1,
     cssEase: "linear",

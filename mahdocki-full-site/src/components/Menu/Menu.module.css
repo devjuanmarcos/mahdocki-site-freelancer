@@ -14,6 +14,59 @@
   box-sizing: inherit;
 }
 
+.button {
+  transform: scale(var(--ggs, 1));
+  color: var(--branco);
+}
+
+.button,
+.button::after,
+.button::before {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor;
+}
+
+.button::after,
+.button::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+}
+
+.button::after {
+  top: 6px;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+#infoTab {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  overflow: scroll;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -41,8 +94,16 @@
   margin: 0;
 }
 
+.mainRoutesResp {
+  display: none;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 100%;
+  margin: 0;
+}
 .image {
-  max-width: 60px;
+  max-width: 50px;
   margin-bottom: 8px;
   margin-left: -80px;
 }
@@ -50,7 +111,9 @@
 @media (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
   .image {
-    visibility: hidden;
+    max-width: 60px;
+    margin-left: 0px;
+    padding-top: 8px;
   }
 
   .mainRoutes {
