@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import stylesMenu from "./StickyMenu.module.css";
-import Menu from "components/Menu";
+import Menu from "components/Menu/Menu";
 
 export default function StickyMenu() {
   const [isSticky, setIsSticky] = useState(false);

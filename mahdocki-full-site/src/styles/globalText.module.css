@@ -41,6 +41,19 @@
   line-height: 35px;
 }
 
+/* Para header */
+.globalHeader {
+  font-family: var(--fonte-principal);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--branco);
+}
+
 /* para subtítulos  */
 .globalP {
   width: 700px;
