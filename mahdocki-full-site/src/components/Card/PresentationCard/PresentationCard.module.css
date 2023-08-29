@@ -122,9 +122,11 @@
   }
   .content {
     width: 80%;
+    justify-content: center;
+    align-items: center;
   }
   .images {
-    width: 200px;
+    display: none;
   }
   .card {
     justify-content: center;

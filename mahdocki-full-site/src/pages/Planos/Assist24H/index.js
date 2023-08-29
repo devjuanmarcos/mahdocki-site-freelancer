@@ -1,4 +1,5 @@
 import styles from "./Assist24H.module.css";
+
 import globalStyles from "styles/globalText.module.css";
 import React from "react";
 import geral from "assets/Json/assist.json";
@@ -20,7 +21,11 @@ export default function Assist24H() {
         />
       </div>
 
-      <PresentationCard databaseInfo={geral} />
+      <PresentationCard
+        databaseInfo={geral}
+        title='Projetado diversos serviços para oferecer suporte em várias situações
+          de emergência:'
+      />
       <SeeToo />
     </div>
   );

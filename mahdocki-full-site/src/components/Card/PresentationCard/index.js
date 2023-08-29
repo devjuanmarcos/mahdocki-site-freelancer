@@ -12,10 +12,10 @@ export const CardModelList = ({
 }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <h1 className={globalStyles.globalH5}>{name}</h1>
         <p className={globalStyles.globalP3}>{paragraph}</p>
-      </div>
+      </div> */}
       <div
         className={styles.content}
         style={{ flexDirection: flexDirection }}
@@ -37,13 +37,15 @@ export const CardModelList = ({
   );
 };
 
-export default function PresentationCard({ databaseInfo }) {
+export default function PresentationCard({ databaseInfo, title }) {
   return (
     <>
       <div className={styles.cardBase}>
-        <h1 className={globalStyles.cardTitle}>
-          Projetado diversos serviços para oferecer suporte em várias situações
-          de emergência:
+        <h1
+          className={globalStyles.globalH1}
+          style={{ color: "var(--roxo-escuro)", maxWidth: "800px" }}
+        >
+          {title}
         </h1>
       </div>
       <div className={styles.main}>
