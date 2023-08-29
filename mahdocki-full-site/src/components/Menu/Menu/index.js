@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styles from "./Menu.module.css";
 import globalStyles from "styles/globalText.module.css";
 
-import MenuLink from "../MenuLink";
-import MenuInfo from "../MenuInfo";
+import MenuLink from "components/Menu/MenuLink";
+import MenuInfo from "components/Menu/MenuInfo";
 import logoMain from "assets/images/logoMain.png";
 
 export default function Menu() {
