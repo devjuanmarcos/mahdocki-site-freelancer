@@ -41,6 +41,15 @@
   line-height: 35px;
 }
 
+.globalH5 {
+  font-family: var(--fonte-alternativa);
+  color: var(--cinza);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--cor-principal);
+}
+
 /* Para header */
 .globalHeader {
   font-family: var(--fonte-principal);
@@ -117,8 +126,22 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
+.globalP3 {
+  padding-top: 0;
+  margin-bottom: -8px;
+  font-family: var(--fonte-alternativa);
+  color: var(--cor-principal);
+  font-size: 13.6px;
+  font-weight: 300;
+  max-width: 640px;
+  border-bottom: 1.6px solid #ced1d4;
+  text-align: center;
+  margin-inline: 0px;
+}
 @media (max-width: 414px) {
   /* Estilos para telas menores, como smartphones */
+  .globalH5,
   .globalH4,
   .globalH3,
   .globalH2,
@@ -126,6 +149,7 @@
   .cardTitle,
   .globalP,
   .globalP2,
+  .globalP3,
   .globalPBig,
   .globalPBanner,
   .obs {

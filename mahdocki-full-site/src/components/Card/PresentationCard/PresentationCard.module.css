@@ -108,3 +108,29 @@
   max-width: 640px;
   border-bottom: 1.6px solid #ced1d4;
 }
+
+@media (max-width: 414px) {
+  .container {
+    margin: 16px 0;
+    max-width: 100%;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .content {
+    width: 80%;
+  }
+  .images {
+    width: 200px;
+  }
+  .card {
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 247px;
+    padding: 10px;
+  }
+}

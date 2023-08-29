@@ -12,13 +12,9 @@ export const CardModelList = ({
 }) => {
   return (
     <div className={styles.container}>
-      <div className={`${styles.container} ${styles.above}`}>
-        <div className={styles.info}>
-          <h1 className={styles.titleP}>{name}</h1>
-        </div>
-        <div className={styles.list}>
-          <p className={styles.paragraphP}>{paragraph}</p>
-        </div>
+      <div className={styles.container}>
+        <h1 className={globalStyles.globalH5}>{name}</h1>
+        <p className={globalStyles.globalP3}>{paragraph}</p>
       </div>
       <div
         className={styles.content}
@@ -52,16 +48,14 @@ export default function PresentationCard({ databaseInfo }) {
       </div>
       <div className={styles.main}>
         {databaseInfo.map((item, id) => (
-          <div>
-            <CardModelList
-              key={id}
-              image={item.imagem}
-              name={item.nome}
-              desc={item.descricaoBanner}
-              flexDirection={item.id % 2 === 1 ? "row" : "row-reverse"}
-              paragraph={item.textoResolucao}
-            />
-          </div>
+          <CardModelList
+            key={id}
+            image={item.imagem}
+            name={item.nome}
+            desc={item.descricaoBanner}
+            flexDirection={item.id % 2 === 1 ? "row" : "row-reverse"}
+            paragraph={item.textoResolucao}
+          />
         ))}
       </div>
       <div style={{ marginBottom: "50px" }}>
