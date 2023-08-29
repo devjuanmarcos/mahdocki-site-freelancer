@@ -18,7 +18,7 @@ export default function MenuInfo({ goBack }) {
             children='Planos'
           />
           <MenuList
-            to={"/plans"}
+            to={"/assist"}
             children='Assistência técnica 24 horas'
           />
           <MenuList

@@ -1,4 +1,5 @@
 import styles from "./Assist24H.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 import geral from "assets/Json/assist.json";
 import SeeToo from "components/InfoSpacing/Promo";

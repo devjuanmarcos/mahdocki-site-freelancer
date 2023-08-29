@@ -54,6 +54,20 @@
   color: var(--branco);
 }
 
+.cardTitle {
+  color: var(--roxo-medio);
+  text-align: center;
+  max-width: 1000px;
+  word-spacing: 0;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: var(--fonte-alternativa);
+  border-top: 1.6px solid #ced1d4;
+  border-bottom: 1.6px solid #ced1d4;
+  border-left: 0px solid #ced1d4;
+  border-right: 0px solid #ced1d4;
+}
+
 /* para subtítulos  */
 .globalP {
   width: 700px;
@@ -109,9 +123,11 @@
   .globalH3,
   .globalH2,
   .globalH1,
+  .cardTitle,
   .globalP,
   .globalP2,
   .globalPBig,
+  .globalPBanner,
   .obs {
     width: 90%;
     text-align: center;

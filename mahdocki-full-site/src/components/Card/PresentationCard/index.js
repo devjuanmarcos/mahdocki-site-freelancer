@@ -1,5 +1,6 @@
 import Card from "..";
 import styles from "./PresentationCard.module.css";
+import globalStyles from "styles/globalText.module.css";
 import React from "react";
 
 export const CardModelList = ({
@@ -44,7 +45,7 @@ export default function PresentationCard({ databaseInfo }) {
   return (
     <>
       <div className={styles.cardBase}>
-        <h1 className={styles.title}>
+        <h1 className={globalStyles.cardTitle}>
           Projetado diversos serviços para oferecer suporte em várias situações
           de emergência:
         </h1>

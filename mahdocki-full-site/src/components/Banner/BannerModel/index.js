@@ -1,7 +1,7 @@
 import styles from "./Banner.module.css";
 import globalStyles from "styles/globalText.module.css";
 import React from "react";
-import Button from "components/Button";
+import Card from "components/Card";
 
 export default function BannerModel({ title, paragraph, image }) {
   return (
@@ -9,17 +9,14 @@ export default function BannerModel({ title, paragraph, image }) {
       <div className={styles.content}>
         <div className={styles.text}>
           <h1 className={globalStyles.globalH1}>{title}</h1>
-          <p className={globalStyles.globalPBanner}>{paragraph}</p>
+          <p
+            className={globalStyles.globalP}
+            style={{ color: "var(--branco)" }}
+          >
+            {paragraph}
+          </p>
           <div className={styles.cardCard}>
-            <div className={styles.contentCard}>
-              <b className={styles.textCard}>A partir de R$60,00 p/ mês</b>
-              <Button
-                children={"EU QUERO!"}
-                link={
-                  "https://www.youse.com.br/auto/order/10109bb7-6936-48a3-9918-148b5a502405?gclid=CjwKCAjw5remBhBiEiwAxL2M91iXBG7iFHPT2n2EaPEYS9HkJvhAVNU7iF5AzJTWUkM6sbN3jdW5KRoC0-AQAvD_BwE"
-                }
-              />
-            </div>
+            <Card children='Assistência automotiva a partir de R$ 60,00 /mês. Confira sem sair de casa!' />
           </div>
         </div>
         <div className={styles.images}>
