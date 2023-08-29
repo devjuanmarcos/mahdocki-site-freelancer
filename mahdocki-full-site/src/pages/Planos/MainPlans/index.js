@@ -4,6 +4,7 @@ import BannerModel from "components/Banner/BannerModel";
 import bannerImage from "assets/images/plansBannerImage (2).svg";
 import TopPlans from "components/InfoSpacing/TopPlans";
 import SeeToo from "components/InfoSpacing/Promo";
+import CustomizePlan from "components/InfoSpacing/CustomizePlan";
 
 export default function MainPlans() {
   return (
@@ -18,6 +19,7 @@ export default function MainPlans() {
         />
       </div>
       <TopPlans />
+      <CustomizePlan />
       <SeeToo />
     </div>
   );
