@@ -2,6 +2,7 @@ import styles from "./TopPlans.module.css";
 import globalStyles from "styles/globalText.module.css";
 
 import React from "react";
+import PricePlanCard from "components/Card/PricePlanCard";
 
 export default function TopPlans() {
   return (
@@ -11,7 +12,8 @@ export default function TopPlans() {
       </h1>
       <div className={styles.content}>
         <div className={styles.cardBox}></div>
-        <div className={styles.cardBox}></div>
+        <PricePlanCard />
+        <PricePlanCard />
         <div className={styles.cardBox}></div>
       </div>
     </div>

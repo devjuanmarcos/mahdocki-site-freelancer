@@ -1,4 +1,4 @@
-import Card from "..";
+import Card from "components/Card/Card";
 import styles from "./PresentationCard.module.css";
 import globalStyles from "styles/globalText.module.css";
 import React from "react";

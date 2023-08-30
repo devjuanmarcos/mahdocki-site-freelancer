@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Banner.module.css";
 import globalStyles from "styles/globalText.module.css";
 import AnimatedImage from "components/Car/AnimatedImage";
-import Card from "components/Card";
+import Card from "components/Card/Card";
 
 export default function Banner({ title, paragraph }) {
   return (
