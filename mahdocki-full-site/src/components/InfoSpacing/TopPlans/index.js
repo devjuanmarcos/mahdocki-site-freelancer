@@ -4,6 +4,8 @@ import globalStyles from "styles/globalText.module.css";
 import React from "react";
 import PricePlanCard from "components/Card/PricePlanCard";
 
+import plans from "assets/Json/plans.json";
+
 export default function TopPlans() {
   return (
     <div className={styles.container}>
@@ -11,10 +13,7 @@ export default function TopPlans() {
         Escolha seu plano de acordo com suas dependências
       </h1>
       <div className={styles.content}>
-        <div className={styles.cardBox}></div>
-        <PricePlanCard />
-        <PricePlanCard />
-        <div className={styles.cardBox}></div>
+        <PricePlanCard infos={plans} />
       </div>
     </div>
   );
