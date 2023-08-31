@@ -4,7 +4,39 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 560px;
+  height: auto;
   width: 964px;
-  background-color: var(--cor-principal);
+  border-top: 1px solid rgba(70, 81, 89, 0.25);
+}
+
+.imageSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 92px;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.titleCard {
+  margin-top: 20px;
+  width: 100%;
+
+  font-family: "FelbridgeProBold", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.descriptionActive {
 }
