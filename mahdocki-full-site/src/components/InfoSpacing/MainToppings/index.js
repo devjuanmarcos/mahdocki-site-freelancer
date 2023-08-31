@@ -18,7 +18,7 @@ export default function MainToppings({
   textColor,
 }) {
   return (
-    <div style={{ backgroundColor: color }}>
+    <div style={{ backgroundColor: color, width: "100%" }}>
       <div className={styles.container}>
         <h2
           className={globalStyles.globalH3}

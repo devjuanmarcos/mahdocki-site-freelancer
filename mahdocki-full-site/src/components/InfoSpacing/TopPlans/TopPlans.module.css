@@ -10,8 +10,16 @@
 
 .title {
   max-width: 800px;
+  text-align: center;
+  color: var(--branco);
 }
 
+.subtitle {
+  max-width: 800px;
+  text-align: center;
+  color: var(--branco);
+  margin-bottom: 50px;
+}
 .content {
 }
 
