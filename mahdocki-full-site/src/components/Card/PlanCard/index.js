@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./PlanCard.module.css";
 import image from "assets/images/street paid parking-bro.svg";
+import globalStyles from "styles/globalText.module.css";
 
 const PlanCard = ({ plan, onServiceToggle, onPlanToggle }) => {
   const isSelected = plan.services.every((service) => service.selected);
@@ -16,61 +17,59 @@ const PlanCard = ({ plan, onServiceToggle, onPlanToggle }) => {
           />
         </div>
         <div className={styles.content}>
-          <h3 className={styles.titleCard}>{plan.name}</h3>
-          <div className='select-all'>
-            <input
-              type='checkbox'
-              checked={isSelected}
-              onChange={() => onPlanToggle(plan.id, isSelected)}
-            />
-            Selecionar todos os serviços
+          <div
+            className={styles.cardModel}
+            checked={isSelected}
+            onClick={() => onPlanToggle(plan.id, isSelected)}
+          >
+            <h3 className={`${globalStyles.globalH3} ${styles.title}`}>
+              {plan.name}
+            </h3>
+            <div className='select-all'>
+              <input
+                type='checkbox'
+                checked={isSelected}
+                onChange={() => onPlanToggle(plan.id, isSelected)}
+              />
+            </div>
           </div>
+
           <div className={styles.descriptionActive}>
             <a href='none'>
-              ▼<span> Mostrar detalhes dos serviços da cobertura </span>
-              <span></span>
+              ▼
+              <span style={{ display: "none" }}>
+                {" "}
+                Mostrar detalhes dos serviços da cobertura{" "}
+              </span>
+              <span> Ocultar detalhes dos serviços da cobertura </span>
             </a>
-            {plan.services.map((service) => (
-              <div
-                key={service.id}
-                className='service-item'
-              >
-                {service.name}
-                <h3 className={styles.titleCard}>{service.description}</h3>
-                <input
-                  type='checkbox'
-                  checked={service.selected}
-                  onChange={() => onServiceToggle(plan.id, service.id)}
-                />
-              </div>
-            ))}
+
+            <ul style={{ display: "", margin: "20px 0px" }}>
+              {plan.services.map((service) => (
+                <li
+                  key={service.id}
+                  className={styles.serviceItem}
+                >
+                  <label htmlFor={`service-${service.id}`}>
+                    <div className={styles.cardModel}>
+                      <h3 className={globalStyles.globalH4}>{service.name}</h3>
+                      <input
+                        type='checkbox'
+                        id={`service-${service.id}`}
+                        checked={service.selected}
+                        onChange={() => onServiceToggle(plan.id, service.id)}
+                      />
+                    </div>
+                    <h3 className={`${globalStyles.globalP} ${styles.title}`}>
+                      {service.description}
+                    </h3>
+                  </label>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
-      {/* <div className='plan-card'>
-        <h3>{plan.name}</h3>
-        {plan.services.map((service) => (
-          <div
-            key={service.id}
-            className='service-item'
-          >
-            <input
-              type='checkbox'
-              checked={service.selected}
-              onChange={() => onServiceToggle(plan.id, service.id)}
-            />
-            {service.name}
-          </div>
-        ))}
-        <div className='select-all'>
-          <input
-            type='checkbox'
-            checked={isSelected}
-            onChange={() => onPlanToggle(plan.id, isSelected)}
-          />
-          Selecionar todos os serviços
-        </div>
-      </div> */}
     </>
   );
 };

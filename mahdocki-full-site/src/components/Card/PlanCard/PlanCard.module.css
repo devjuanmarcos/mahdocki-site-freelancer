@@ -1,12 +1,13 @@
 .planCard {
-  padding: 10px 70px 0px 20px;
+  padding: 30px 70px 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: auto;
   width: 964px;
-  border-top: 1px solid rgba(70, 81, 89, 0.25);
+  border-top: 3px solid rgba(70, 81, 89, 0.25);
+  user-select: none;
 }
 
 .imageSpace {
@@ -29,14 +30,30 @@
   padding-left: 16px;
 }
 
-.titleCard {
-  margin-top: 20px;
+.cardModel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
-
-  font-family: "FelbridgeProBold", sans-serif;
-  font-size: 1.5rem;
   cursor: pointer;
 }
 
+.title {
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  justify-content: unset;
+}
+
 .descriptionActive {
+}
+
+.serviceItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid rgba(70, 81, 89, 0.25);
 }
