@@ -13,7 +13,7 @@ function PriceMap({ monthly, name, accession, link }) {
         <div className={styles.tuition}>
           <h3
             className={globalStyles.globalH3}
-            style={{ color: "var(--branco)", fontSize: "20px", margin: "0px" }}
+            style={{ color: "var(--branco)", fontSize: "16px", margin: "0px" }}
           >
             Mensalidade:
           </h3>
@@ -32,7 +32,7 @@ function PriceMap({ monthly, name, accession, link }) {
         <div className={styles.accession}>
           <h3
             className={globalStyles.globalH3}
-            style={{ color: "var(--branco)", fontSize: "20px", margin: "0px" }}
+            style={{ color: "var(--branco)", fontSize: "16px", margin: "0px" }}
           >
             Adesão:
           </h3>

@@ -5,10 +5,13 @@ import bannerImage from "assets/images/plansBannerImage (2).svg";
 import TopPlans from "components/InfoSpacing/TopPlans";
 import SeeToo from "components/InfoSpacing/Promo";
 import MainToppings from "components/InfoSpacing/MainToppings";
+import InfoSpacing from "components/InfoSpacing/InfoSpacing";
+import rent from "assets/images/Apartment rent-amico.svg";
+import truck from "assets/images/Free shipping-amico.svg";
 
 export default function MainPlans() {
   return (
-    <div className={styles.container}>
+    <>
       <div className={styles.banner}>
         <BannerModel
           image={bannerImage}
@@ -18,6 +21,14 @@ export default function MainPlans() {
           }
         />
       </div>
+      <InfoSpacing
+        direction='row-reverse'
+        src={rent}
+        h2='Menos de R$ 4,00 pra você ter seu amparo veicular'
+        p1='Oferecemos um serviço de amparo veicular completo por apenas R$ 119,90 mensais, ajudando você em qualquer tipo de situação nas estradas e rodovias.'
+        p2='Para verificar todas as funcionalidades do serviço basta preencher o formulário e aguardar a avaliação da proposta.'
+        color='var(--cinza-fundo)'
+      />
       <TopPlans />
       <MainToppings
         h2='Principais coberturas da Mahdocki'
@@ -34,7 +45,14 @@ export default function MainPlans() {
         color='var(--cinza-fundo)'
         textColor='var(--preto)'
       />
+      <InfoSpacing
+        src={truck}
+        h2='Faça a segurança da sua frota de veículos'
+        p1='Temos cotações especiais para empresas que desejam amparar veículos de todos os tipos, garantindo melhor resultado no desempenho do seu negócio.'
+        p2='Entre em contato conosco para verificar os melhores planos personalizados da nossa empresa.'
+        color='var(--cinza-fundo)'
+      />
       <SeeToo />
-    </div>
+    </>
   );
 }

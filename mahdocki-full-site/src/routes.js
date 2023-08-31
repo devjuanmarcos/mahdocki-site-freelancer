@@ -9,6 +9,7 @@ import Tracker from "pages/Planos/Tracker";
 import ReadyAnswer from "pages/Planos/ReadyAnswer";
 import MainPlans from "pages/Planos/MainPlans";
 import Error404 from "pages/Error404";
+import CustomPlan from "pages/Planos/CustomPlan";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -56,6 +57,10 @@ export default function AppRoutes() {
           <Route
             path='readyanswer'
             element={<ReadyAnswer />}
+          />
+          <Route
+            path='custom'
+            element={<CustomPlan />}
           />
           <Route
             path='posts/:id/*'

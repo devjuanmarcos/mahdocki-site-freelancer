@@ -27,6 +27,7 @@ export default function Menu() {
                 ></img>
                 <MenuLink to={"/"}>MAHDOCKI</MenuLink>
                 <MenuLink to={"/plans"}>PLANOS</MenuLink>
+                <MenuLink to={"/custom"}>MONTE SEU PLANO</MenuLink>
                 <MenuLink to={"/assist"}>ASSISTÊNCIA 24 HORAS</MenuLink>
                 <MenuLink to={"/tracker"}>RASTREADOR</MenuLink>
                 <MenuLink to={"/readyanswer"}>PRONTA RESPOSTA</MenuLink>
