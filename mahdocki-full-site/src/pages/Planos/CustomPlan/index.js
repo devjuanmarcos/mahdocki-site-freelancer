@@ -46,7 +46,7 @@ function CustomPlan() {
       <div style={{ marginBottom: "140px", width: "100%" }}>
         <BannerModel />
       </div>
-      <div className='App'>
+      <div style={{ marginBottom: "3000px" }}>
         {plans.map((plan) => (
           <PlanCard
             key={plan.id}

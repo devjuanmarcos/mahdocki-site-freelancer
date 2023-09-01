@@ -12,7 +12,7 @@ const PlanCard = ({ plan, onServiceToggle, onPlanToggle }) => {
     setExpanded(!expanded);
   };
   return (
-    <>
+    <div style={{ display: "block" }}>
       <div className={styles.planCard}>
         <div className={styles.imageSpace}>
           <img
@@ -85,7 +85,7 @@ const PlanCard = ({ plan, onServiceToggle, onPlanToggle }) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
