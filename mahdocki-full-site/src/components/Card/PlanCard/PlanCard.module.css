@@ -35,12 +35,10 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  cursor: pointer;
 }
 
 .title {
   width: 100%;
-  cursor: pointer;
   text-align: left;
   justify-content: unset;
 }
@@ -56,4 +54,36 @@
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 1px solid rgba(70, 81, 89, 0.25);
+}
+
+.cardDescription {
+  color: var(--branco);
+  max-height: 0;
+  text-align: center;
+  padding-top: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+}
+
+.expanded .cardDescription {
+  max-height: 1000px; /* Ou outro valor grande o suficiente */
+  transition: max-height 3000ms ease-in-out;
+  margin-block-end: 10px;
+}
+
+.show {
+  max-height: 1000px; /* Ou outro valor grande o suficiente */
+  transition: max-height 3000ms ease-in-out;
+}
+
+.spanVisible {
+  display: visible;
+  cursor: pointer;
+}
+
+.spanHidden {
+  display: none;
+  cursor: pointer;
 }

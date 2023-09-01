@@ -13,8 +13,7 @@ export default function WeCover({ cover, title }) {
           className={globalStyles.globalH3}
           style={{ color: title }}
         >
-          {" "}
-          O que cobrimos?{" "}
+          O que cobrimos?
         </h1>
         <p
           className={globalStyles.globalP}
