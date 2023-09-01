@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import PlanCard from "components/Card/PlanCard";
 import plansData from "./data";
 import styles from "./CustomPlan.module.css";
-import BannerModel from "components/Banner/BannerModel";
 
 function CustomPlan() {
   const [plans, setPlans] = useState(plansData);
@@ -42,21 +41,25 @@ function CustomPlan() {
   };
 
   return (
-    <div className={styles.container}>
-      <div style={{ marginBottom: "140px", width: "100%" }}>
-        <BannerModel />
-      </div>
-      <div style={{ marginBottom: "3000px" }}>
-        {plans.map((plan) => (
-          <PlanCard
-            key={plan.id}
-            plan={plan}
-            onServiceToggle={toggleService}
-            onPlanToggle={togglePlan}
-          />
-        ))}
-      </div>
-    </div>
+    <>
+      <section className={styles.cardCustomPlan}>
+        <div className={styles.cardSelect}>
+          {plans.map((plan) => (
+            <PlanCard
+              key={plan.id}
+              plan={plan}
+              onServiceToggle={toggleService}
+              onPlanToggle={togglePlan}
+            />
+          ))}
+        </div>
+      </section>
+      <section className={styles.cardValue}>
+        <div className={styles.cVContent}>
+          <div className={styles.apagarDepois}></div>
+        </div>
+      </section>
+    </>
   );
 }
 

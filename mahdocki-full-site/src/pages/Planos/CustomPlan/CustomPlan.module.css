@@ -1,7 +1,41 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.cardCustomPlan {
+  display: inline-block;
+  float: left;
+  width: 66.5%;
+  max-width: none;
+  padding-bottom: 0;
+}
+
+.cardSelect {
+  box-sizing: inherit;
+  /* display: block;
+  min-width: 80%; */
+}
+
+.cardValue {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 66.5%;
+  display: block;
+  width: 30%;
+  height: auto;
+  min-height: 100vh;
+  padding: 5px 20px;
+  background: linear-gradient(
+    -135deg,
+    var(--roxo-escuro) 0%,
+    var(--roxo-escuro-full) 100%
+  );
+}
+
+.cVContent {
+  display: block;
+  margin-top: 40%;
+  width: auto;
+  height: 300px;
+  background-color: black;
+}
+
+.apagarDepois {
 }

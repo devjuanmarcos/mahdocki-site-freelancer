@@ -9,6 +9,7 @@ const plans = [
         name: "Serviço 1",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -16,6 +17,7 @@ const plans = [
         name: "Serviço 2",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -23,6 +25,7 @@ const plans = [
         name: "Serviço 3",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -30,6 +33,7 @@ const plans = [
         name: "Serviço 4",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -37,6 +41,7 @@ const plans = [
         name: "Serviço 5",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
     ],
@@ -50,6 +55,7 @@ const plans = [
         name: "Serviço 6",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -57,6 +63,7 @@ const plans = [
         name: "Serviço 7",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -64,6 +71,7 @@ const plans = [
         name: "Serviço 8",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -71,6 +79,7 @@ const plans = [
         name: "Serviço 9",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -78,6 +87,7 @@ const plans = [
         name: "Serviço 10",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
     ],
@@ -91,6 +101,7 @@ const plans = [
         name: "Serviço 11",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -98,6 +109,7 @@ const plans = [
         name: "Serviço 12",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -105,6 +117,7 @@ const plans = [
         name: "Serviço 13",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -112,6 +125,7 @@ const plans = [
         name: "Serviço 14",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
       {
@@ -119,6 +133,7 @@ const plans = [
         name: "Serviço 15",
         description:
           "Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.",
+        value: 19.99,
         selected: false,
       },
     ],
