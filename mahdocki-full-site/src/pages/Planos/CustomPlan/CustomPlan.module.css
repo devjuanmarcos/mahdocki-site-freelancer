@@ -18,7 +18,7 @@
   bottom: 0;
   left: 66.5%;
   display: block;
-  width: 30%;
+  width: 31%;
   height: auto;
   min-height: 100vh;
   padding: 5px 20px;
@@ -29,13 +29,98 @@
   );
 }
 
-.cVContent {
-  display: block;
+.contentBase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.valueCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   margin-top: 40%;
-  width: auto;
-  height: 300px;
-  background-color: black;
+  max-width: 100%;
+  border-radius: 12px;
+  background-color: var(--cor-principal);
 }
 
-.apagarDepois {
+.valueCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  max-width: 100%;
+  height: 100%;
+  gap: 16px;
+  padding: 15px 8px;
+  margin: 0 29px;
+}
+
+.apresentation {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  justify-content: center;
+  align-items: flex;
+}
+
+.imageTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  .image {
+    width: 72px;
+  }
+}
+
+.quantInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+  color: var(--branco);
+  .quant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .quantJust {
+      display: flex;
+      flex-direction: row;
+    }
+    .paragraph {
+      width: 100%;
+    }
+  }
+}
+
+.priceCard {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: var(--roxo-escuro);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--branco);
+
+  .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .scratched {
+    text-decoration: line-through;
+  }
+  .originalValue {
+    font-size: 32px;
+  }
 }
