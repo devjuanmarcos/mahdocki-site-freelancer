@@ -4,7 +4,6 @@ import plansData from "./data";
 import styles from "./CustomPlan.module.css";
 import globalStyles from "styles/globalText.module.css";
 import imageTitle from "assets/images/Free shipping-amico.svg";
-import { GlobalStyles } from "@mui/material";
 
 function CustomPlan() {
   const [plans, setPlans] = useState(plansData);
@@ -41,6 +40,28 @@ function CustomPlan() {
       )
     );
   };
+
+  const getSelectedServices = () => {
+    const selectedServices = [];
+
+    plans.forEach((plan) => {
+      plan.services.forEach((service) => {
+        if (service.selected) {
+          selectedServices.push(service);
+        }
+      });
+    });
+
+    return selectedServices;
+  };
+
+  const selectedServices = getSelectedServices();
+  const numberOfSelectedServices = selectedServices.length;
+  // Calcular a soma dos valores dos serviços selecionados
+  const totalValueOfSelectedServices = selectedServices.reduce(
+    (total, service) => total + service.value,
+    0
+  );
 
   return (
     <>
@@ -100,10 +121,13 @@ function CustomPlan() {
                     <h3>,00</h3>
                   </div>
                 </div>
-                <div className={GlobalStyles.globalP}>
+                <p
+                  className={globalStyles.globalPBig}
+                  style={{ width: "100%", color: "var(--branco)" }}
+                >
                   Teste texto para inclusão dos planos, Teste texto para
-                  inclusão dos planos, Teste texto para inclusão dos planos,{" "}
-                </div>
+                  inclusão dos planos, Teste texto para inclusão dos planos,
+                </p>
               </div>
               <div className={styles.priceCard}>
                 <div style={{ display: "flex", alignItems: "center" }}>
@@ -121,6 +145,21 @@ function CustomPlan() {
           </div>
         </div>
       </section>
+      {/* Exibe os serviços selecionados */}
+      <div>
+        <h3>Número de Serviços Selecionados: {numberOfSelectedServices}</h3>
+        <h3>
+          Valor Total dos Serviços Selecionados: R${" "}
+          {totalValueOfSelectedServices.toFixed(2)}
+        </h3>
+
+        <h3>Serviços Selecionados:</h3>
+        <ul>
+          {selectedServices.map((service) => (
+            <li key={service.id}>{service.name}</li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }
