@@ -69,12 +69,14 @@
 
 .imageTitle {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   width: 100%;
   .image {
-    width: 72px;
+    margin-top: -70px;
+    width: 120px;
   }
 }
 

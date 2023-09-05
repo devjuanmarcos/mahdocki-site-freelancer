@@ -3,6 +3,7 @@ import PlanCard from "components/Card/PlanCard";
 import plansData from "./data";
 import styles from "./CustomPlan.module.css";
 import globalStyles from "styles/globalText.module.css";
+// eslint-disable-next-line
 import imageTitle from "assets/images/Free shipping-amico.svg";
 
 function CustomPlan() {
@@ -62,6 +63,7 @@ function CustomPlan() {
     (total, service) => total + service.value,
     0
   );
+  const oldValueOfSelectedServices = totalValueOfSelectedServices * 1.2;
 
   return (
     <>
@@ -112,21 +114,28 @@ function CustomPlan() {
               <div className={styles.quantInfo}>
                 <div className={styles.quant}>
                   <div className={styles.quantJust}>
-                    <h3>7</h3>
+                    <h3>{numberOfSelectedServices}</h3>
                     <h3 style={{ marginLeft: "4px" }}>Coberturas</h3>
                   </div>
                   <div className={styles.quantJust}>
-                    <h3>R$</h3>
-                    <h3>900</h3>
-                    <h3>,00</h3>
+                    <h3>{"R$"}</h3>
+                    <h3> {totalValueOfSelectedServices.toFixed(2)}</h3>
                   </div>
                 </div>
                 <p
                   className={globalStyles.globalPBig}
-                  style={{ width: "100%", color: "var(--branco)" }}
+                  style={{
+                    width: "100%",
+                    whiteSpace: "normal",
+                    color: "var(--branco)",
+                  }}
                 >
-                  Teste texto para inclusão dos planos, Teste texto para
-                  inclusão dos planos, Teste texto para inclusão dos planos,
+                  {selectedServices.map((service, index) => (
+                    <span key={service.id}>
+                      {service.name}
+                      {index === selectedServices.length - 1 ? "." : ", "}
+                    </span>
+                  ))}
                 </p>
               </div>
               <div className={styles.priceCard}>
@@ -134,8 +143,16 @@ function CustomPlan() {
                   TOTAL
                 </div>
                 <div className={styles.prices}>
-                  <h3 className={styles.scratched}>R$ 9999,99</h3>
-                  <h3 className={styles.originalValue}>R$ 9999,99</h3>
+                  {oldValueOfSelectedServices > 0 ? (
+                    <h3 className={styles.scratched}>
+                      R$ {oldValueOfSelectedServices.toFixed(2)}
+                    </h3>
+                  ) : (
+                    ""
+                  )}
+                  <h3 className={styles.originalValue}>
+                    R$ {totalValueOfSelectedServices.toFixed(2)}
+                  </h3>
                 </div>
               </div>
               <h3 style={{ color: "var(--branco)", textAlign: "center" }}>
@@ -145,21 +162,6 @@ function CustomPlan() {
           </div>
         </div>
       </section>
-      {/* Exibe os serviços selecionados */}
-      <div>
-        <h3>Número de Serviços Selecionados: {numberOfSelectedServices}</h3>
-        <h3>
-          Valor Total dos Serviços Selecionados: R${" "}
-          {totalValueOfSelectedServices.toFixed(2)}
-        </h3>
-
-        <h3>Serviços Selecionados:</h3>
-        <ul>
-          {selectedServices.map((service) => (
-            <li key={service.id}>{service.name}</li>
-          ))}
-        </ul>
-      </div>
     </>
   );
 }
