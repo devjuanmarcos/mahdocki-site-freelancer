@@ -14,6 +14,10 @@ export default function MenuInfo({ goBack }) {
           onClick={goBack}
         >
           <MenuList
+            to={"/custom"}
+            children='Plano customizado'
+          />
+          <MenuList
             to={"/plans"}
             children='Planos'
           />
