@@ -1,7 +1,7 @@
 import styles from "./Banner.module.css";
 import globalStyles from "styles/globalText.module.css";
 import React from "react";
-import Card from "components/Card/Card";
+import Card from "components/Card/Card/index";
 
 export default function BannerModel({ title, paragraph, image }) {
   return (

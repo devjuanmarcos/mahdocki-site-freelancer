@@ -57,13 +57,29 @@ function CustomPlan() {
   };
 
   const selectedServices = getSelectedServices();
+  const selectedServicesWpp = getSelectedServices(); // Obtenha os serviços selecionados
+  const serviceNames = selectedServicesWpp.map((service) => service.name); // Obtenha os nomes dos serviços
+  const servicesString = serviceNames.join(", "); // Una os nomes dos serviços em uma string
   const numberOfSelectedServices = selectedServices.length;
-  // Calcular a soma dos valores dos serviços selecionados
   const totalValueOfSelectedServices = selectedServices.reduce(
+    // Calcular a soma dos valores dos serviços selecionados
     (total, service) => total + service.value,
     0
   );
   const oldValueOfSelectedServices = totalValueOfSelectedServices * 1.2;
+
+  // Construção de mensagem por link para whatsapp
+
+  const mensage = `Ola, como vai? Fiz uma cotação personalizada no site Mahdocki e gostaria de mais informações. 
+  Segue abaixo os serviços que selecionei: 
+  ${servicesString}
+  `;
+
+  const codifyMensage = encodeURIComponent(mensage);
+
+  const numberWpp = "5524981319462";
+  const linkWpp = `https://wa.me/${numberWpp}/?text=${codifyMensage}`;
+  console.log(linkWpp);
 
   return (
     <>
@@ -110,6 +126,13 @@ function CustomPlan() {
                 >
                   Plano personalizado
                 </h3>
+                <a
+                  href={linkWpp}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Clique aqui para abrir no WhatsApp
+                </a>
               </div>
               <div className={styles.quantInfo}>
                 <div className={styles.quant}>
