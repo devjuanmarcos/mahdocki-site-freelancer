@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import PlanCard from "components/Card/PlanCard";
 import plansData from "./data";
 import styles from "./CustomPlan.module.css";
+import styles2 from "./CustomPlan2.module.css";
 import globalStyles from "styles/globalText.module.css";
 // eslint-disable-next-line
 import imageTitle from "assets/images/Free shipping-amico.svg";
+import Button from "components/Button";
 
 function CustomPlan() {
   const [plans, setPlans] = useState(plansData);
@@ -71,7 +73,7 @@ function CustomPlan() {
   // Construção de mensagem por link para whatsapp
 
   const mensage = `Ola, como vai? Fiz uma cotação personalizada no site Mahdocki e gostaria de mais informações. 
-  Segue abaixo os serviços que selecionei: 
+  Segue os serviços que selecionei: 
   ${servicesString}
   `;
 
@@ -84,6 +86,81 @@ function CustomPlan() {
   return (
     <>
       <section className={styles.cardCustomPlan}>
+        <div className={styles2.cardValue}>
+          <div className={styles2.contentBase}>
+            <div className={styles2.valueCard}>
+              <div className={styles2.valueCardContent}>
+                <div className={styles2.imageTitle}>
+                  <img
+                    className={styles2.image}
+                    src={imageTitle}
+                    alt='none'
+                  />
+                  <h3
+                    className={globalStyles.globalH3}
+                    style={{ color: "var(--branco) ", fontSize: "24px" }}
+                  >
+                    Plano personalizado
+                  </h3>
+                </div>
+                <div className={styles2.quantInfo}>
+                  <div className={styles2.quant}>
+                    <div className={styles2.quantJust}>
+                      <h3>{numberOfSelectedServices}</h3>
+                      <h3 style={{ marginLeft: "4px" }}>Coberturas</h3>
+                    </div>
+                    <div className={styles2.quantJust}>
+                      <h3>{"R$"}</h3>
+                      <h3> {totalValueOfSelectedServices.toFixed(2)}</h3>
+                    </div>
+                  </div>
+                  <p
+                    className={globalStyles.globalPBig}
+                    style={{
+                      width: "100%",
+                      whiteSpace: "normal",
+                      color: "var(--branco)",
+                    }}
+                  >
+                    {selectedServices.map((service, index) => (
+                      <span key={service.id}>
+                        {service.name}
+                        {index === selectedServices.length - 1 ? "." : ", "}
+                      </span>
+                    ))}
+                  </p>
+                </div>
+                <div className={styles2.priceCard}>
+                  <div style={{ display: "flex", alignItems: "center" }}>
+                    TOTAL
+                  </div>
+                  <div className={styles2.prices}>
+                    {oldValueOfSelectedServices > 0 ? (
+                      <h3 className={styles2.scratched}>
+                        R$ {oldValueOfSelectedServices.toFixed(2)}
+                      </h3>
+                    ) : (
+                      ""
+                    )}
+                    <h3 className={styles2.originalValue}>
+                      R$ {totalValueOfSelectedServices.toFixed(2)}
+                    </h3>
+                  </div>
+                </div>
+                <h3 className={styles2.colorAlign}>
+                  Planos personalizados contam com uma taxa de adesão de
+                  R$120,00
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className={styles2.button}>
+            <Button
+              link={linkWpp}
+              children='CONCLUIR'
+            />
+          </div>
+        </div>
         <div className={styles.apresentation}>
           <h1
             className={globalStyles.globalH1}
@@ -126,13 +203,6 @@ function CustomPlan() {
                 >
                   Plano personalizado
                 </h3>
-                <a
-                  href={linkWpp}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Clique aqui para abrir no WhatsApp
-                </a>
               </div>
               <div className={styles.quantInfo}>
                 <div className={styles.quant}>
@@ -178,11 +248,17 @@ function CustomPlan() {
                   </h3>
                 </div>
               </div>
-              <h3 style={{ color: "var(--branco)", textAlign: "center" }}>
+              <h3 className={styles.colorAlign}>
                 Planos personalizados contam com uma taxa de adesão de R$120,00
               </h3>
             </div>
           </div>
+        </div>
+        <div className={styles.button}>
+          <Button
+            link={linkWpp}
+            children='CONCLUIR'
+          />
         </div>
       </section>
     </>
