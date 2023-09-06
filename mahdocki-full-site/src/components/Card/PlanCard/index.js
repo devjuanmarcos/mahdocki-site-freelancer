@@ -68,7 +68,11 @@ const PlanCard = ({ plan, onServiceToggle, onPlanToggle }) => {
                 >
                   <label htmlFor={`service-${service.id}`}>
                     <div className={styles.cardModel}>
-                      <h3 className={globalStyles.globalH4}>{service.name}</h3>
+                      <h3
+                        className={`${globalStyles.globalH4} ${styles.listTitles}`}
+                      >
+                        {service.name}
+                      </h3>
                       <CustomizedSwitches
                         id={`service-${service.id}`}
                         checked={service.selected}

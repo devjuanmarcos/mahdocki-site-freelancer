@@ -55,6 +55,12 @@
   border-top: 1px solid rgba(70, 81, 89, 0.25);
 }
 
+.listTitles {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+}
 .cardDescription {
   color: var(--branco);
   max-height: 0;
@@ -85,4 +91,10 @@
 .spanHidden {
   display: none;
   cursor: pointer;
+}
+
+@media (max-width: 414px) {
+  .imageSpace {
+    width: unset;
+  }
 }

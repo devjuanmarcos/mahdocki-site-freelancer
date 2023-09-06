@@ -80,6 +80,9 @@
     .quantJust {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
     }
     .paragraph {
       width: 100%;
@@ -125,6 +128,12 @@
   height: 100%;
   width: 100%;
   z-index: 10;
+}
+
+.colorAlignWith {
+  color: var(--branco);
+  text-align: center;
+  margin: 20px 0;
 }
 
 @media (max-width: 415px) {
