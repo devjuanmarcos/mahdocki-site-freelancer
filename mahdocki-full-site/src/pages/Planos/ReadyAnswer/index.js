@@ -13,7 +13,7 @@ export default function ReadyAnswer() {
         <BannerModel
           image={readyBannerImage}
           title='Equipe pronta resposta para recuperar seu veículo roubado'
-          paragraph='Nossa equipe de pronta resposta age em perfeita harmonia com nosso avançado pacote de rastreamento e bloqueio para proporcionar a mais eficaz tentativa de recuperação do seu veículo. Combinando ação imediata com tecnologia de ponta, garantimos que seu patrimônio seja protegido com rapidez e eficiência'
+          paragraph='Nossa equipe de pronta resposta age com rapidez, tomando como base a localização do seu veículo, e é capaz de bloqueá-lo e recuperá-lo para você. Tudo o que você precisa fazer é entrar em contato imediatamente com nossa central, e nossa equipe cuidará do resto. A melhor parte é que você só paga a franquia caso seu veículo seja recuperado. Isso é incrível, não é mesmo'
         />
       </div>
       <PresentationCard databaseInfo={answer} />

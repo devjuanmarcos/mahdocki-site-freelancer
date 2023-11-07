@@ -53,7 +53,7 @@
     "plano": "assistência",
     "id": "6",
     "nome": "Chaveiro",
-    "descricaoBanner": "Perdeu suas chaves ou ficou trancado fora do seu veículo? Nossa assistência de chaveiro está pronta para te ajudar a acessar seu carro novamente.",
+    "descricaoBanner": "Perdeu suas chaves ou ficou trancado fora do seu veículo? Nossa assistência de chaveiro está pronta para te ajudar a acessar seu carro novamente, fazendo o serviço de abertura do veículo.",
     "descricaoMiniBanner": "Assistência em situações de perda de chaves ou travamento fora do veículo.",
     "imagem": "assets/images/chaveiroImage.svg",
     "topicos": "Enviamos um chaveiro profissional para auxiliar em casos de perda ou quebra das chaves; serviço 24 horas por dia, 7 dias por semana; garantimos o acesso ao seu veículo em situações de travamento fora do carro.",

@@ -20,21 +20,24 @@ export default function Home() {
         <Banner
           title={"Assistência 24 horas!"}
           paragraph={
-            "Tenha seu carro protegido com a Mahdocki e desfrute da vida sem preocupações. Personalize as coberturas e assistências do seu plano e pague somente pelo que selecionar."
+            "Tenha a tranquilidade de contar com assistência 24 horas para o seu veículo, seja ele um carro ou moto. Porque imprevistos acontecem quando menos esperamos: seja uma pane mecânica, elétrica, um acidente, perda de chaves ou falta de combustível. Basta nos chamar, e nosso serviço de reboque S.O.S Mahdocki estará a caminho para te ajudar!"
           }
         />
 
+        {/* Ok */}
         <TitleParagraph
-          title='Tenha o seu Serviço Auto online na palma da mão'
-          paragraph='Aqui, dá pra fazer tudo 100% online sempre que precisar. Você
-          personaliza, contrata e aciona o seu plano direto pelo telefone. É
-          rápido e fácil.'
+          title='Contrate agora o plano que melhor atende às suas necessidades. '
+          paragraph='É rápido e 100% online, ou se preferir, basta clicar no WhatsApp, e nossa equipe terá o prazer de atendê-lo.'
         />
+
+        {/* Ok */}
         <Carrossel
           title='Coberturas da Mahdocki'
           paragraph='Olha só os serviços disponíveis pra você escolher:'
           color='var(--branco-medio)'
         />
+
+        {/* OK */}
         <InfoSpacing
           direction='row-reverse'
           src={moto}
@@ -44,6 +47,7 @@ export default function Home() {
           color='var(--cinza-fundo)'
         />
 
+        {/* Mudar dps */}
         <MainToppings
           h2='Principais coberturas da Mahdocki'
           p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
@@ -59,7 +63,11 @@ export default function Home() {
           color='var(--cor-principal)'
           textColor='var(--branco)'
         />
+
+        {/* Pegar as opiniões depois */}
         <RattingCarousel color='var(--branco-medio)' />
+
+        {/* Mudar apenas as imagens */}
         <MainToppings
           h2='Rastreie sua frota de veículos'
           p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
@@ -74,38 +82,29 @@ export default function Home() {
           imgp3='Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.'
           color='var(--cinza-fundo)'
         />
+
         <div
           id='cover'
           className={styles.anchorOffset}
         />
+
+        {/* Excluir ampla gama de serviços */}
         <WeCover
           cover='#652f9e'
           title='white'
         />
+
         <TrackerPage />
+
+        {/* Ok */}
         <MainToppings
           h2='Por que contratar nossos serviços Mahdocki?'
-          p='Aqui trabalhamos de forma direta!'
-          img1='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt1='Melhores preços!'
-          imgp1='Menos de uma pizza por mês pra você ter segurança e amparo com o seu veículo.'
-          img2='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt2='Altere quando quiser'
-          imgp2='Vc pode mudar as coberturas e assistências entrando em contato com a nossa equipe.'
-          img3='https://www.datocms-assets.com/16903/1614276874-illus-characters-youser-choose-1-4x3-light.png'
-          imgt3='Atendimento pessoal'
-          imgp3='Vamos entrar em contato para negociar todo o processo.'
+          p='Com mais de 20 anos de experiência no setor automotivo, nossa equipe é composta por profissionais altamente treinados e qualificados. Prestamos assistência 24 horas para diversas seguradoras e associações veiculares, e nossa reputação é respaldada pela melhor avaliação no Google, Web Prestador e na Rota das Oficinas, com classificação 5 estrelas. Movidos pela vasta experiência acumulada ao longo desses anos, decidimos expandir nossa assistência 24 horas S.O.S Mahdocki para você, mantendo o mesmo padrão de qualidade e segurança que oferecemos aos nossos parceiros. A grande vantagem é que você tem acesso a todos os serviços que uma seguradora oferece em sua assistência, a um valor justo, sem restrições de perfil de idade, motorista, CEP ou ano do veículo. Escolha a excelência em assistência automotiva, escolha S.O.S Mahdocki.'
           color='var(--cinza-fundo)'
         />
+
+        {/* Elaborar textos */}
         <NotCover cards={CardData} />
-        <InfoSpacing
-          src='https://www.datocms-assets.com/16903/1594322322-car-gol-front-01-4x3-light.png'
-          h2='Indique um amigo e ganhe prêmios!'
-          p1='Promoção Comunidade Segura: Na compra de dois planos a próxima mensalidade sai com 40% de desconto.'
-          p2='Ah, e sem contar que você e seu amigo ainda participam do nosso sorteio de fim de ano!'
-          color='var(--cinza-fundo)'
-        />
-        <Transparency color='var(--cor-card)' />
       </div>
     </>
   );

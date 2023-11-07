@@ -32,62 +32,78 @@ export default function MainToppings({
         >
           {p}
         </p>
-        <div className={styles.boxImage}>
-          <div className={styles.imgP}>
-            <img
-              src={img1}
-              alt={imgt1}
-            />
-            <h4
-              className={globalStyles.globalH4}
-              style={{ color: textColor }}
-            >
-              {imgt1}
-            </h4>
-            <p
-              className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center", color: textColor }}
-            >
-              {imgp1}
-            </p>
+        {img1 ? (
+          <div className={styles.boxImage}>
+            <div className={styles.imgP}>
+              <img
+                src={img1}
+                alt={imgt1}
+              />
+              <h4
+                className={globalStyles.globalH4}
+                style={{ color: textColor }}
+              >
+                {imgt1}
+              </h4>
+              <p
+                className={globalStyles.globalPBig}
+                style={{
+                  width: "310px",
+                  textAlign: "center",
+                  color: textColor,
+                }}
+              >
+                {imgp1}
+              </p>
+            </div>
+            <div className={styles.imgP}>
+              <img
+                src={img2}
+                alt={imgt2}
+              />
+              <h4
+                className={globalStyles.globalH4}
+                style={{ color: textColor }}
+              >
+                {imgt2}
+              </h4>
+              <p
+                className={globalStyles.globalPBig}
+                style={{
+                  width: "310px",
+                  textAlign: "center",
+                  color: textColor,
+                }}
+              >
+                {imgp2}
+              </p>
+            </div>
+            <div className={styles.imgP}>
+              <img
+                src={img3}
+                alt={imgt3}
+              />
+              <h4
+                className={globalStyles.globalH4}
+                style={{ color: textColor }}
+              >
+                {imgt3}
+              </h4>
+              <p
+                className={globalStyles.globalPBig}
+                style={{
+                  width: "310px",
+                  textAlign: "center",
+                  color: textColor,
+                }}
+              >
+                {imgp3}
+              </p>
+            </div>
           </div>
-          <div className={styles.imgP}>
-            <img
-              src={img2}
-              alt={imgt2}
-            />
-            <h4
-              className={globalStyles.globalH4}
-              style={{ color: textColor }}
-            >
-              {imgt2}
-            </h4>
-            <p
-              className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center", color: textColor }}
-            >
-              {imgp2}
-            </p>
-          </div>
-          <div className={styles.imgP}>
-            <img
-              src={img3}
-              alt={imgt3}
-            />
-            <h4
-              className={globalStyles.globalH4}
-              style={{ color: textColor }}
-            >
-              {imgt3}
-            </h4>
-            <p
-              className={globalStyles.globalPBig}
-              style={{ width: "310px", textAlign: "center", color: textColor }}
-            >
-              {imgp3}
-            </p>
-          </div>
-        </div>
+        ) : (
+          <div style={{ marginBottom: "-72px" }} />
+        )}
       </div>
     </div>
   );

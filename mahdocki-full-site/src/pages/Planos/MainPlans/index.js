@@ -24,12 +24,15 @@ export default function MainPlans() {
       <InfoSpacing
         direction='row-reverse'
         src={rent}
-        h2='Menos de R$ 4,00 pra você ter seu amparo veicular'
+        h2='Menos de R$ 2,99 pra você ter seu amparo veicular'
         p1='Oferecemos um serviço de amparo veicular completo por apenas R$ 119,90 mensais, ajudando você em qualquer tipo de situação nas estradas e rodovias.'
         p2='Para verificar todas as funcionalidades do serviço basta preencher o formulário e aguardar a avaliação da proposta.'
         color='var(--cinza-fundo)'
       />
+
       <TopPlans />
+
+      {/* REBOQUE 100KM , CHAVEIRO ATÉ 120 REAIS , PRONTA RESPOSTA ADICIONAL 10% FIPE RECUPERADO . COLISÃO, PANE MECÂNICA , ELÉTRICA FALTA DE COMBUSTÍVEL , CARGA DE BATERIA! */}
       <MainToppings
         h2='Principais coberturas da Mahdocki'
         p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
@@ -45,6 +48,7 @@ export default function MainPlans() {
         color='var(--cinza-fundo)'
         textColor='var(--preto)'
       />
+
       <InfoSpacing
         src={truck}
         h2='Faça a segurança da sua frota de veículos'

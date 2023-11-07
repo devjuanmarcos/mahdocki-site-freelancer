@@ -58,10 +58,10 @@ export default function AppRoutes() {
             path='readyanswer'
             element={<ReadyAnswer />}
           />
-          <Route
+          {/* <Route
             path='custom'
             element={<CustomPlan />}
-          />
+          /> */}
           <Route
             path='posts/:id/*'
             element={<Home />}
