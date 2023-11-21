@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Principais coberturas da Mahdocki",
+    "subtitle": "Os serviços mais procurados pelos nossos clientes nos últimos meses",
+    "textColor": "var(--preto)",
+    "itens": [
+      {
+        "id": 1,
+        "title": "Reboque 100km",
+        "image": ""
+      },
+      {
+        "id": 2,
+        "title": "Chaveiro até 120 reais",
+        "image": ""
+      },
+      {
+        "id": 3,
+        "title": "Pronta resposta adicional 10% fipe recuperado",
+        "image": ""
+      },
+      {
+        "id": 4,
+        "title": "Colisão",
+        "image": ""
+      },
+      {
+        "id": 5,
+        "title": "Pane mecânica e/ou pane elétrica",
+        "image": ""
+      },
+      {
+        "id": 6,
+        "title": "Falta de combustível",
+        "image": ""
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 7,
+        "title": "Carga de bateria",
+        "image": ""
+      }
+    ]
+  }
+]

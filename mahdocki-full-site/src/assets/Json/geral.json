@@ -90,16 +90,6 @@
     "textoResolucao": "Nossa equipe de profissionais altamente treinados está dedicada a garantir a segurança do seu patrimônio, oferecendo o melhor serviço possível."
   },
   {
-    "plano": "answer",
-    "id": 4,
-    "nome": "Ampla Gama de Serviços",
-    "descricaoBanner": "Além da recuperação de veículos roubados, você terá excelentes descontos na oficina oficial da Mahdocki.",
-    "descricaoMiniBanner": "Além da recuperação, aproveite descontos exclusivos em nossa oficina oficial.",
-    "imagem": "assets/images/amplaImage.svg",
-    "topicos": [],
-    "textoResolucao": "Além de nossos serviços de recuperação, oferecemos descontos exclusivos na nossa oficina oficial da Mahdocki, proporcionando maior conveniência e economia para você."
-  },
-  {
     "plano": "tracker",
     "id": 1,
     "nome": "Instalação do Rastreador",

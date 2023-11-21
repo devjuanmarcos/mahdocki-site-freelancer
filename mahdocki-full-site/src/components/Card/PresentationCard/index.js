@@ -61,7 +61,7 @@ export default function PresentationCard({ databaseInfo, title }) {
         ))}
       </div>
       <div style={{ marginBottom: "50px" }}>
-        <Card />
+        <Card children='Faça sua cotação e selecione o plano que melhor lhe atender.' />
       </div>
     </>
   );

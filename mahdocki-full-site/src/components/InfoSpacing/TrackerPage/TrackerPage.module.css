@@ -8,6 +8,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 .info {
@@ -42,7 +43,8 @@
 }
 
 .image {
-  width: 400px;
+  height: 400px;
+  width: auto;
 }
 
 @media (max-width: 414px) {

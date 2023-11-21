@@ -8,6 +8,7 @@ import MainToppings from "components/InfoSpacing/MainToppings";
 import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import rent from "assets/images/Apartment rent-amico.svg";
 import truck from "assets/images/Free shipping-amico.svg";
+import MainToppings2 from "components/InfoSpacing/MainToppings2";
 
 export default function MainPlans() {
   return (
@@ -32,8 +33,8 @@ export default function MainPlans() {
 
       <TopPlans />
 
-      {/* REBOQUE 100KM , CHAVEIRO ATÉ 120 REAIS , PRONTA RESPOSTA ADICIONAL 10% FIPE RECUPERADO . COLISÃO, PANE MECÂNICA , ELÉTRICA FALTA DE COMBUSTÍVEL , CARGA DE BATERIA! */}
-      <MainToppings
+      {/* REBOQUE 100KM , CHAVEIRO ATÉ 120 REAIS, PRONTA RESPOSTA ADICIONAL 10% FIPE RECUPERADO, COLISÃO, PANE MECÂNICA , ELÉTRICA FALTA DE COMBUSTÍVEL , CARGA DE BATERIA! */}
+      {/* <MainToppings
         h2='Principais coberturas da Mahdocki'
         p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
         img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
@@ -47,7 +48,10 @@ export default function MainPlans() {
         imgp3='Caso seu carro seja roubado ou furtado nós bloqueamos e efetuamos tentativa de recuperação.'
         color='var(--cinza-fundo)'
         textColor='var(--preto)'
-      />
+        secondLine={true}
+      /> */}
+
+      <MainToppings2 />
 
       <InfoSpacing
         src={truck}

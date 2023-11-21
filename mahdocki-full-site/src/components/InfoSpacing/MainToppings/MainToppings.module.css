@@ -9,8 +9,8 @@
 .boxImage {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 15px;
+  width: 100%;
+  gap: 20px;
 }
 
 .imgP,
@@ -20,6 +20,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.imgP {
+  width: 30%;
+  text-align: center;
+  justify-content: flex-start;
 }
 
 .imgP img {

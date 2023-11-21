@@ -16,7 +16,7 @@ export default function BannerModel({ title, paragraph, image }) {
             {paragraph}
           </p>
           <div className={styles.cardCard}>
-            <Card children='Assistência automotiva a partir de R$ 60,00 /mês. Confira sem sair de casa!' />
+            <Card children='Faça sua cotação e selecione o plano que melhor lhe atender.' />
           </div>
         </div>
         <div className={styles.images}>

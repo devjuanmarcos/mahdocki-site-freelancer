@@ -17,7 +17,7 @@ export default function Banner({ title, paragraph }) {
           {paragraph}
         </p>
       </div>
-      <Card children='Assistência automotiva a partir de R$ 60,00 /mês. Confira sem sair de casa!' />
+      <Card children='Assistência automotiva a partir de R$ 39,99 /mês. Confira sem sair de casa!' />
       <p className={globalStyles.obs}>
         O valor pode sofrer alterações devido a época do ano, região ou tipo de
         veículo.

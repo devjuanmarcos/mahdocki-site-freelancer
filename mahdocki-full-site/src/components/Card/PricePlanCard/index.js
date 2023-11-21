@@ -29,19 +29,38 @@ function PriceMap({ monthly, name, accession, link }) {
         >
           <h3 className={styles.textLine}>{name}</h3>
         </div>
-        <div className={styles.accession}>
-          <h3
-            className={globalStyles.globalH3}
-            style={{ color: "var(--branco)", fontSize: "16px", margin: "0px" }}
-          >
-            Adesão:
-          </h3>
-          <div className={styles.line1}>
-            <h3 className={styles.miniText}>R$</h3>
-            <h3 className={styles.priceText}>{accession}</h3>
-            <h3 className={styles.miniText}>,99</h3>
+        {accession ? (
+          <div className={styles.accession}>
+            <h3
+              className={globalStyles.globalH3}
+              style={{
+                color: "var(--branco)",
+                fontSize: "16px",
+                margin: "0px",
+              }}
+            >
+              Adesão:
+            </h3>
+            <div className={styles.line1}>
+              <h3 className={styles.miniText}>R$</h3>
+              <h3 className={styles.priceText}>{accession}</h3>
+              <h3 className={styles.miniText}>,99</h3>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className={styles.accession}>
+            <h3
+              className={globalStyles.globalH3}
+              style={{
+                color: "var(--branco)",
+                fontSize: "16px",
+                margin: "0px",
+              }}
+            >
+              Adesão isenta!
+            </h3>
+          </div>
+        )}
       </div>
     </div>
   );
