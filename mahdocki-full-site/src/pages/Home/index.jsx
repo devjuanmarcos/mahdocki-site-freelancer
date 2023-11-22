@@ -40,7 +40,7 @@ export default function Home() {
         {/* Ok */}
         <Carrossel
           title='Coberturas da Mahdocki'
-          paragraph='Olha só os serviços disponíveis pra você escolher:'
+          paragraph='Confira os serviços disponíveis pra você:'
           color='var(--branco-medio)'
         />
 
@@ -83,10 +83,10 @@ export default function Home() {
           imgp1='Saiba onde e por onde seus veículos passaram direto pelo seu celular.'
           img2={status}
           imgt2='Status de todos os veículos'
-          imgp2='Verifique quando quiser todos os status mecânicos e elétricos dos seus veículos.'
+          imgp2='Verifique quando quiser todos os status dos seus veículos.'
           img3={block}
           imgt3='Bloqueio instantâneo'
-          imgp3='Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.'
+          imgp3='Em casos de emergência você pode bloquear a ignição do veículo para ele não sair do local atual.'
           color='var(--cinza-fundo)'
         />
 
