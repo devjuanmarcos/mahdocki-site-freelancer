@@ -140,3 +140,57 @@
 .colorGray {
   color: #8c8c8c;
 }
+
+@media (max-width: 480px) {
+  .inputCard {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .contentTop,
+  .contentBot,
+  .container {
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+    gap: 20px;
+  }
+
+  .slogan,
+  .about,
+  .terms,
+  .socialMedia {
+    width: 100%;
+  }
+
+  .socialMedia {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .inputCard {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .contentTop,
+  .contentBot,
+  .container {
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+    gap: 20px;
+  }
+
+  .slogan,
+  .about,
+  .terms,
+  .socialMedia {
+    width: 100%;
+  }
+
+  .socialMedia {
+    margin-bottom: 20px;
+  }
+}

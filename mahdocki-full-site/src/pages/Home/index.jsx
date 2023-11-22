@@ -12,6 +12,13 @@ import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
 import TrackerPage from "components/InfoSpacing/TrackerPage";
 import Transparency from "components/InfoSpacing/Transparency";
 import moto from "assets/images/motoImage.svg";
+import server from "assets/images/server.svg";
+import reboque from "assets/images/reboqueImage.svg";
+import prontaResposta from "assets/images/prontaResposta.svg";
+import rastreio from "assets/images/RastreieDiaTodoImage.svg";
+import rota from "assets/images/rota.svg";
+import status from "assets/images/status.svg";
+import block from "assets/images/block.svg";
 
 export default function Home() {
   return (
@@ -51,13 +58,13 @@ export default function Home() {
         <MainToppings
           h2='Principais coberturas da Mahdocki'
           p='Os serviços mais procurados pelos nossos clientes nos últimos meses'
-          img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img1={reboque}
           imgt1='Reboque 24 horas'
           imgp1='Quando seu veículo está com problemas, nosso reboque está pronto para te ajudar. Conte conosco para levá-lo ao local desejado, garantindo sua tranquilidade.'
-          img2='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img2={prontaResposta}
           imgt2='Equipe pronta resposta em caso de roubo'
           imgp2='Com protocolos de ação bem definidos, aumentamos suas chances de recuperar seu veículo roubado.'
-          img3='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img3={rastreio}
           imgt3='Rastreamento em tempo real e bloqueio instantâneo do veículo'
           imgp3='Tenha acesso a recursos avançados de rastreamento, incluindo informações detalhadas do veículo, histórico de percursos e bloqueio imediato.'
           color='var(--cor-principal)'
@@ -71,13 +78,13 @@ export default function Home() {
         <MainToppings
           h2='Rastreie sua frota de veículos'
           p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
-          img1='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img1={rota}
           imgt1='rotas em tempo real'
           imgp1='Saiba onde e por onde seus veículos passaram direto pelo seu celular.'
-          img2='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img2={status}
           imgt2='Status de todos os veículos'
           imgp2='Verifique quando quiser todos os status mecânicos e elétricos dos seus veículos.'
-          img3='https://www.datocms-assets.com/16903/1577197391-coveragesteal-thefthd4x3light-2x.png?auto=compress&dpr=1&fm=webp&w=186'
+          img3={block}
           imgt3='Bloqueio instantâneo'
           imgp3='Em casos de emergência você pode bloquear a inguinição do veículo para ele não sair do local atual.'
           color='var(--cinza-fundo)'

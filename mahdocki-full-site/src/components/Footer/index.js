@@ -12,7 +12,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 export default function Rodape() {
   return (
     <>
-      {/* <div className={styles.shape}>
+      <div className={styles.shape}>
         <svg
           data-name='Layer 1'
           xmlns='http://www.w3.org/2000/svg'
@@ -73,13 +73,13 @@ export default function Rodape() {
               <li>Documentação</li>
             </ul>
           </div>
-          <div className={styles.terms}>
+          {/* <div className={styles.terms}>
             <ul className={`${styles.ulList} ${styles.colorGray} `}>
               <li>Termos e condições</li>
               <li>Política de privacidade</li>
               <li>Cookie Privacy</li>
             </ul>
-          </div>
+          </div> */}
           <div className={styles.socialMedia}>
             <ul className={styles.ulList}>
               <h3 className={styles.title3}>Fale conosco!</h3>
@@ -94,7 +94,7 @@ export default function Rodape() {
             </ul>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </>
   );
 }
