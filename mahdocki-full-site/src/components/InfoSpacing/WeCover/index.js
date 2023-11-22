@@ -13,7 +13,7 @@ export default function WeCover({ cover, title }) {
           className={globalStyles.globalH3}
           style={{ color: title }}
         >
-          O que cobrimos?
+          Serviços que oferecemos
         </h1>
         <p
           className={globalStyles.globalP}

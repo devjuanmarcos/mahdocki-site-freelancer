@@ -72,7 +72,7 @@ export default function Home() {
         />
 
         {/* Pegar as opiniões depois */}
-        <RattingCarousel color='var(--branco-medio)' />
+        {/* <RattingCarousel color='var(--branco-medio)' /> */}
 
         {/* Mudar apenas as imagens */}
         <MainToppings

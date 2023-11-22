@@ -36,10 +36,7 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
         </div>
       </div>
       <div className={styles.button}>
-        <Button
-          link='/home'
-          children='Receber desconto'
-        />
+        <Button children='Receber desconto' />
       </div>
     </div>
   );
