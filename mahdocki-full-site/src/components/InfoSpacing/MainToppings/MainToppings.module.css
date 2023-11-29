@@ -49,6 +49,11 @@
   .boxImage {
     gap: 48px;
   }
+
+  .imgP {
+    width: 92%;
+  }
+
   .imgP img {
     width: 200px;
     height: auto;
