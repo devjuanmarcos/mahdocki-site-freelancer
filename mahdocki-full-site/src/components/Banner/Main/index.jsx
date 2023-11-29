@@ -9,16 +9,24 @@ export default function Banner({ title, paragraph }) {
     <div className={styles.banner}>
       <AnimatedImage />
       <div className={styles.text}>
-        <h2 className={globalStyles.globalH1}>{title}</h2>
+        <h2
+          className={globalStyles.globalH1}
+          style={{ color: "var(--preto)" }}
+        >
+          {title}
+        </h2>
         <p
-          className={globalStyles.globalP}
-          style={{ color: "var(--branco)" }}
+          className={globalStyles.globalP && styles.paragraph}
+          style={{ color: "var(--preto)" }}
         >
           {paragraph}
         </p>
       </div>
       <Card children='Assistência automotiva a partir de R$ 39,99 /mês. Confira sem sair de casa!' />
-      <p className={globalStyles.obs}>
+      <p
+        className={globalStyles.obs}
+        style={{ color: "var(--preto)" }}
+      >
         O valor pode sofrer alterações devido a época do ano, região ou tipo de
         veículo.
       </p>

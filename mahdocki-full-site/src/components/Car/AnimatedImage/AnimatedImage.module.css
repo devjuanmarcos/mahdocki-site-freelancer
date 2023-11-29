@@ -24,3 +24,11 @@
 .image {
   height: 200px;
 }
+
+@media (max-width: 480px) {
+  .container,
+  .image {
+    height: auto;
+    width: 80%;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AnimatedImage.module.css";
-import bannerImageMain from "assets/images/bannerMain.svg";
+import bannerImageMain from "assets/images/png logo sos mahdocki.png";
 export default function AnimatedImage() {
   return (
     <div className={styles.container}>

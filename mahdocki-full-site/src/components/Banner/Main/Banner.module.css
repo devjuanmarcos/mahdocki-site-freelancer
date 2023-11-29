@@ -1,5 +1,5 @@
 .banner {
-  background-color: var(--cor-principal);
+  background-color: var(--branco);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .backCurve {
-  background-color: var(--cor-principal);
+  background-color: var(--branco);
   z-index: -1;
   overflow: hidden;
   border-radius: 70% 70%;
@@ -34,8 +34,11 @@
   bottom: -75px;
   text-align: center;
 }
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   /* Estilos para telas menores, como smartphones */
+  .banner {
+    width: 80vw;
+  }
   .text {
     width: auto;
     margin-bottom: 24px;
@@ -43,6 +46,9 @@
   .backCurve {
     height: 82px;
     bottom: -40px;
+  }
+  .paragraph {
+    width: unset;
   }
 }
 
