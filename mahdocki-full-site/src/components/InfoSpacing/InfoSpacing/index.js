@@ -31,8 +31,8 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
         />
         <div className={styles.texts}>
           <h2 className={globalStyles.globalH3}>{h2}</h2>
-          <p className={globalStyles.globalPBig}>{p1}</p>
-          <p className={globalStyles.globalPBig}>{p2}</p>
+          <p className={globalStyles.globalPBig && styles.paragraph}>{p1}</p>
+          <p className={globalStyles.globalPBig && styles.paragraph}>{p2}</p>
         </div>
       </div>
       <div className={styles.button}>

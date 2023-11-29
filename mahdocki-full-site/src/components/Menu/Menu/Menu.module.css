@@ -114,7 +114,7 @@
   margin-left: -80px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   /* Estilos para telas menores, como smartphones */
   .image {
     display: none;

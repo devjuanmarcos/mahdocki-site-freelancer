@@ -84,6 +84,8 @@
   font-family: var(--fonte-secundaria);
   color: var(--cinza);
   font-weight: 700;
+  max-width: 80vw;
+
   font-size: 20px;
   text-align: center;
   line-height: 32px;
@@ -114,6 +116,7 @@
   font-family: var(--fonte-principal);
   line-height: 24px;
   width: 600px;
+  max-width: 80vw;
   text-align: left;
 }
 
@@ -123,6 +126,8 @@
   font-family: var(--fonte-principal);
   font-weight: 350;
   width: 500px;
+  max-width: 80vw;
+
   margin-bottom: 20px;
   text-align: center;
 }
@@ -158,6 +163,12 @@
   }
 }
 
+@media (max-width: 480px) {
+  /* Estilos para tablets em orientação retrato */
+  .globalH3 {
+    text-align: center;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   /* Estilos para tablets em orientação retrato */
 }

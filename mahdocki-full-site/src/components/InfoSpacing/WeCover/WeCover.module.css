@@ -16,7 +16,7 @@
   padding-bottom: 30px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .containerCards {
     display: flex;
     flex-direction: column;

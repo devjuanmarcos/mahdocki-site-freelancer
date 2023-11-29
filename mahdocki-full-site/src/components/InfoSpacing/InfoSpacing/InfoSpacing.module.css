@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 480px) {
   /* Estilos para telas menores, como smartphones */
   .container {
     padding: 40px 0px;
@@ -99,5 +99,8 @@
       margin-top: 10px;
       text-align: center;
     }
+  }
+  .paragraph {
+    width: auto;
   }
 }

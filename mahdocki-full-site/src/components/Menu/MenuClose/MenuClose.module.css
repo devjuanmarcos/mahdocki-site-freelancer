@@ -42,7 +42,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   /* Estilos para telas menores, como smartphones */
   .infoBanner {
     display: none;
