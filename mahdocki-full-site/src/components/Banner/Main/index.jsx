@@ -27,8 +27,8 @@ export default function Banner({ title, paragraph }) {
         className={globalStyles.obs}
         style={{ color: "var(--preto)" }}
       >
-        O valor pode sofrer alterações devido a época do ano, região ou tipo de
-        veículo.
+        Faça a sua consulta e garanta rapidamente a segurança e tranquilidade ao
+        sair de casa com o seu veículo.
       </p>
       <section className={styles.backCurve} />
     </div>
