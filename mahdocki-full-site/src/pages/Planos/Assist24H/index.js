@@ -15,7 +15,7 @@ export default function Assist24H() {
           image={assistBannerImage}
           title={"Tenha assistência 24 horas e fique totalmente respaldado"}
           paragraph={
-            "Cobrimos uma ampla variedade de incidentes, como panes secas, colisões, panes mecânicas, problemas elétricos e serviços de chaveiro, com destaque para nosso serviço de reboque. Estamos prontos para ajudar em emergências, garantindo que você possa seguir sua viagem com tranquilidade."
+            "Custando menos de 2,33 por dia, os planos de assistência veicular 24h da S.O.S Mahdocki abrangem incidentes como panes secas, colisões, panes mecânicas, problemas elétricos e serviços de chaveiro, destacando-se pelo eficiente serviço de reboque. Prontos para intervir em emergências, garantimos que você possa continuar sua viagem com total tranquilidade. Contrate agora e cancele quando desejar, sem fidelidade, proporcionando total flexibilidade para se adaptar às suas necessidades, oferecendo proteção acessível ao seu bem-estar."
           }
         />
       </div>

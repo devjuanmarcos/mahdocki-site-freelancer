@@ -19,6 +19,7 @@ import rastreio from "assets/images/RastreieDiaTodoImage.svg";
 import rota from "assets/images/rota.svg";
 import status from "assets/images/status.svg";
 import block from "assets/images/block.svg";
+import motoEletric from "assets/images/motoEletric.svg";
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
         {/* Ok */}
         <Carrossel
           title='Coberturas da Mahdocki'
-          paragraph='Confira os serviços disponíveis pra você:'
+          paragraph='Desfrute da tranquilidade com os planos de assistência veicular 24h da S.O.S Mahdocki. Por menos de três reais diários, garanta sua segurança em qualquer situação. Contrate agora e cancele quando quiser, sem fidelidade. Oferecemos total flexibilidade para se adequar às suas necessidades. Invista no seu bem-estar com proteção acessível.'
           color='var(--branco-medio)'
         />
 
@@ -73,6 +74,15 @@ export default function Home() {
 
         {/* Pegar as opiniões depois */}
         {/* <RattingCarousel color='var(--branco-medio)' /> */}
+
+        <InfoSpacing
+          direction='row-reverse'
+          src={motoEletric}
+          h2='Garanta nossos serviços para sua Scooter elétrica!'
+          p1='Descubra os benefícios dos nossos planos exclusivos para Scooters elétricas, perfeitos para uso diário ou viagens.'
+          p2='Aproveite o rastreamento em tempo real como principal serviço, proporcionando segurança e praticidade. Preencha o formulário para explorar todas as funcionalidades e aguarde a avaliação da proposta.'
+          color='var(--cinza-fundo)'
+        />
 
         {/* Mudar apenas as imagens */}
         <MainToppings

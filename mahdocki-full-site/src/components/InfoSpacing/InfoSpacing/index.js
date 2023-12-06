@@ -7,14 +7,6 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
   // eslint-disable-next-line
   const [flexDirection, setFlexDirection] = useState(false);
 
-  useEffect(() => {
-    if (window.innerWidth <= 375) {
-      setFlexDirection("column");
-    } else {
-      setFlexDirection(direction);
-    }
-  }, [direction]);
-
   return (
     <div
       className={styles.container}
@@ -22,7 +14,7 @@ export default function InfoSpacing({ src, h2, p1, p2, color, direction }) {
     >
       <div
         className={styles.info}
-        style={{ flexDirection: InfoSpacing }}
+        style={{ flexDirection: direction }}
       >
         <img
           className={styles.img}

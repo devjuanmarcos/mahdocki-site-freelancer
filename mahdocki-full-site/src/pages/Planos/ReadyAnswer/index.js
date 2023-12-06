@@ -13,7 +13,8 @@ export default function ReadyAnswer() {
         <BannerModel
           image={readyBannerImage}
           title='Equipe pronta resposta para recuperar seu veículo roubado'
-          paragraph='Nossa equipe de pronta resposta age com rapidez, tomando como base a localização do seu veículo, e é capaz de bloqueá-lo e recuperá-lo para você. Tudo o que você precisa fazer é entrar em contato imediatamente com nossa central, e nossa equipe cuidará do resto. A melhor parte é que você só paga a franquia caso seu veículo seja recuperado. Isso é incrível, não é mesmo'
+          paragraph='
+          Por apenas 3 reais diários, conte com nossa equipe de pronta resposta que age com rapidez, utilizando a localização do seu veículo como base. Capazes de bloquear e recuperar seu veículo para você, basta entrar em contato imediatamente com nossa central, e nossa equipe cuidará do resto. A melhor parte é que você só paga a franquia caso seu veículo seja recuperado. Incrível, não é mesmo? Garanta essa proteção eficiente e ágil por um investimento acessível.'
         />
       </div>
       <PresentationCard databaseInfo={answer} />

@@ -13,7 +13,8 @@ export default function Tracker() {
         <BannerModel
           image={trackerBannerImage}
           title='Rastreamento em tempo real!'
-          paragraph='Um serviço de rastreamento veicular no seu celular oferece conveniência e segurança, permitindo que você acompanhe a localização do seu veículo em tempo real e receba alertas importantes para proteger seu veículo e otimizar sua gestão.'
+          paragraph='
+Por apenas 3 reais diários, conte com nossa equipe de pronta resposta que age com rapidez, utilizando a localização do seu veículo como base. Capazes de bloquear e recuperar seu veículo para você, basta entrar em contato imediatamente com nossa central, e nossa equipe cuidará do resto. A melhor parte é que você só paga a franquia caso seu veículo seja recuperado. Incrível, não é mesmo? Garanta essa proteção eficiente e ágil por um investimento acessível.'
         />
       </div>
       <PresentationCard databaseInfo={geral} />
