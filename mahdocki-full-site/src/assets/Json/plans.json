@@ -1,18 +1,19 @@
 [
   {
     "monthly": "69",
-    "name": "ASSISTÊNCIA TÉCNICA",
-    "link": "/"
+    "name": "ASSISTÊNCIA 24H AUTO",
+    "link": "/assist"
   },
   {
     "monthly": "39",
     "name": "RASTREADOR",
     "accession": "179",
-    "link": "/"
+    "link": "/tracker"
   },
   {
     "monthly": "89",
     "name": "RASTREADOR / ASSISTÊNCIA",
-    "link": "/"
+    "accession": "249",
+    "link": "/assist"
   }
 ]

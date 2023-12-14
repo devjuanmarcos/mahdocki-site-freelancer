@@ -3,7 +3,7 @@ import globalStyles from "styles/globalText.module.css";
 
 import React from "react";
 
-function PriceMap({ monthly, name, accession, link }) {
+export function PriceMap({ monthly, name, accession, link }) {
   const ClickLink = () => {
     window.location.href = link;
   };
