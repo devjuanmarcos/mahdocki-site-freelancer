@@ -16,7 +16,7 @@ export default function BannerModel({ title, paragraph, image }) {
             {paragraph}
           </p>
           <div className={styles.cardCard}>
-            <Card children='Faça sua cotação e selecione o plano que melhor lhe atender.' />
+            <Card children='Contrate os planos a partir de R$ 39,99/mês. Confira sem sair de casa!' />
           </div>
         </div>
         <div className={styles.images}>

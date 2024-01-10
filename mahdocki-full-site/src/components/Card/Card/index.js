@@ -17,7 +17,7 @@ export default function Card({ children }) {
         <h3 className={`${globalStyles.globalP} ${styles.text}`}>
           {children
             ? children
-            : "Assistência automotiva a partir de R$ 39,99 /mês. Confira sem sair de casa!"}
+            : "Contrate os planos a partir de R$ 39,99/mês. Confira sem sair de casa!"}
         </h3>
       </div>
       <Button

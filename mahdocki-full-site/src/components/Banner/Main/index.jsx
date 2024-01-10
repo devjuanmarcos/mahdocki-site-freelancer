@@ -22,7 +22,7 @@ export default function Banner({ title, paragraph }) {
           {paragraph}
         </p>
       </div>
-      <Card children='Assistência automotiva a partir de R$ 39,90 /mês. Confira sem sair de casa!' />
+      <Card children='Contrate os planos a partir de R$ 39,90/mês. Confira sem sair de casa!' />
       <p
         className={globalStyles.obs}
         style={{ color: "var(--preto)" }}
