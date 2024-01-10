@@ -35,16 +35,9 @@ export default function Menu() {
               <div className={styles.menuCell}>
                 <div className={styles.mainRoutesResp}>
                   <MenuLink to={"/"}>
-                    <img
-                      className={styles.image}
-                      src={logoMain}
-                      alt='none'
-                    ></img>
-                  </MenuLink>
-                  <MenuLink to={"/"}>
                     <h1
                       className={globalStyles.globalH2}
-                      style={{ color: "var(--branco)" }}
+                      style={{ color: "var(--branco)", fontSize: "20px" }}
                     >
                       MAHDOCKI
                     </h1>
@@ -55,7 +48,9 @@ export default function Menu() {
                 <div
                   className={styles.button}
                   onClick={toggleInfoTab}
-                />
+                >
+                  <span className={styles.span}>MENU</span>
+                </div>
               </div>
             </div>
           </div>

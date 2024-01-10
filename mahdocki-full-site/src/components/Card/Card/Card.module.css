@@ -10,7 +10,6 @@
 }
 .content {
   background-color: #ffffff;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,12 +23,16 @@
 @media (max-width: 480px) {
   .container {
     max-width: 375px;
-    background: none;
+    display: flex;
+    flex-direction: column;
   }
   .content {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
   .text {
-    display: none;
+    margin: 0;
+    padding-top: 20px;
   }
 }

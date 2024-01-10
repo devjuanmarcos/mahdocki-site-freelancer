@@ -61,9 +61,9 @@
   white-space: nowrap;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
   .cardCard {
-    max-width: 375px;
+    max-width: 98vw;
     background: none;
   }
   .content {

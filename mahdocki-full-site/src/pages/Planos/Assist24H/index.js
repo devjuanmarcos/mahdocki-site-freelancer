@@ -6,7 +6,6 @@ import SeeToo from "components/InfoSpacing/Promo";
 import BannerModel from "components/Banner/BannerModel";
 import PresentationCard from "components/Card/PresentationCard";
 import assistBannerImage from "assets/images/Car rental-amico (2).svg";
-import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import PlanSpace from "../../../components/InfoSpacing/PlanSpace";
 
 export default function Assist24H() {
