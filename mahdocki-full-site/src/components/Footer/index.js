@@ -26,37 +26,6 @@ export default function Rodape() {
         </svg>
       </div>
       <footer className={styles.container}>
-        <div className={styles.contentTop}>
-          <div className={styles.inputCard}>
-            <h3 className={styles.title3}>Novidades em primeira mão</h3>
-            <h1 className={styles.title1}>
-              Cadastre-se para receber as novidades
-            </h1>
-            <TextField
-              id='standard-basic'
-              label='Insira seu email'
-              variant='standard'
-              className={styles.input}
-              InputLabelProps={{
-                className: styles.labelprops,
-              }}
-              InputProps={{
-                endAdornment: (
-                  <IconButton>
-                    <SendOutlinedIcon className={styles.sendIcon} />
-                  </IconButton>
-                ),
-              }}
-            />
-          </div>
-          <div className={styles.imageCard}>
-            <img
-              src={imageInput}
-              alt='none'
-              className={styles.image}
-            />
-          </div>
-        </div>
         <div className={styles.contentBot}>
           <div className={styles.slogan}>
             <h1 className={styles.title1}>MAHDOCKI</h1>
@@ -73,13 +42,6 @@ export default function Rodape() {
               <li>Documentação</li>
             </ul>
           </div>
-          {/* <div className={styles.terms}>
-            <ul className={`${styles.ulList} ${styles.colorGray} `}>
-              <li>Termos e condições</li>
-              <li>Política de privacidade</li>
-              <li>Cookie Privacy</li>
-            </ul>
-          </div> */}
           <div className={styles.socialMedia}>
             <ul className={styles.ulList}>
               <h3 className={styles.title3}>Fale conosco!</h3>
