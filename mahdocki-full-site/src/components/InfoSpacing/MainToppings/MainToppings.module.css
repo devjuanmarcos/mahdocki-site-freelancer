@@ -20,9 +20,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 32px;
 }
 
 .imgP {
+  border-radius: 32px;
   width: 30%;
   text-align: center;
   justify-content: flex-start;
@@ -30,6 +32,8 @@
 
 .imgP img {
   padding-bottom: 8px;
+  border-radius: 32px;
+
   width: 186px;
   height: 139px;
   aspect-ratio: auto 186 / 139;

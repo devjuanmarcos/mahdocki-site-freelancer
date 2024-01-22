@@ -6,20 +6,17 @@ import Carrossel from "components/Carousel";
 import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import WeCover from "components/InfoSpacing/WeCover";
 import MainToppings from "components/InfoSpacing/MainToppings";
-import RattingCarousel from "components/InfoSpacing/RattingCarousel";
 import NotCover from "components/InfoSpacing/NotCover";
 import CardData from "../../components/InfoSpacing/NotCover/cardsData.json";
 import TrackerPage from "components/InfoSpacing/TrackerPage";
-import Transparency from "components/InfoSpacing/Transparency";
-import moto from "assets/images/motoImage.svg";
-import server from "assets/images/server.svg";
+import moto from "assets/images/moto.png";
 import reboque from "assets/images/reboqueImage.svg";
 import prontaResposta from "assets/images/prontaResposta.svg";
 import rastreio from "assets/images/RastreieDiaTodoImage.svg";
-import rota from "assets/images/rota.svg";
-import status from "assets/images/status.svg";
-import block from "assets/images/block.svg";
-import motoEletric from "assets/images/motoEletric.svg";
+import rota from "assets/images/rota.png";
+import status from "assets/images/controle.png";
+import block from "assets/images/block.png";
+import motoEletric from "assets/images/scooter.png";
 
 export default function Home() {
   return (

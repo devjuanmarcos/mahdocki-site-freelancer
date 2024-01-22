@@ -17,10 +17,7 @@ export default function MenuInfo({ goBack }) {
             to={"/custom"}
             children='Plano customizado'
           /> */}
-          <MenuList
-            to={"/plans"}
-            children='Planos'
-          />
+
           <MenuList
             to={"/assist"}
             children='Assistência técnica 24 horas'
@@ -33,10 +30,7 @@ export default function MenuInfo({ goBack }) {
             to={"/readyanswer"}
             children='Equipe pronta resposta'
           />
-          <MenuList
-            to={"/plans"}
-            children='Suporte'
-          />
+
           <MenuList
             to={"/plans"}
             children='Sobre nós'
