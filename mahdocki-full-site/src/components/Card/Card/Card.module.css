@@ -36,3 +36,20 @@
     padding-top: 20px;
   }
 }
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .text {
+    margin: 0;
+    padding-top: 20px;
+  }
+}

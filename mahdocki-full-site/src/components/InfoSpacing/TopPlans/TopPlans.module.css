@@ -9,12 +9,15 @@
 }
 
 .title {
+  width: 100%;
   max-width: 800px;
   text-align: center;
   color: var(--branco);
 }
 
 .subtitle {
+  width: 100%;
+
   max-width: 800px;
   text-align: center;
   color: var(--branco);

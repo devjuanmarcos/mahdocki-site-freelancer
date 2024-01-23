@@ -1,7 +1,7 @@
 import styles from "./MainPlans.module.css";
 import React from "react";
 import BannerModel from "components/Banner/BannerModel";
-import bannerImage from "assets/images/plansBannerImage (2).svg";
+import bannerImage from "assets/images/mulhernotelefone.jpeg";
 import TopPlans from "components/InfoSpacing/TopPlans";
 import SeeToo from "components/InfoSpacing/Promo";
 import MainToppings from "components/InfoSpacing/MainToppings";
@@ -9,6 +9,7 @@ import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import rent from "assets/images/Apartment rent-amico.svg";
 import truck from "assets/images/Free shipping-amico.svg";
 import MainToppings2 from "components/InfoSpacing/MainToppings2";
+import TopPlans2 from "components/InfoSpacing/TopPlans/toplans2";
 
 export default function MainPlans() {
   return (
@@ -16,7 +17,9 @@ export default function MainPlans() {
       <div className={styles.banner}>
         <BannerModel
           image={bannerImage}
-          title={"Os melhores planos para cobrir todas as suas necessidades"}
+          title={
+            "Os melhores planos para seu veículo, seja ele carro, moto ou jet sky"
+          }
           paragraph={
             "Fique totalmente respaldado em todos os tipos de ocasiões. Oferecemos uma vasta carga de vantagens para você e sua família. Confirma abaixo!"
           }
@@ -31,6 +34,7 @@ export default function MainPlans() {
         color='var(--cinza-fundo)'
       />
 
+      <TopPlans2 />
       <TopPlans />
 
       {/* REBOQUE 100KM , CHAVEIRO ATÉ 120 REAIS, PRONTA RESPOSTA ADICIONAL 10% FIPE RECUPERADO, COLISÃO, PANE MECÂNICA , ELÉTRICA FALTA DE COMBUSTÍVEL , CARGA DE BATERIA! */}

@@ -27,7 +27,7 @@ export default function Assist24H() {
           de emergência:'
       />
 
-      <PlanSpace
+      {/* <PlanSpace
         monthly={69}
         name={"ASSISTÊNCIA 24H AUTO"}
         plan={true}
@@ -35,7 +35,7 @@ export default function Assist24H() {
         p1={
           "Desfrute das melhores ofertas e serviços incomparáveis para garantir total respaldo em todas as situações."
         }
-      />
+      /> */}
 
       <SeeToo />
     </div>

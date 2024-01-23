@@ -19,7 +19,7 @@ Por apenas 3 reais diários, conte com nossa equipe de pronta resposta que age c
         />
       </div>
       <PresentationCard databaseInfo={geral} />
-      <PlanSpace
+      {/* <PlanSpace
         monthly={39}
         name={"RASTREADOR"}
         accession={"179"}
@@ -28,7 +28,7 @@ Por apenas 3 reais diários, conte com nossa equipe de pronta resposta que age c
         p1={
           "Desfrute das melhores ofertas e serviços incomparáveis para garantir total respaldo em todas as situações."
         }
-      />
+      /> */}
       <SeeToo />
     </div>
   );

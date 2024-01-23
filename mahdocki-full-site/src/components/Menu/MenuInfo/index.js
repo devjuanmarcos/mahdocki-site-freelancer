@@ -22,6 +22,11 @@ export default function MenuInfo({ goBack }) {
             to={"/assist"}
             children='Assistência técnica 24 horas'
           />
+
+          <MenuList
+            to={"/plans"}
+            children='Nossos planos'
+          />
           <MenuList
             to={"/tracker"}
             children='Rastreador e bloqueador'

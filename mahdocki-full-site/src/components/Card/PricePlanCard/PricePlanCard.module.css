@@ -85,7 +85,7 @@
   gap: 30px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 700px) {
   .mapContent {
     flex-direction: column;
   }
