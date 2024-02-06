@@ -18,7 +18,7 @@ export default function MainPlans() {
         <BannerModel
           image={bannerImage}
           title={
-            "Os melhores planos para seu veículo, seja ele carro, moto ou jet sky"
+            "Os melhores planos para seu veículo, seja ele carro, moto, jet sky ou scooter elétrica"
           }
           paragraph={
             "Fique totalmente respaldado em todos os tipos de ocasiões. Oferecemos uma vasta carga de vantagens para você e sua família. Confirma abaixo!"

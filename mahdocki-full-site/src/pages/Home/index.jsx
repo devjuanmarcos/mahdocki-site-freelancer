@@ -17,6 +17,8 @@ import rota from "assets/images/rota.png";
 import status from "assets/images/controle.png";
 import block from "assets/images/block.png";
 import motoEletric from "assets/images/scooter.png";
+import TopPlans2 from "components/InfoSpacing/TopPlans/toplans2";
+import TopPlans from "components/InfoSpacing/TopPlans";
 
 export default function Home() {
   return (
@@ -118,6 +120,8 @@ export default function Home() {
         />
 
         {/* Elaborar textos */}
+        <TopPlans2 />
+        <TopPlans />
         <NotCover cards={CardData} />
       </div>
     </>
