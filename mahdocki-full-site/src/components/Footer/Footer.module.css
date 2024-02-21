@@ -87,7 +87,6 @@
 }
 
 .contentBot {
-  margin-inline: 20px;
   margin-top: 20px;
   width: 100%;
   display: flex;
@@ -107,7 +106,6 @@
 }
 
 .ulList {
-  margin-left: 10%;
   color: var(--branco);
   display: flex;
   flex-direction: column;
@@ -180,6 +178,7 @@
     height: inherit;
     width: inherit;
     gap: 20px;
+    padding-inline: 0px;
   }
 
   .slogan,

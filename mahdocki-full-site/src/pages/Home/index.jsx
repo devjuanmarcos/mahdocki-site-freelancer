@@ -63,8 +63,8 @@ export default function Home() {
           imgt1='Reboque 24 horas'
           imgp1='Quando seu veículo está com problemas, nosso reboque está pronto para te ajudar. Conte conosco para levá-lo ao local desejado, garantindo sua tranquilidade.'
           img2={prontaResposta}
-          imgt2='Equipe pronta resposta em caso de roubo'
-          imgp2='Com protocolos de ação bem definidos, aumentamos suas chances de recuperar seu veículo roubado.'
+          imgt2='Seguro roubo e furto'
+          imgp2='Com protocolos de ação bem definidos, aumentamos suas chances de recuperar seu veículo em caso de roubo ou furto.'
           img3={rastreio}
           imgt3='Rastreamento em tempo real e bloqueio instantâneo do veículo'
           imgp3='Tenha acesso a recursos avançados de rastreamento, incluindo informações detalhadas do veículo, histórico de percursos e bloqueio imediato.'
