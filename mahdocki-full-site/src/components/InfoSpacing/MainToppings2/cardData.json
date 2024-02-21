@@ -42,6 +42,11 @@
         "id": 7,
         "title": "Carga de bateria",
         "image": ""
+      },
+      {
+        "id": 8,
+        "title": "Seguro roubo e furto",
+        "image": ""
       }
     ]
   }

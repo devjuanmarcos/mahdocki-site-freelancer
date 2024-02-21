@@ -16,6 +16,7 @@ export default function InfoSpacing({
   name,
   accession,
   link,
+  buttonText,
 }) {
   // eslint-disable-next-line
   const [flexDirection, setFlexDirection] = useState(false);
@@ -49,7 +50,7 @@ export default function InfoSpacing({
         </div>
       </div>
       <div className={styles.button}>
-        <Button children='Receber desconto' />
+        <Button children={buttonText ?? "Receber desconto"} />
       </div>
     </div>
   );

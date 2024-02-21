@@ -19,8 +19,8 @@ export default function TrackerPage() {
         <p className={globalStyles.globalPBig}>
           O rastreamento via celular monitora veículos em tempo real, abrangendo
           localização e status (como combustível e ignição). Isso amplia
-          segurança e gestão, ideal para donos e frotas, proporcionando total
-          controle e tranquilidade.
+          segurança e gestão, ideal para donos de veículos e frotas,
+          proporcionando total controle e tranquilidade.
         </p>
         {/* <div className={styles.storeImg}>
           <img

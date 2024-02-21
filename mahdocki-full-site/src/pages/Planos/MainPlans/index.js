@@ -18,15 +18,15 @@ export default function MainPlans() {
           image={bannerImage}
           title={"Os melhores planos para cobrir todas as suas necessidades"}
           paragraph={
-            "Fique totalmente respaldado em todos os tipos de ocasiões. Oferecemos uma vasta carga de vantagens para você e sua família. Confirma abaixo!"
+            "Fique totalmente respaldado em todos os tipos de ocasiões. Oferecemos uma vasta gama de vantagens para você e sua família. Confira abaixo!"
           }
         />
       </div>
       <InfoSpacing
         direction='row-reverse'
         src={rent}
-        h2='Menos de R$ 2,99 pra você ter seu amparo veicular'
-        p1='Oferecemos um serviço de amparo veicular completo por apenas R$ 119,90 mensais, ajudando você em qualquer tipo de situação nas estradas e rodovias.'
+        h2='Menos de R$ 5,70 para ter sua assistência 24 hrs e seguro roubo e furto'
+        p1='Ajudando você em qualquer tipo de situação nas estradas e rodovias.'
         p2='Para verificar todas as funcionalidades do serviço basta preencher o formulário e aguardar a avaliação da proposta.'
         color='var(--cinza-fundo)'
       />
@@ -59,6 +59,7 @@ export default function MainPlans() {
         p1='Temos cotações especiais para empresas que desejam amparar veículos de todos os tipos, garantindo melhor resultado no desempenho do seu negócio.'
         p2='Entre em contato conosco para verificar os melhores planos personalizados da nossa empresa.'
         color='var(--cinza-fundo)'
+        buttonText={"FALE COM UM DE NOSSOS ATENDENTES"}
       />
       <SeeToo />
     </>

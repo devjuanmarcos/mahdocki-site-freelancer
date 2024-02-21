@@ -41,7 +41,7 @@ export default function Home() {
         {/* Ok */}
         <Carrossel
           title='Coberturas da Mahdocki'
-          paragraph='Desfrute da tranquilidade com os planos de assistência veicular 24h da S.O.S Mahdocki. Por menos de três reais diários, garanta sua segurança em qualquer situação. Contrate agora e cancele quando quiser, sem fidelidade. Oferecemos total flexibilidade para se adequar às suas necessidades. Invista no seu bem-estar com proteção acessível.'
+          paragraph='Desfrute a tranquilidade dos planos de assistência veicular 24h da S.O.S Mahdocki. Garanta sua segurança em qualquer situação. Contrate agora e cancele quando quiser, sem fidelidade. Oferecemos total flexibilidade para se adequar às suas necessidades. Invista no seu bem-estar com proteção acessível.'
           color='var(--branco-medio)'
         />
 
@@ -53,6 +53,7 @@ export default function Home() {
           p1='Oferecemos nossos planos para todos os tipos de motocicletas, perfeito para quem trabalha com moto todos os dias ou para quem usa apenas para viajar.'
           p2='Para verificar todas as funcionalidades do serviço basta preencher o formulário e aguardar a avaliação da proposta.'
           color='var(--cinza-fundo)'
+          buttonText='PREENCHER FORMULÁRIO'
         />
 
         {/* Mudar dps */}
@@ -89,7 +90,7 @@ export default function Home() {
           h2='Rastreie sua frota de veículos'
           p='Nossos serviços são essênciais para garantir a segurança dos seus veículos empresariais e comerciais.'
           img1={rota}
-          imgt1='rotas em tempo real'
+          imgt1='Rotas em tempo real'
           imgp1='Saiba onde e por onde seus veículos passaram direto pelo seu celular.'
           img2={status}
           imgt2='Status de todos os veículos'

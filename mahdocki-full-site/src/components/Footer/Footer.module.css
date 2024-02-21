@@ -28,13 +28,12 @@
   align-items: center;
   justify-content: center;
   background-color: var(--roxo-escuro-full);
-  height: 500px;
+  height: 100%;
   width: 100%;
 }
 
 .contentTop {
-  width: 1400px;
-  height: 276px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -89,8 +88,7 @@
 .contentBot {
   margin-inline: 20px;
   margin-top: 20px;
-  width: 1400px;
-  height: 184px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,5 +190,16 @@
 
   .socialMedia {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .imageCard {
+    display: none;
+    overflow: hidden;
+  }
+  .contentBot {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
