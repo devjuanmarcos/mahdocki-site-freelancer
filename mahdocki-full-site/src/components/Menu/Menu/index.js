@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Menu.module.css";
-import globalStyles from "styles/globalText.module.css";
-
+import logo from "../../../assets/images/logo.png";
 import MenuLink from "components/Menu/MenuLink";
 import MenuInfo from "components/Menu/MenuInfo";
 import logoMain from "assets/images/logoMain.png";
@@ -26,8 +25,8 @@ export default function Menu() {
                   alt='none'
                 ></img>
                 <MenuLink to={"/"}>MAHDOCKI</MenuLink>
-                <MenuLink to={"/plans"}>PLANOS</MenuLink>
                 {/* <MenuLink to={"/custom"}>MONTE SEU PLANO</MenuLink> */}
+                <MenuLink to={"/plans"}>PLANOS</MenuLink>
                 <MenuLink to={"/assist"}>ASSISTÊNCIA 24 HORAS</MenuLink>
                 <MenuLink to={"/tracker"}>RASTREADOR</MenuLink>
                 <MenuLink to={"/readyanswer"}>PRONTA RESPOSTA</MenuLink>
@@ -36,18 +35,10 @@ export default function Menu() {
                 <div className={styles.mainRoutesResp}>
                   <MenuLink to={"/"}>
                     <img
-                      className={styles.image}
-                      src={logoMain}
+                      src={logo}
                       alt='none'
-                    ></img>
-                  </MenuLink>
-                  <MenuLink to={"/"}>
-                    <h1
-                      className={globalStyles.globalH2}
-                      style={{ color: "var(--branco)" }}
-                    >
-                      MAHDOCKI
-                    </h1>
+                      className={styles.image2}
+                    />
                   </MenuLink>
                 </div>
               </div>
@@ -55,7 +46,9 @@ export default function Menu() {
                 <div
                   className={styles.button}
                   onClick={toggleInfoTab}
-                />
+                >
+                  <span className={styles.span}>MENU</span>
+                </div>
               </div>
             </div>
           </div>

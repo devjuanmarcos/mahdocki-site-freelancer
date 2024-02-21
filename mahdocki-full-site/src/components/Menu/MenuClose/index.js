@@ -9,6 +9,13 @@ export default function MenuClose() {
     setBannerVisible(false);
   }
 
+  const mensage = `Ola, como vai? Tenho interesse nos serviços que vi no site Mahdocki e gostaria de mais informações.`;
+
+  const codifyMensage = encodeURIComponent(mensage);
+
+  const numberWpp = "+5521970935103";
+  const linkWpp = `https://wa.me/${numberWpp}/?text=${codifyMensage}`;
+
   return (
     <div
       className={`${styles.infoBanner} ${!bannerVisible ? styles.hidden : ""}`}
@@ -19,7 +26,7 @@ export default function MenuClose() {
             Faça agora mesmo sua cotação e garanta já 10% de desconto na adesão.{" "}
             <a
               className={styles.link}
-              href='https://www.youse.com.br/auto/order/new'
+              href={linkWpp}
             >
               Saiba mais
             </a>

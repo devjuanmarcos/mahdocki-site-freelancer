@@ -6,7 +6,6 @@ import SeeToo from "components/InfoSpacing/Promo";
 import BannerModel from "components/Banner/BannerModel";
 import PresentationCard from "components/Card/PresentationCard";
 import assistBannerImage from "assets/images/Car rental-amico (2).svg";
-import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import PlanSpace from "../../../components/InfoSpacing/PlanSpace";
 
 export default function Assist24H() {
@@ -28,7 +27,7 @@ export default function Assist24H() {
           de emergência:'
       />
 
-      <PlanSpace
+      {/* <PlanSpace
         monthly={69}
         name={"ASSISTÊNCIA 24H AUTO"}
         plan={true}
@@ -36,7 +35,7 @@ export default function Assist24H() {
         p1={
           "Desfrute das melhores ofertas e serviços incomparáveis para garantir total respaldo em todas as situações."
         }
-      />
+      /> */}
 
       <SeeToo />
     </div>

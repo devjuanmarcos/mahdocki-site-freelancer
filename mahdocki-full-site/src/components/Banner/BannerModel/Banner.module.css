@@ -13,7 +13,7 @@
 .content {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .text {
@@ -21,12 +21,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
+  max-width: 50%;
 }
 
 .image {
-  width: 400px;
-  margin-right: 100px;
+  border-radius: 32px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .backCurve {
@@ -61,25 +63,30 @@
   white-space: nowrap;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 800px) {
   .cardCard {
-    max-width: 375px;
+    max-width: 98vw;
     background: none;
   }
   .content {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    gap: 28px;
   }
   .container {
     padding: 0;
   }
   .image {
+    padding-top: 32px;
     width: 72%;
     margin: 0;
   }
   .images {
     display: flex;
     justify-content: center;
+  }
+  .text {
+    max-width: 96%;
   }
 }

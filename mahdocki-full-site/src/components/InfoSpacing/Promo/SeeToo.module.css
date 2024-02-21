@@ -67,7 +67,7 @@
   margin-bottom: -80px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
   .container {
     height: 100%;
     padding: 100px 0;
