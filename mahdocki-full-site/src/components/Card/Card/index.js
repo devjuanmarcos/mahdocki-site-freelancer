@@ -21,7 +21,7 @@ export default function Card({ children }) {
         </h3>
       </div>
       <Button
-        children={"EU QUERO!"}
+        children={"FALE COM UM DE NOSSOS ASSISTENTES"}
         link={linkWpp}
       />
     </div>

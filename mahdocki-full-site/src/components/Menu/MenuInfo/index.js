@@ -19,11 +19,6 @@ export default function MenuInfo({ goBack }) {
           /> */}
 
           <MenuList
-            to={"/assist"}
-            children='Assistência técnica 24 horas'
-          />
-
-          <MenuList
             to={"/plans"}
             children='Nossos planos'
           />

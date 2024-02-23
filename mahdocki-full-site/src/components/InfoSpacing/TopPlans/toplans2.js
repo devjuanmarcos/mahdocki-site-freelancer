@@ -10,7 +10,7 @@ export default function TopPlans2() {
   return (
     <div className={styles.container}>
       <h1 className={`${globalStyles.globalH3} ${styles.title} `}>
-        Plano com seguro adesão
+        Plano com seguro roubo e furto adesão
       </h1>
       <p className={`${globalStyles.globalP} ${styles.subtitle} `}>
         Rastreador com bloqueador para o seu veículo

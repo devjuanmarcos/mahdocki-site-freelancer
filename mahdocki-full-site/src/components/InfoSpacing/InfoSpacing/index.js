@@ -50,7 +50,7 @@ export default function InfoSpacing({
         </div>
       </div>
       <div className={styles.button}>
-        <Button children={buttonText ?? "Receber desconto"} />
+        <Button children={buttonText ?? "FALE COM UM DE NOSSOS ASSISTENTES"} />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@ export default function Home() {
         <Banner
           title={"Assistência 24 horas!"}
           paragraph={
-            "Tenha a tranquilidade de contar com a S.O.S Mahdocki Assistência 24 horas para o seu veículo, seja ele um carro ou uma moto. Porque imprevistos acontecem quando menos esperamos; seja uma pane mecânica ou elétrica, um acidente, perda de chaves ou falta de combustível. Basta nos chamar, e o nosso serviço de reboque S.O.S Mahdocki estará a caminho para te ajudar."
+            "Tenha a tranquilidade de contar com a S.O.S Mahdocki seguro roubo e furto e assistência 24 horas para o seu veículo, seja ele um carro ou uma moto. Porque imprevistos acontecem quando menos esperamos; seja uma pane mecânica ou elétrica, um acidente, perda de chaves ou falta de combustível. Basta nos chamar, e o nosso serviço de reboque S.O.S Mahdocki estará a caminho para te ajudar."
           }
         />
 

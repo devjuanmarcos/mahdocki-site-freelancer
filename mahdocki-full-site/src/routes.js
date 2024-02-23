@@ -26,7 +26,6 @@ export default function AppRoutes() {
     <>
       <BrowserRouter>
         <ScrollToTop />
-        <MenuClose />
         <StickyMenu />
         <Routes>
           <Route

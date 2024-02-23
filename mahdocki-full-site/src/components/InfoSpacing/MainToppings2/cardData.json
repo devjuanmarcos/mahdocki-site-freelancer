@@ -12,6 +12,11 @@
       },
       {
         "id": 2,
+        "title": "Seguro roubo e furto",
+        "image": ""
+      },
+      {
+        "id": 2,
         "title": "Chaveiro até 120 reais",
         "image": ""
       },
@@ -41,11 +46,6 @@
       {
         "id": 7,
         "title": "Carga de bateria",
-        "image": ""
-      },
-      {
-        "id": 8,
-        "title": "Seguro roubo e furto",
         "image": ""
       }
     ]
