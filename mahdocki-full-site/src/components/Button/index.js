@@ -17,7 +17,7 @@ export default function Button({ link, children }) {
       className={`${styles["custom-btn"]} ${styles["btn-14"]} }`}
       onClick={handleClick}
     >
-      {children}
+      <span style={{ paddingTop: "10px" }}>{children}</span>
     </button>
   );
 }

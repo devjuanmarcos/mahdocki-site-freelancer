@@ -128,7 +128,7 @@
   align-items: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 630px) {
   /* Estilos para telas menores, como smartphones */
   .image {
     display: none;
@@ -143,6 +143,22 @@
     height: 100%;
     width: 100%;
     margin: 0;
+  }
+}
+
+@media (max-width: 378px) {
+  .image2 {
+    max-height: 75px;
+    margin: 0;
+  }
+
+  .navigation {
+    padding: 0;
+    margin: 0;
+  }
+
+  .menuCell {
+    width: 70%;
   }
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ReadyAnswer.module.css";
-import readyBannerImage from "assets/images/prontaResposta.svg";
+import readyBannerImage from "assets/images/caminhao.jpeg";
 import BannerModel from "components/Banner/BannerModel";
 import PresentationCard from "components/Card/PresentationCard";
 import answer from "assets/Json/answer.json";

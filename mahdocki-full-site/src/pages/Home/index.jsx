@@ -19,6 +19,7 @@ import block from "assets/images/block.png";
 import motoEletric from "assets/images/scooter.png";
 import TopPlans2 from "components/InfoSpacing/TopPlans/toplans2";
 import TopPlans from "components/InfoSpacing/TopPlans";
+import SosComentarios from "components/InfoSpacing/TrackerPage/sosComentarios";
 
 export default function Home() {
   return (
@@ -119,6 +120,8 @@ export default function Home() {
           p='Com mais de 20 anos de experiência no setor automotivo, nossa equipe é composta por profissionais altamente treinados e qualificados. Prestamos assistência 24 horas para diversas seguradoras e associações veiculares, e nossa reputação é respaldada pela melhor avaliação no Google, Web Prestador e na Rota das Oficinas, com classificação 5 estrelas. Movidos pela vasta experiência acumulada ao longo desses anos, decidimos expandir nossa assistência 24 horas S.O.S Mahdocki para você, mantendo o mesmo padrão de qualidade e segurança que oferecemos aos nossos parceiros. A grande vantagem é que você tem acesso a todos os serviços que uma seguradora oferece em sua assistência, a um valor justo, sem restrições de perfil de idade, motorista, CEP ou ano do veículo. Escolha a excelência em assistência automotiva, escolha S.O.S Mahdocki.'
           color='var(--cinza-fundo)'
         />
+
+        <SosComentarios />
 
         {/* Elaborar textos */}
         <TopPlans2 />
