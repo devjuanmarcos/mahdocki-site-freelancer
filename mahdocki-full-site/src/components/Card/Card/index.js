@@ -20,10 +20,12 @@ export default function Card({ children }) {
             : "Contrate os planos a partir de R$ 39,99/mês. Confira sem sair de casa!"}
         </h3>
       </div>
-      <Button
-        children={"FALE COM UM DE NOSSOS ASSISTENTES"}
-        link={linkWpp}
-      />
+      <div className={styles.buttonBox}>
+        <Button
+          children={"FALE COM UM DE NOSSOS ASSISTENTES"}
+          link={linkWpp}
+        />
+      </div>
     </div>
   );
 }

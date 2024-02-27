@@ -7,7 +7,7 @@ import SeeToo from "components/InfoSpacing/Promo";
 import MainToppings from "components/InfoSpacing/MainToppings";
 import InfoSpacing from "components/InfoSpacing/InfoSpacing";
 import rent from "assets/images/Apartment rent-amico.svg";
-import truck from "assets/images/Free shipping-amico.svg";
+import truck from "assets/images/pngegg (1).png";
 import MainToppings2 from "components/InfoSpacing/MainToppings2";
 import TopPlans2 from "components/InfoSpacing/TopPlans/toplans2";
 

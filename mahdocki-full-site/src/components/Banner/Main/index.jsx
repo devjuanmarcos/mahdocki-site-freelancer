@@ -3,24 +3,32 @@ import styles from "./Banner.module.css";
 import globalStyles from "styles/globalText.module.css";
 import AnimatedImage from "components/Car/AnimatedImage";
 import Card from "components/Card/Card";
+import image from "assets/images/mulherComProblamaNoCarro.jpg";
 
 export default function Banner({ title, paragraph }) {
   return (
     <div className={styles.banner}>
       <AnimatedImage />
-      <div className={styles.text}>
-        <h2
-          className={globalStyles.globalH1}
-          style={{ color: "var(--preto)" }}
-        >
-          {title}
-        </h2>
-        <p
-          className={globalStyles.globalP && styles.paragraph}
-          style={{ color: "var(--preto)" }}
-        >
-          {paragraph}
-        </p>
+      <div className={styles.box}>
+        <img
+          className={styles.img}
+          src={image}
+          alt='mulher com problemas no carro'
+        />
+        <div className={styles.text}>
+          <h2
+            className={globalStyles.globalH1}
+            style={{ color: "var(--preto)" }}
+          >
+            {title}
+          </h2>
+          <p
+            className={globalStyles.globalP && styles.paragraph}
+            style={{ color: "var(--preto)" }}
+          >
+            {paragraph}
+          </p>
+        </div>
       </div>
       <Card children='Contrate os planos a partir de R$ 39,90/mês. Confira sem sair de casa!' />
       <p

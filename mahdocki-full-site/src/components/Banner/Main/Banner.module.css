@@ -10,6 +10,33 @@
   flex-wrap: wrap;
 }
 
+.box {
+  width: 100%;
+  max-width: 92vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0px;
+  padding-inline: 20px;
+}
+
+@media (max-width: 840px) {
+  .box {
+    flex-direction: column;
+    margin: 40px 0px;
+    padding-inline: 0;
+  }
+}
+
+.img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
 .text {
   display: flex;
   flex-direction: column;
@@ -17,7 +44,6 @@
   align-items: center;
   height: auto;
   width: 100%;
-  max-width: 900px;
   margin-top: 30px;
   margin-bottom: 60px;
   text-align: center;
@@ -38,7 +64,6 @@
 @media (max-width: 480px) {
   /* Estilos para telas menores, como smartphones */
   .banner {
-    width: 80vw;
   }
   .text {
     width: auto;
@@ -47,9 +72,6 @@
   .backCurve {
     height: 82px;
     bottom: -40px;
-  }
-  .paragraph {
-    width: unset;
   }
 }
 
