@@ -10,7 +10,7 @@ export default function TopPlans() {
   return (
     <div className={styles.container}>
       <h1 className={`${globalStyles.globalH3} ${styles.title} `}>
-        Plano completo para scooters elétricas e motos em geral
+        Plano completo para automóveis, scooters elétricas e motos em geral
       </h1>
       <p className={`${globalStyles.globalP} ${styles.subtitle} `}>
         Rastreador, assistência 24 horas e pronta resposta
