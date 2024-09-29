@@ -84,203 +84,205 @@ function CustomPlan() {
   console.log(linkWpp);
 
   return (
-    <>
-      <section
-        className={styles.cardCustomPlan}
-        id='cover'
-      >
-        <div className={styles2.cardValue}>
-          <div className={styles2.contentBase}>
-            <div className={styles2.valueCard}>
-              <div className={styles2.valueCardContent}>
-                <div className={styles2.imageTitle}>
-                  <img
-                    className={styles2.image}
-                    src={imageTitle}
-                    alt='none'
-                  />
-                  <h3
-                    className={globalStyles.globalH3}
-                    style={{ color: "var(--branco) ", fontSize: "24px" }}
-                  >
-                    Plano personalizado
-                  </h3>
-                </div>
-                <div className={styles2.quantInfo}>
-                  <div className={styles2.quant}>
-                    {numberOfSelectedServices > 0 ? (
-                      <div className={styles2.quantJust}>
-                        <h3>{numberOfSelectedServices}</h3>
-                        <h3 style={{ marginLeft: "4px" }}>
-                          Coberturas selecionadas
-                        </h3>
-                      </div>
-                    ) : (
-                      <h3 className={styles2.colorAlign}>
-                        Escolha abaixo os serviços que mais se encaixam no seu
-                        gosto.
-                      </h3>
-                    )}
-                  </div>
-                  <p
-                    className={globalStyles.globalPBig}
-                    style={{
-                      width: "100%",
-                      whiteSpace: "normal",
-                      color: "var(--branco)",
-                    }}
-                  >
-                    {selectedServices.map((service, index) => (
-                      <span key={service.id}>
-                        {service.name}
-                        {index === selectedServices.length - 1 ? "." : ", "}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                <div className={styles2.priceCard}>
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    TOTAL
-                  </div>
-                  <div className={styles2.prices}>
-                    {oldValueOfSelectedServices > 0 ? (
-                      <h3 className={styles2.scratched}>
-                        R$ {oldValueOfSelectedServices.toFixed(2)}
-                      </h3>
-                    ) : (
-                      ""
-                    )}
-                    <h3 className={styles2.originalValue}>
-                      R$ {totalValueOfSelectedServices.toFixed(2)}
-                    </h3>
-                  </div>
-                </div>
-                {numberOfSelectedServices > 0 ? (
-                  <h3 className={styles2.colorAlign}>
-                    Planos personalizados contam com uma taxa de adesão de
-                    R$120,00
-                  </h3>
-                ) : (
-                  <div style={{ marginBottom: "30px" }}></div>
-                )}
-              </div>
-            </div>
-          </div>
-          <div className={styles2.button}>
-            {numberOfSelectedServices > 0 ? (
-              <Button
-                link={linkWpp}
-                children='CONCLUIR'
-              />
-            ) : (
-              ""
-            )}
-          </div>
-        </div>
-        <div className={styles.apresentation}>
-          <h1
-            className={globalStyles.globalH1}
-            style={{ color: "var(--preto)", marginBottom: "8px" }}
-          >
-            Monte seu plano do seu jeito!
-          </h1>
-          <h3
-            className={globalStyles.globalH3}
-            style={{ textAlign: "center", marginBottom: "0px" }}
-          >
-            Escolha os serviços que mais lhe agradam para montar um pacote
-            personalizado, podendo ser alterado a qualquer momento.
-          </h3>
-        </div>
-        <div className={styles.cardSelect}>
-          {plans.map((plan) => (
-            <PlanCard
-              key={plan.id}
-              plan={plan}
-              onServiceToggle={toggleService}
-              onPlanToggle={togglePlan}
-            />
-          ))}
-        </div>
-      </section>
-      <section className={styles.cardValue}>
-        <div className={styles.contentBase}>
-          <div className={styles.valueCard}>
-            <div className={styles.valueCardContent}>
-              <div className={styles.imageTitle}>
-                <img
-                  className={styles.image}
-                  src={imageTitle}
-                  alt='none'
-                />
-                <h3
-                  className={globalStyles.globalH3}
-                  style={{ color: "var(--branco) ", fontSize: "24px" }}
-                >
-                  Plano personalizado
-                </h3>
-              </div>
-              <div className={styles.quantInfo}>
-                <div className={styles.quant}>
-                  <div className={styles.quantJust}>
-                    <h3>{numberOfSelectedServices}</h3>
-                    <h3 style={{ marginLeft: "4px" }}>Coberturas</h3>
-                  </div>
-                  <div className={styles.quantJust}>
-                    <h3>{"R$"}</h3>
-                    <h3> {totalValueOfSelectedServices.toFixed(2)}</h3>
-                  </div>
-                </div>
-                <p
-                  className={globalStyles.globalPBig}
-                  style={{
-                    width: "100%",
-                    whiteSpace: "normal",
-                    color: "var(--branco)",
-                  }}
-                >
-                  {selectedServices.map((service, index) => (
-                    <span key={service.id}>
-                      {service.name}
-                      {index === selectedServices.length - 1 ? "." : ", "}
-                    </span>
-                  ))}
-                </p>
-              </div>
-              <a
-                className={styles.priceCard}
-                href='#cover'
-              >
-                <div style={{ display: "flex", alignItems: "center" }}>
-                  TOTAL
-                </div>
-                <div className={styles.prices}>
-                  {oldValueOfSelectedServices > 0 ? (
-                    <h3 className={styles.scratched}>
-                      R$ {oldValueOfSelectedServices.toFixed(2)}
-                    </h3>
-                  ) : (
-                    ""
-                  )}
-                  <h3 className={styles.originalValue}>
-                    R$ {totalValueOfSelectedServices.toFixed(2)}
-                  </h3>
-                </div>
-              </a>
-              <h3 className={styles.colorAlign}>
-                Planos personalizados contam com uma taxa de adesão de R$120,00
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div className={styles.button}>
-          <Button
-            link={linkWpp}
-            children='CONCLUIR'
-          />
-        </div>
-      </section>
-    </>
+    <span>Site desativado</span>
+
+    // <>
+    //   <section
+    //     className={styles.cardCustomPlan}
+    //     id='cover'
+    //   >
+    //     <div className={styles2.cardValue}>
+    //       <div className={styles2.contentBase}>
+    //         <div className={styles2.valueCard}>
+    //           <div className={styles2.valueCardContent}>
+    //             <div className={styles2.imageTitle}>
+    //               <img
+    //                 className={styles2.image}
+    //                 src={imageTitle}
+    //                 alt='none'
+    //               />
+    //               <h3
+    //                 className={globalStyles.globalH3}
+    //                 style={{ color: "var(--branco) ", fontSize: "24px" }}
+    //               >
+    //                 Plano personalizado
+    //               </h3>
+    //             </div>
+    //             <div className={styles2.quantInfo}>
+    //               <div className={styles2.quant}>
+    //                 {numberOfSelectedServices > 0 ? (
+    //                   <div className={styles2.quantJust}>
+    //                     <h3>{numberOfSelectedServices}</h3>
+    //                     <h3 style={{ marginLeft: "4px" }}>
+    //                       Coberturas selecionadas
+    //                     </h3>
+    //                   </div>
+    //                 ) : (
+    //                   <h3 className={styles2.colorAlign}>
+    //                     Escolha abaixo os serviços que mais se encaixam no seu
+    //                     gosto.
+    //                   </h3>
+    //                 )}
+    //               </div>
+    //               <p
+    //                 className={globalStyles.globalPBig}
+    //                 style={{
+    //                   width: "100%",
+    //                   whiteSpace: "normal",
+    //                   color: "var(--branco)",
+    //                 }}
+    //               >
+    //                 {selectedServices.map((service, index) => (
+    //                   <span key={service.id}>
+    //                     {service.name}
+    //                     {index === selectedServices.length - 1 ? "." : ", "}
+    //                   </span>
+    //                 ))}
+    //               </p>
+    //             </div>
+    //             <div className={styles2.priceCard}>
+    //               <div style={{ display: "flex", alignItems: "center" }}>
+    //                 TOTAL
+    //               </div>
+    //               <div className={styles2.prices}>
+    //                 {oldValueOfSelectedServices > 0 ? (
+    //                   <h3 className={styles2.scratched}>
+    //                     R$ {oldValueOfSelectedServices.toFixed(2)}
+    //                   </h3>
+    //                 ) : (
+    //                   ""
+    //                 )}
+    //                 <h3 className={styles2.originalValue}>
+    //                   R$ {totalValueOfSelectedServices.toFixed(2)}
+    //                 </h3>
+    //               </div>
+    //             </div>
+    //             {numberOfSelectedServices > 0 ? (
+    //               <h3 className={styles2.colorAlign}>
+    //                 Planos personalizados contam com uma taxa de adesão de
+    //                 R$120,00
+    //               </h3>
+    //             ) : (
+    //               <div style={{ marginBottom: "30px" }}></div>
+    //             )}
+    //           </div>
+    //         </div>
+    //       </div>
+    //       <div className={styles2.button}>
+    //         {numberOfSelectedServices > 0 ? (
+    //           <Button
+    //             link={linkWpp}
+    //             children='CONCLUIR'
+    //           />
+    //         ) : (
+    //           ""
+    //         )}
+    //       </div>
+    //     </div>
+    //     <div className={styles.apresentation}>
+    //       <h1
+    //         className={globalStyles.globalH1}
+    //         style={{ color: "var(--preto)", marginBottom: "8px" }}
+    //       >
+    //         Monte seu plano do seu jeito!
+    //       </h1>
+    //       <h3
+    //         className={globalStyles.globalH3}
+    //         style={{ textAlign: "center", marginBottom: "0px" }}
+    //       >
+    //         Escolha os serviços que mais lhe agradam para montar um pacote
+    //         personalizado, podendo ser alterado a qualquer momento.
+    //       </h3>
+    //     </div>
+    //     <div className={styles.cardSelect}>
+    //       {plans.map((plan) => (
+    //         <PlanCard
+    //           key={plan.id}
+    //           plan={plan}
+    //           onServiceToggle={toggleService}
+    //           onPlanToggle={togglePlan}
+    //         />
+    //       ))}
+    //     </div>
+    //   </section>
+    //   <section className={styles.cardValue}>
+    //     <div className={styles.contentBase}>
+    //       <div className={styles.valueCard}>
+    //         <div className={styles.valueCardContent}>
+    //           <div className={styles.imageTitle}>
+    //             <img
+    //               className={styles.image}
+    //               src={imageTitle}
+    //               alt='none'
+    //             />
+    //             <h3
+    //               className={globalStyles.globalH3}
+    //               style={{ color: "var(--branco) ", fontSize: "24px" }}
+    //             >
+    //               Plano personalizado
+    //             </h3>
+    //           </div>
+    //           <div className={styles.quantInfo}>
+    //             <div className={styles.quant}>
+    //               <div className={styles.quantJust}>
+    //                 <h3>{numberOfSelectedServices}</h3>
+    //                 <h3 style={{ marginLeft: "4px" }}>Coberturas</h3>
+    //               </div>
+    //               <div className={styles.quantJust}>
+    //                 <h3>{"R$"}</h3>
+    //                 <h3> {totalValueOfSelectedServices.toFixed(2)}</h3>
+    //               </div>
+    //             </div>
+    //             <p
+    //               className={globalStyles.globalPBig}
+    //               style={{
+    //                 width: "100%",
+    //                 whiteSpace: "normal",
+    //                 color: "var(--branco)",
+    //               }}
+    //             >
+    //               {selectedServices.map((service, index) => (
+    //                 <span key={service.id}>
+    //                   {service.name}
+    //                   {index === selectedServices.length - 1 ? "." : ", "}
+    //                 </span>
+    //               ))}
+    //             </p>
+    //           </div>
+    //           <a
+    //             className={styles.priceCard}
+    //             href='#cover'
+    //           >
+    //             <div style={{ display: "flex", alignItems: "center" }}>
+    //               TOTAL
+    //             </div>
+    //             <div className={styles.prices}>
+    //               {oldValueOfSelectedServices > 0 ? (
+    //                 <h3 className={styles.scratched}>
+    //                   R$ {oldValueOfSelectedServices.toFixed(2)}
+    //                 </h3>
+    //               ) : (
+    //                 ""
+    //               )}
+    //               <h3 className={styles.originalValue}>
+    //                 R$ {totalValueOfSelectedServices.toFixed(2)}
+    //               </h3>
+    //             </div>
+    //           </a>
+    //           <h3 className={styles.colorAlign}>
+    //             Planos personalizados contam com uma taxa de adesão de R$120,00
+    //           </h3>
+    //         </div>
+    //       </div>
+    //     </div>
+    //     <div className={styles.button}>
+    //       <Button
+    //         link={linkWpp}
+    //         children='CONCLUIR'
+    //       />
+    //     </div>
+    //   </section>
+    // </>
   );
 }
 
